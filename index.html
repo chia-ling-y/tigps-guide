@@ -1,0 +1,905 @@
+<!doctype html>
+<html lang="zh-Hant"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>TIGPS｜心理健康與社群焦慮・中文導覽手冊</title><style>*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:90px}body{margin:0;background:radial-gradient(ellipse at 95% 5%,#23395b,transparent 35%),#0d1823;color:#e7edf5;font:16px/1.85 -apple-system,BlinkMacSystemFont,"PingFang TC","Noto Sans TC",sans-serif}main{max-width:1200px;margin:auto;padding:46px 28px}a{color:#8ec9ed}header,section,.card,.stat{border:1px solid #354a5d;background:linear-gradient(125deg,#20354a,#142435);border-radius:25px}header{padding:52px 48px}.eyebrow{color:#8ec9ed;font-size:13px;letter-spacing:2px}h1{font-size:clamp(36px,5vw,66px);line-height:1.2;margin:25px 0}h1 em{font-style:normal;color:#85c7ef}header p{max-width:780px;font-size:19px;color:#b9c9d8}.source{font-size:12px;line-height:1.65;color:#a8bbcc;border-left:2px solid #516e83;padding-left:10px;margin:10px 0 20px;overflow-wrap:anywhere}.grid,.stats{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}.stats{grid-template-columns:repeat(4,minmax(0,1fr));margin:18px 0}.stat{padding:20px}.stat strong{display:block;color:#8dccf1;font-size:30px}.stat small{color:#b8c9d8}.stat .source{margin-bottom:0}.card{padding:23px;background:#172b3c;border-radius:18px}h2{font-size:31px;margin:10px 0 23px}h3{font-size:21px;margin:0 0 12px}section{padding:35px;margin:28px 0;background:#132332}nav{position:sticky;top:8px;z-index:2;background:#24394deF;border:1px solid #455a70;border-radius:30px;display:flex;gap:6px;padding:9px 13px;overflow:auto;backdrop-filter:blur(10px)}nav a{white-space:nowrap;color:#d2dfeb;text-decoration:none;font-size:13px;padding:6px 10px}nav a:hover{background:#385774;border-radius:15px}code{color:#9ed5f4;overflow-wrap:anywhere}table{border-collapse:collapse;width:100%;font-size:14px}th{text-align:left;color:#a6d4ef;background:#253e53}th,td{padding:14px 13px;border-bottom:1px solid #354958;vertical-align:top}td{min-width:100px}td .source{margin:0;font-size:11px}tr:hover td{background:#1b3245}.scroll{overflow:auto;margin:20px 0}p{margin:13px 0}.flow{display:flex;align-items:center;gap:15px;justify-content:space-between;flex-wrap:wrap}.flow div{background:#25465e;padding:18px;border-radius:14px}.controls{display:flex;gap:10px;margin:15px 0}input,select,button{font:inherit;border:1px solid #57768c;border-radius:10px;background:#0f202f;color:#eaf2f8;padding:11px}input{width:100%;min-width:0}button{cursor:pointer}output{color:#94cbe9}pre{white-space:pre-wrap;overflow-wrap:anywhere;font-size:13px;line-height:1.8;background:#0b1a27;padding:20px;border-radius:12px}details{border-top:1px solid #3a5063;padding:15px 0}summary{cursor:pointer;color:#a4d7f5}footer{color:#a8becf;padding:20px}#search td:nth-child(4){min-width:230px}#search td:last-child{min-width:200px}@media(max-width:750px){main{padding:18px 12px}header,section{padding:25px 20px}.stats,.grid{grid-template-columns:1fr 1fr}.flow{display:grid;grid-template-columns:1fr}.flow b{display:none}.controls{flex-wrap:wrap}.grid{grid-template-columns:1fr}.stat{padding:12px}.stat strong{font-size:25px}h2{font-size:26px}}@media print{body{background:white;color:black}main{max-width:none}section,header,.card,.stat{background:white;color:black;border-color:#bbb;break-inside:avoid}nav,.controls{display:none}.source{color:#444}th{background:#eee;color:black}code{color:#125}a{color:#125}details{display:block}pre{background:#eee;color:black}.scroll{overflow:visible}}body{background:radial-gradient(ellipse at 88% 9%,#b8e5ff,transparent 45%),linear-gradient(145deg,#f7fcff,#e5f5ff);color:#203449}header,section,.card,.stat{background:rgba(255,255,255,.76);border-color:#fff;box-shadow:0 12px 36px #346c9810}header p,.stat small,footer{color:#52677a}.eyebrow,.stat strong,h1 em{color:#237db4}.source{color:#52677a;border-color:#b2d6ed}nav{background:#f3fbfff0;border-color:#cce4f4}nav a{color:#315c7b}nav a:hover{background:#dff2ff}a,code,output,summary{color:#237db4}th{background:#e0f2ff;color:#24455f}th,td{border-color:#d8e9f3}tr:hover td{background:#edf8ff}.flow div{background:#e3f4ff}input,select,button{background:white;color:#203449;border-color:#b0cfe4}pre{background:#edf6fc;color:#203449}details{border-color:#d1e4f0}.source{font-size:13px}button:hover{background:#e3f4ff}</style></head><body><main><header><span class="eyebrow">TIGPS · 次級資料分析入門</span><h1>心理健康與<em>社群焦慮</em><br>研究生的 TIGPS 入門地圖</h1><p>先認識資料檔，再學會讀代碼，最後把研究問題對到實際題目。以兩波官方文件與釋出資料為界，逐段提供可核對的出處。</p><div class="source" id="src-1">編輯範圍：本機 wave 1 2023 與 wave 2 2024 資料夾；本段為本頁編輯說明。PDF 頁碼均指閱讀器頁碼；所有顯示統計由程式計算。</div></header><div class="stats"><div class="stat"><strong>8,958</strong><small>第一波學生 CSV 資料列</small></div><div class="stat"><strong>8,905</strong><small>第二波學生 CSV 資料列</small></div><div class="stat"><strong>8,319</strong><small>跨波共同學生 ID</small></div><div class="stat"><strong>89</strong><small>本頁選讀變項</small></div></div><div class="source" id="src-2">統計出處：TIGPSw1_s.csv、TIGPSw2_s.csv 全檔；共同 ID 以 nstudent_id 計算。本頁變項數為下方選讀目錄的實際列數，非完整資料庫變項總數。識別欄位見 TIGPSw1_cb_s.pdf、TIGPSw2_cb_s.pdf，PDF 第 1 頁。</div><nav aria-label="頁內導覽"><a href="#start">研究起點</a><a href="#files">檔案地圖</a><a href="#join">資料串接</a><a href="#codebook">Codebook</a><a href="#research">選題地圖</a><a href="#feelings-health">研究問題</a><a href="#why-anxiety">焦慮研究線索</a><a href="#social-fomo">IG／TikTok與FOMO</a><a href="#bilingual">中英對照</a><a href="#issues">文件差異</a><a href="#search">變項搜尋</a><a href="#audit">查核</a></nav><section id="start"><span class="eyebrow">TIGPS / 研究入門</span><h2>從研究問題走進資料</h2><p>TIGPS 是「臺灣數位世代青少年的成長歷程追蹤研究」，英文原名 <em>Taiwan i-Generation Panel Study</em>；<b>本頁翻譯：</b>臺灣 i 世代追蹤研究。官方研究規劃以青少年為核心，連結家庭、同儕、學校與數位環境。這份導覽以「心理健康與社群焦慮」選讀，不另補外部理論。</p><div class="source" id="src-3">出處：TIGPSw1_b_s.pdf · PDF 第 1、2 頁（閱讀器頁碼）；中文譯名及選讀範圍為本頁翻譯／編輯說明。</div><p>第二波持續追蹤原學生升至八年級的情況，推論目標仍是原基礎年母群。閱讀時先分清楚「各波釋出檔的列數」與「手冊所述整體評量／調查樣本」，兩者不能直接畫上等號。</p><div class="source" id="src-4">出處：TIGPSw2_b_s.pdf · PDF 第 6、9、10 頁（閱讀器頁碼）</div><div class="grid"><article class="card"><h3>先選焦慮的意思</h3><p>第二波手冊使用「社群媒體評價焦慮」標籤；FOMO 另成題組。本頁選題建議：把「怕被批評」和「怕錯過朋友動態」分開讀，再決定研究題目。</p><div class="source" id="src-5">出處：TIGPSw2_b_s.pdf · PDF 第 52、53、60 頁（閱讀器頁碼）；選題建議為本頁整理。</div></article><article class="card"><h3>再選心理健康面向</h3><p>心理感受題組包含緊張焦慮、無法控制擔心、寂寞等；幸福感問情緒、平靜、活力與生活興趣。這些是問卷作答內容。</p><div class="source" id="src-6">出處：TIGPSw2_cb_s.pdf · PDF 第 19、20、21 頁（閱讀器頁碼）</div></article></div></section><section id="files"><span class="eyebrow">TIGPS / 研究入門</span><h2>資料夾入門地圖</h2><p>依現有檔名與首頁標題整理：w1 / w2 區別波次；s、p、f、t、st、sc 對應下表問卷對象。b、cb、q 分別出現在資料使用手冊、編碼簿與問卷檔名；en 出現在英文文件檔名。這是本頁依檔案對照的讀法。</p><div class="source" id="src-7">出處類型：本頁檔案盤點。兩年度資料夾實存檔名與文件首頁標題交叉對照；完整路徑清單見頁末。此段命名讀法是本頁歸納，不是官方命名規則。</div><div class="source" id="src-8">標題對照：TIGPSw1_b_s.pdf、TIGPSw2_b_s.pdf，PDF 第 1 頁；其餘對象以同列各編碼簿 PDF 第 1 頁標題核對。</div><div class="scroll"><table><thead><tr><th>資料檔</th><th>對象</th><th>資料列</th><th>欄位</th><th>依據／計算範圍</th></tr></thead><tbody><tr><td>01_學生<br><code>TIGPSw1_s.csv</code></td><td>學生</td><td>8,958</td><td>670</td><td><div class="source" id="src-9">出處：TIGPSw1_cb_s.pdf · PDF 第 1 頁（閱讀器頁碼）</div><div class="source" id="src-10">程式計算：TIGPSw1_s.csv，全檔資料列（不含標頭）；欄數取標頭。</div></td></tr><tr><td>02_照顧者<br><code>TIGPSw1_p.csv</code></td><td>照顧者／家長</td><td>4,495</td><td>563</td><td><div class="source" id="src-11">出處：TIGPSw1_cb_p.pdf · PDF 第 1 頁（閱讀器頁碼）</div><div class="source" id="src-12">程式計算：TIGPSw1_p.csv，全檔資料列（不含標頭）；欄數取標頭。</div></td></tr><tr><td>03_手足<br><code>TIGPSw1_f.csv</code></td><td>手足</td><td>786</td><td>477</td><td><div class="source" id="src-13">出處：TIGPSw1_cb_f.pdf · PDF 第 1 頁（閱讀器頁碼）</div><div class="source" id="src-14">程式計算：TIGPSw1_f.csv，全檔資料列（不含標頭）；欄數取標頭。</div></td></tr><tr><td>04_導師<br><code>TIGPSw1_t.csv</code></td><td>導師</td><td>242</td><td>259</td><td><div class="source" id="src-15">出處：TIGPSw1_cb_t.pdf · PDF 第 1 頁（閱讀器頁碼）</div><div class="source" id="src-16">程式計算：TIGPSw1_t.csv，全檔資料列（不含標頭）；欄數取標頭。</div></td></tr><tr><td>05_科任老師<br><code>TIGPSw1_st.csv</code></td><td>科任老師</td><td>1,094</td><td>156</td><td><div class="source" id="src-17">出處：TIGPSw1_cb_st.pdf · PDF 第 1 頁（閱讀器頁碼）</div><div class="source" id="src-18">程式計算：TIGPSw1_st.csv，全檔資料列（不含標頭）；欄數取標頭。</div></td></tr><tr><td>06_學校<br><code>TIGPSw1_sc.csv</code></td><td>學校</td><td>175</td><td>138</td><td><div class="source" id="src-19">出處：TIGPSw1_cb_sc.pdf · PDF 第 1 頁（閱讀器頁碼）</div><div class="source" id="src-20">程式計算：TIGPSw1_sc.csv，全檔資料列（不含標頭）；欄數取標頭。</div></td></tr><tr><td>01_學生<br><code>TIGPSw2_s.csv</code></td><td>學生</td><td>8,905</td><td>346</td><td><div class="source" id="src-21">出處：TIGPSw2_cb_s.pdf · PDF 第 1 頁（閱讀器頁碼）</div><div class="source" id="src-22">程式計算：TIGPSw2_s.csv，全檔資料列（不含標頭）；欄數取標頭。</div></td></tr></tbody></table></div><p>現存資料檔的副檔名包含 .csv、.sav 與 .dta（本頁檔案盤點）。本頁讀檔建議：先用問卷核對題幹、時間範圍與跳答，再用編碼簿核對欄位名稱與值碼；抽樣及調查程序另讀使用手冊。第二波資料夾現存的受訪對象資料檔為學生檔。</p><div class="source" id="src-23">出處：TIGPSw1_q_s.pdf · PDF 第 20 頁（閱讀器頁碼）；出處：TIGPSw1_cb_s.pdf · PDF 第 1、45 頁（閱讀器頁碼）；出處：TIGPSw1_b_s.pdf · PDF 第 6、8、10、13 頁（閱讀器頁碼）。以上只支持問卷、編碼簿與手冊的內容示例。</div><div class="source" id="src-24">出處類型：檔案盤點。副檔名與第二波資料檔範圍取自本機兩年度資料夾實存檔案，不由 PDF 頁面推定。</div><div class="source" id="src-25">檔案格式及缺檔判定：程式盤點兩個年度資料夾全部檔名；完整清單見本頁末尾。</div></section><section id="join"><span class="eyebrow">TIGPS / 研究入門</span><h2>資料怎麼串接</h2><div class="flow"><div>家庭／手足<br><code>nstudent_id</code></div><b>↔</b><div>學生各波<br><code>nstudent_id</code></div><b>↔</b><div>班級／教師<br><code>school_class</code></div><b>↔</b><div>學校<br><code>nschool_id</code></div></div><p>以上是依識別欄位整理的「候選串接地圖」（本頁整理），不是官方已驗證的合併指令。nclass 只區別同一學校內的班級，school_class 才由學校與校內班級編碼組成；不要只用 nclass 跨校合併。教師有多種 ID，科任資料又有科目，合併前必須確認分析單位。</p><div class="source" id="src-26">出處：TIGPSw1_cb_s.pdf · PDF 第 1 頁（閱讀器頁碼）</div><div class="source" id="src-27">出處：TIGPSw1_cb_t.pdf · PDF 第 1 頁（閱讀器頁碼）</div><div class="source" id="src-28">出處：TIGPSw1_cb_st.pdf · PDF 第 1、2 頁（閱讀器頁碼）；候選合併方式為本頁建議。</div><div class="scroll"><table><thead><tr><th>右側資料檔</th><th>候選鍵</th><th>非空不同鍵值</th><th>重複出現的鍵值數</th><th>識別欄位依據</th></tr></thead><tbody><tr><td>TIGPSw1_p.csv</td><td>nstudent_id</td><td>3,424</td><td>1,071</td><td><div class="source" id="src-29">出處：TIGPSw1_cb_p.pdf · PDF 第 1 頁（閱讀器頁碼）；以上 PDF 僅支持鍵的定義。數字重算來源：TIGPSw1_p.csv，欄 nstudent_id，資料紀錄第 1–4495 筆（不含標頭）。</div></td></tr><tr><td>TIGPSw1_f.csv</td><td>nstudent_id</td><td>728</td><td>53</td><td><div class="source" id="src-30">出處：TIGPSw1_cb_f.pdf · PDF 第 1 頁（閱讀器頁碼）；以上 PDF 僅支持鍵的定義。數字重算來源：TIGPSw1_f.csv，欄 nstudent_id，資料紀錄第 1–786 筆（不含標頭）。</div></td></tr><tr><td>TIGPSw1_t.csv</td><td>school_class</td><td>242</td><td>0</td><td><div class="source" id="src-31">出處：TIGPSw1_cb_t.pdf · PDF 第 1 頁（閱讀器頁碼）；以上 PDF 僅支持鍵的定義。數字重算來源：TIGPSw1_t.csv，欄 school_class，資料紀錄第 1–242 筆（不含標頭）。</div></td></tr><tr><td>TIGPSw1_st.csv</td><td>school_class</td><td>291</td><td>237</td><td><div class="source" id="src-32">出處：TIGPSw1_cb_st.pdf · PDF 第 1 頁（閱讀器頁碼）；以上 PDF 僅支持鍵的定義。數字重算來源：TIGPSw1_st.csv，欄 school_class，資料紀錄第 1–1094 筆（不含標頭）。</div></td></tr><tr><td>TIGPSw1_sc.csv</td><td>nschool_id</td><td>175</td><td>0</td><td><div class="source" id="src-33">出處：TIGPSw1_cb_sc.pdf · PDF 第 1 頁（閱讀器頁碼）；以上 PDF 僅支持鍵的定義。數字重算來源：TIGPSw1_sc.csv，欄 nschool_id，資料紀錄第 1–175 筆（不含標頭）。</div></td></tr><tr><td>TIGPSw2_s.csv</td><td>nstudent_id</td><td>8,905</td><td>0</td><td><div class="source" id="src-34">出處：TIGPSw2_cb_s.pdf · PDF 第 1 頁（閱讀器頁碼）；以上 PDF 僅支持鍵的定義。數字重算來源：TIGPSw2_s.csv，欄 nstudent_id，資料紀錄第 1–8905 筆（不含標頭）。</div></td></tr></tbody></table></div><div class="source" id="src-35">程式計算：各 CSV 全檔；空字串排除；重複鍵指該鍵出現次數大於一，並非多出列數。未輸出任何個人 ID。</div><p>兩個學生 CSV 以 nstudent_id 的非空字串取交集，得到 <b>8,319</b> 個共同 ID；第一波獨有 <b>639</b> 個，第二波獨有 <b>586</b> 個。這是釋出檔的 ID 交集，不能直接稱為全研究的追蹤率。</p><div class="source" id="src-36">計算來源：TIGPSw1_s.csv 與 TIGPSw2_s.csv，欄 nstudent_id，全檔資料紀錄；共同 ID 採集合交集，各波獨有 ID 採集合差集。這些數字不在手冊第10頁。</div><div class="source" id="src-37">計算輸入：TIGPSw1_s.csv、TIGPSw2_s.csv 的 nstudent_id 全欄；計算方法：集合交集與差集。</div><p>本頁操作建議：先檢查鍵有無空值與重複，再依研究單位決定保留多位照顧者／手足、分科教師或先彙整。直接合併有重複鍵的資料可能增加學生列數，合併後應再驗算。本頁未提供官方跨波 ID 一致性保證或完整合併語法。</p><div class="source" id="src-38">本頁操作建議，非官方合併指令。識別欄位的文件依據：出處：TIGPSw1_cb_p.pdf · PDF 第 1 頁（閱讀器頁碼）。</div><div class="source" id="src-39">出處：TIGPSw1_cb_f.pdf · PDF 第 1 頁（閱讀器頁碼）；僅支持手足及學生識別欄位的定義。</div></section><section id="codebook"><span class="eyebrow">TIGPS / 研究入門</span><h2>Codebook 讀法：先讀欄，再讀例外</h2><div class="scroll"><table><thead><tr><th>欄名原文</th><th>本頁讀法</th></tr></thead><tbody><tr><td>題號</td><td>問卷的位置，例如 s24；題號不是資料欄位名稱。</td></tr><tr><td>變項名稱</td><td>程式實際讀取的欄位，例如 bs24a。</td></tr><tr><td>變項說明</td><td>該欄題目或子題的內容；要與問卷核對。</td></tr><tr><td>選項數值說明</td><td>數字代碼對應的文字；同樣的數字在別題不一定同義。</td></tr><tr><td>備註</td><td>題本限制、跳答與文字變項等額外條件。</td></tr></tbody></table></div><div class="source" id="src-40">出處：TIGPSw2_cb_s.pdf · PDF 第 1、9、10 頁（閱讀器頁碼）；欄名與例子為原文，右欄的操作解釋為本頁整理。</div><p>從欄位例子可觀察到：第一波學生題目常用 as，第二波用 bs；字母接在題號後可區分子題。文字補充欄也會另外命名。本頁讀法：跨波對應應逐題核對，不能僅替換 a／b 或照題號猜測。</p><div class="source" id="src-41">出處：TIGPSw1_cb_s.pdf · PDF 第 2、18、19 頁（閱讀器頁碼）</div><div class="source" id="src-42">出處：TIGPSw2_cb_s.pdf · PDF 第 2、9、10、11 頁（閱讀器頁碼）</div><div class="scroll"><table><thead><tr><th>通例值碼（原文）</th><th>第一波</th><th>第二波</th></tr></thead><tbody><tr><td>-4：不適用</td><td>有列出</td><td>有列出</td></tr><tr><td>-5：不一定</td><td>有列出</td><td>有列出</td></tr><tr><td>-6：跳答</td><td>有列出</td><td>有列出</td></tr><tr><td>-7：不知道、不清楚、忘記了</td><td>有列出</td><td>有列出</td></tr><tr><td>-8：拒答</td><td>有列出</td><td>有列出</td></tr><tr><td>-9：系統遺漏值</td><td>有列出</td><td>有列出</td></tr><tr><td>-99：無意義作答/邏輯矛盾</td><td>有列出</td><td>有列出</td></tr><tr><td>-999：此卷未答</td><td>有列出</td><td>本波通例未列出</td></tr></tbody></table></div><div class="source" id="src-43">出處：TIGPSw1_cb_s.pdf · PDF 第 1 頁（閱讀器頁碼）</div><div class="source" id="src-44">出處：TIGPSw2_cb_s.pdf · PDF 第 1 頁（閱讀器頁碼）</div><p>第一波學生分共同題與不同題本，還有自願填答附加問卷的情形。因此未答可能來自題本設計或跳答。不要把負值當低分，也不要將「此卷未答」全部解釋成拒答；清理時保留原欄，再依該題合法值碼建立分析欄。</p><div class="source" id="src-45">出處：TIGPSw1_b_s.pdf · PDF 第 13 頁（閱讀器頁碼）；僅支持題本與附加問卷安排；保留原欄及清理方式為本頁操作建議。</div><div class="source" id="src-46">出處：TIGPSw1_cb_s.pdf · PDF 第 1、15、18 頁（閱讀器頁碼）</div></section><section id="research"><span class="eyebrow">TIGPS / 研究入門</span><h2>青少年社群焦慮求生手冊：選題地圖</h2><p>本頁研究問題示例（依題幹整理）：「社群媒體評價焦慮較高的學生，是否也較常感到緊張焦慮，或較少感到平靜與有活力？」先用第二波做題目層次的描述；如做跨波研究，再逐題對照 FOMO 與心理感受。此處是研究規劃，不是已得到的關聯結果。</p><div class="source" id="src-47">出處：TIGPSw2_cb_s.pdf · PDF 第 9、10、20 頁（閱讀器頁碼）；所引為題目依據，研究問題及分析順序為本頁設計。</div><div class="scroll"><table><thead><tr><th>研究面向</th><th>第一波</th><th>第二波</th><th>讀法與限制</th><th>出處</th></tr></thead><tbody><tr><td>社群媒體評價焦慮</td><td>本頁未列第一波對應題組</td><td>bs24a–bs24f</td><td>第二波主題核心；不可自行補造第一波分數。</td><td><div class="source" id="src-48">出處：TIGPSw2_b_s.pdf · PDF 第 52、53 頁（閱讀器頁碼）</div></td></tr><tr><td>FOMO</td><td>as39a–as39d</td><td>bs27a–bs27d</td><td>題意可逐題對照，但兩波中間選項文字不同。</td><td><div class="source" id="src-49">出處：TIGPSw1_cb_s.pdf · PDF 第 18、19 頁（閱讀器頁碼）</div><div class="source" id="src-50">出處：TIGPSw2_cb_s.pdf · PDF 第 11 頁（閱讀器頁碼）</div></td></tr><tr><td>社會比較</td><td>as40a–as40f</td><td>bs26a–bs26f</td><td>可作研究相關題組；與評價焦慮分開讀。</td><td><div class="source" id="src-51">出處：TIGPSw1_cb_s.pdf · PDF 第 19 頁（閱讀器頁碼）</div><div class="source" id="src-52">出處：TIGPSw2_cb_s.pdf · PDF 第 11 頁（閱讀器頁碼）</div></td></tr><tr><td>緊張焦慮／擔心</td><td>as72k、as72l</td><td>bs56m、bs56n</td><td>對應靠題幹，非同字尾。</td><td><div class="source" id="src-53">出處：TIGPSw1_cb_s.pdf · PDF 第 45 頁（閱讀器頁碼）</div><div class="source" id="src-54">出處：TIGPSw2_cb_s.pdf · PDF 第 20 頁（閱讀器頁碼）</div></td></tr><tr><td>寂寞</td><td>as72j</td><td>bs56l</td><td>跨波以題幹核對。</td><td><div class="source" id="src-55">出處：TIGPSw1_cb_s.pdf · PDF 第 45 頁（閱讀器頁碼）</div><div class="source" id="src-56">出處：TIGPSw2_cb_s.pdf · PDF 第 20 頁（閱讀器頁碼）</div></td></tr><tr><td>幸福感</td><td>as73a–as73e</td><td>bs58a–bs58e</td><td>較高值的文字是較常有正向感受。</td><td><div class="source" id="src-57">出處：TIGPSw1_cb_s.pdf · PDF 第 45 頁（閱讀器頁碼）</div><div class="source" id="src-58">出處：TIGPSw2_cb_s.pdf · PDF 第 20、21 頁（閱讀器頁碼）</div></td></tr></tbody></table></div><p>第二波手冊這些頁面列出社群媒體評價焦慮、FOMO 的題目、作答次數、百分比與內部一致性。本頁編輯決定：不據此建立跨波焦慮總分，亦不提供加總、反向題或跨波等值計分方法。</p><div class="source" id="src-59">出處：TIGPSw2_b_s.pdf · PDF 第 52、53、60 頁（閱讀器頁碼）；本頁是否製作總分是編輯決定。</div><p>手冊說明抽樣的分層、班級抽取及權重；編碼簿列有 JKZONE、JKREP、TOTWGT、HOUWGT 等欄。下方筆數是釋出 CSV 的未加權檢查（本頁計算），不能解讀為全臺盛行率。本頁未提供可直接執行的加權／變異數估計程式。</p><div class="source" id="src-60">出處：TIGPSw1_b_s.pdf · PDF 第 8、10、11 頁（閱讀器頁碼）；CSV未加權統計為本頁計算。</div><div class="source" id="src-61">出處：TIGPSw2_b_s.pdf · PDF 第 8、9 頁（閱讀器頁碼）</div><div class="source" id="src-62">出處：TIGPSw2_cb_s.pdf · PDF 第 1、2 頁（閱讀器頁碼）</div></section><section id="feelings-health"><span class="eyebrow">TIGPS / 從題目到研究問題</span><h2>社群媒體上的哪些感受，與青少年的心理健康有關？</h2><p>這一節把「社群焦慮」拆成可以對照問卷的感受：在意他人看法、擔心受批評、沒有人回應時失望、發布前焦慮，以及沒跟上朋友話題或聚會時的困擾。心理健康面向則可先選緊張焦慮、無法控制擔心、寂寞，或平靜與活力。以下都是待檢驗的研究問題；本節未計算這些變項的關聯。</p><div class="source">出處：TIGPSw2_cb_s.pdf · PDF 第 9、10、11、20 頁（閱讀器頁碼）。題目依據；研究提問與操作建議為本頁整理，並非官方分析結果。</div><div class="grid"><article class="card"><h3>擔心被評價，是否也較常緊張？</h3><p>研究問題：越擔心社群媒體上的言論或行為受到批評，是否也越常感到緊張焦慮、無法控制擔心？可先以 bs24b 對照 bs56m、bs56n，分別檢視題目作答的關聯。bs24b 題幹跨頁，需一起讀完。</p><div class="source">出處：TIGPSw2_cb_s.pdf · PDF 第 9、10、19、20 頁（閱讀器頁碼）。題目依據；研究提問與操作建議為本頁整理，並非官方分析結果。</div></article><article class="card"><h3>社群上的失望，與幸福感有關嗎？</h3><p>研究問題：更新狀態卻沒有人回應時越感到失望的學生，是否較少感到心情平靜、放鬆或有活力？對應 bs24c 與 bs58b、bs58c。這裡比較的是問卷感受，不將幸福感題目直接當成臨床診斷。</p><div class="source">出處：TIGPSw2_cb_s.pdf · PDF 第 10、20 頁（閱讀器頁碼）。題目依據；研究提問與操作建議為本頁整理，並非官方分析結果。</div></article><article class="card"><h3>害怕錯過朋友，是否也較常寂寞？</h3><p>研究問題：沒跟上朋友的網路話題時越焦慮，或錯過網路聚會時越困擾的學生，是否也越常感到寂寞？對應 bs27a、bs27b 與 bs56l。可分別看「焦慮」和「困擾」的題目，不先假定它們與寂寞的關聯相同。</p><div class="source">出處：TIGPSw2_cb_s.pdf · PDF 第 11、19、20 頁（閱讀器頁碼）。題目依據；研究提問與操作建議為本頁整理，並非官方分析結果。</div></article><article class="card"><h3>網路上的比較，與評價焦慮有關嗎？</h3><p>研究問題：經常在網路上比較成就、表現或受歡迎程度的學生，是否也更擔心被批評、或在發文前感到焦慮？比較題可選 bs26a、bs26b、bs26c，評價感受可選 bs24b、bs24f。本頁將它視為社群經驗之間的提問；若要連到心理健康，需再納入 bs56m 或 bs56n。</p><div class="source">出處：TIGPSw2_cb_s.pdf · PDF 第 9、10、11、19、20 頁（閱讀器頁碼）。題目依據；研究提問與操作建議為本頁整理，並非官方分析結果。</div></article><article class="card"><h3>經營形象，是否伴隨發布前焦慮？</h3><p>研究問題：刻意選擇好看照片、或發布有利形象訊息的學生，是否較容易在發布內容之前感到焦慮？對應 bs23b、bs23c 與 bs24f。前者是行為題，後者是感受題；如要回答心理健康的關聯，可再對照 bs56m。</p><div class="source">出處：TIGPSw2_cb_s.pdf · PDF 第 9、10、19、20 頁（閱讀器頁碼）。題目依據；研究提問與操作建議為本頁整理，並非官方分析結果。</div></article><article class="card"><h3>跨波追蹤：先前的怕錯過，與後來的焦慮有關嗎？</h3><p>研究問題：第一波沒跟上朋友網路話題時較焦慮的學生，第二波是否也較常感到緊張焦慮？可用 as39a、第一波心理感受 as72k 與第二波 bs56m 規劃分析。本頁建議同時考慮第一波焦慮感受；這是待檢驗的分析設計，不能把跨波關聯直接寫成因果。若改比較兩波 FOMO 題目的作答，還要核對中間選項文字的差異。</p><div class="source">出處：TIGPSw1_cb_s.pdf · PDF 第 18、19、45 頁（閱讀器頁碼）；出處：TIGPSw2_cb_s.pdf · PDF 第 11、19、20 頁（閱讀器頁碼）。題目依據；研究提問與操作建議為本頁整理，並非官方分析結果。</div></article></div><h3>先把研究題目寫小</h3><p>本頁入門題目示例：〈青少年擔心社群媒體言論受到批評，與緊張焦慮感受的關聯〉。先把 bs24b 與 bs56m 的題意、時間範圍、合法選項與未答情形讀清楚，再決定分析方式。前者問社群互動感受；後者所在題組問過去一到兩週的感受頻率，兩者的選項意義不同。</p><div class="source">出處：TIGPSw2_cb_s.pdf · PDF 第 9、10、19、20 頁（閱讀器頁碼）。題目依據；研究提問與操作建議為本頁整理，並非官方分析結果。</div><h3>英文原文與本頁翻譯：確認你問的是哪種感受</h3><div class="scroll"><table><thead><tr><th>變項</th><th>英文原文／本頁翻譯</th><th>出處</th></tr></thead><tbody><tr><td>bs24b</td><td>英文原文：I worry that my comments or actions will be criticized.<br>本頁翻譯：我擔心自己的言論或行為會受到批評。</td><td class="source">出處：TIGPSw2_q_s_en.pdf · PDF 第 10 頁（閱讀器頁碼）；中文為本頁翻譯。</td></tr><tr><td>bs24c</td><td>英文原文：I feel disappointed when I update my status and no one responds.<br>本頁翻譯：當我更新狀態卻沒有人回應時，我會感到失望。</td><td class="source">出處：TIGPSw2_q_s_en.pdf · PDF 第 10 頁（閱讀器頁碼）；中文為本頁翻譯。</td></tr><tr><td>bs24f</td><td>英文原文：I feel anxious before posting anything.<br>本頁翻譯：發布任何內容之前，我都會感到焦慮。</td><td class="source">出處：TIGPSw2_q_s_en.pdf · PDF 第 10 頁（閱讀器頁碼）；中文為本頁翻譯。</td></tr></tbody></table></div><p>讀結果時，先回答「兩種作答是否有關聯」，再說明是哪一題、哪一波、哪些有效作答納入分析。本節不預設所有社群感受都朝同一方向關聯，也不自行建立焦慮總分。若要進一步回答「為何發生」或「如何改善」，本節所引題目沒有直接提供這些問題的答案。</p><div class="source">出處：TIGPSw2_cb_s.pdf · PDF 第 9、10、11、19、20 頁（閱讀器頁碼）。所引頁面提供題目與值碼；本段分析界線與報告方式為本頁整理，並無據此宣稱已證明因果或介入效果。</div></section><section id="why-anxiety"><span class="eyebrow">TIGPS / 從題目理解研究問題</span><h2>社群媒體為何會引起心理焦慮？</h2><p>先把「為何」當成待研究的問題。官方研究規劃將瀏覽與發布社群訊息的經驗感受納入調查，並提出要探討數位活動經驗與青少年適應發展的運作歷程。下列小標是本頁依問卷內容整理的研究線索；題目與次數表本身沒有回答哪一項因素造成心理焦慮。可直接支持這項因果結論的分析結果：資料夾內查無。</p><div class="source">出處：TIGPSw1_b_s.pdf · PDF 第 5 頁（閱讀器頁碼）；出處：TIGPSw2_b_s.pdf · PDF 第 52、53、58、60 頁（閱讀器頁碼）。研究線索及證據範圍為本頁整理；「資料夾內查無」是本頁查核結果，不是原檔原句。</div><div class="grid"><article class="card"><h3>把自我價值放在別人的眼光裡</h3><p>bs24a 問自己感到的價值是否很大程度取決於他人的看法；bs24b 問是否擔心言論或行為受到批評；bs24e 問是否擔心別人認識真實的自己後會失去興趣。本頁研究線索：可以檢驗在意他人眼光的作答，是否與發布內容前的焦慮（bs24f）一起出現。這是待檢驗的關聯，不是已確認的心理機制。</p><div class="source">出處：TIGPSw2_cb_s.pdf · PDF 第 9、10 頁（閱讀器頁碼）。小標及研究線索為本頁依題意整理，非官方因果分析結論。</div></article><article class="card"><h3>沒有回應時的失望，與反覆查看回應</h3><p>bs24c 問更新狀態沒有人回應時是否失望，bs24d 問是否經常檢查貼文有沒有新回應，bs24f 問發布任何內容之前是否焦慮。本頁研究線索：可以比較這些感受與行為是否相關；問卷沒有直接說明「查看回應」與「焦慮」何者先發生。</p><div class="source">出處：TIGPSw2_cb_s.pdf · PDF 第 10 頁（閱讀器頁碼）。小標及研究線索為本頁依題意整理，非官方因果分析結論。</div></article><article class="card"><h3>把自己和別人的成就、表現及受歡迎程度相比</h3><p>bs26a、bs26b、bs26c 分別問網路上的成就、表現與受歡迎程度比較。手冊將這組題目標示為「網路社會比較」。本頁研究線索：可以檢驗這些比較行為是否與社群媒體評價焦慮題組相關；原引用頁面沒有報告兩者的關聯結果。</p><div class="source">出處：TIGPSw2_b_s.pdf · PDF 第 58 頁（閱讀器頁碼）；出處：TIGPSw2_cb_s.pdf · PDF 第 9、10、11 頁（閱讀器頁碼）。小標及研究線索為本頁依題意整理，非官方因果分析結論。</div></article><article class="card"><h3>怕錯過朋友的話題或聚會</h3><p>bs27a 直接問「沒跟上朋友們在網路上聊天或開玩笑的話題，會讓我感到很焦慮」；bs27b 問錯過朋友網路聚會是否困擾，bs27c 問是否隨時追蹤朋友行蹤。本頁研究線索：這些題目可以用來描述怕錯過朋友活動的感受，但受訪者對題目表示同意，仍不是本頁已完成的因果驗證。</p><div class="source">出處：TIGPSw2_cb_s.pdf · PDF 第 11 頁（閱讀器頁碼）；出處：TIGPSw2_b_s.pdf · PDF 第 60 頁（閱讀器頁碼）。小標及研究線索為本頁依題意整理，非官方因果分析結論。</div></article><article class="card"><h3>想呈現好形象，是否也更在意他人評價？</h3><p>bs23a 問是否只發布高興、愉快的照片，bs23b 問是否刻意選擇好看的照片，bs23c 問是否發布對形象加分但不真實的訊息。本頁研究線索：可以把這些自我呈現題目與 bs24 的評價焦慮題目對照；「維持形象造成焦慮」尚不能由這些題幹直接斷定。</p><div class="source">出處：TIGPSw2_cb_s.pdf · PDF 第 9、10 頁（閱讀器頁碼）。小標及研究線索為本頁依題意整理，非官方因果分析結論。</div></article></div><h3>英文原文與本頁翻譯：看清楚問卷實際問了什麼</h3><p>bs24b｜英文原文：I worry that my comments or actions will be criticized. ｜本頁翻譯：我擔心自己的言論或行為會受到批評。</p><div class="source">出處：TIGPSw2_q_s_en.pdf · PDF 第 10 頁（閱讀器頁碼）</div><p>bs24f｜英文原文：I feel anxious before posting anything. ｜本頁翻譯：發布任何內容之前，我都會感到焦慮。</p><div class="source">出處：TIGPSw2_q_s_en.pdf · PDF 第 10 頁（閱讀器頁碼）</div><h3>把「為何」改成資料可以回答的研究問題</h3><p>本頁研究問題示例：「越在意他人評價、越常做網路社會比較，或越怕錯過朋友活動的學生，是否也越常感到緊張焦慮或無法控制擔心？」前面的社群經驗可對照 bs24、bs26、bs27；後面的心理感受可對照 bs56m、bs56n。這些題目分屬不同內容，分析時應保留區別，不把「社群互動焦慮」直接等同於一般心理感受。</p><div class="source">出處：TIGPSw2_cb_s.pdf · PDF 第 9、10、11、20 頁（閱讀器頁碼）。研究問題及分析提醒為本頁設計；所引頁面支持題意與變項對應。</div><p>閱讀這一節時，可把「在意評價、等待回應、和別人比較、怕錯過、經營形象」視為整理題目的入口。它們是否和心理感受相關、關聯多強，仍須實際分析；本節沒有新增關聯估計，也沒有把題目內容寫成已證實的焦慮成因。</p><div class="source">出處：TIGPSw2_cb_s.pdf · PDF 第 9、10、11、20 頁（閱讀器頁碼）。本段為本頁閱讀方式與分析範圍說明，分類依所引題目整理。</div></section><section id="social-fomo"><span class="eyebrow">TIGPS / 主題延伸・研究設計</span><h2>短影音與社群媒體（IG/TikTok）如何引發數位世代青少年的「錯失恐懼症（FOMO）」與外貌焦慮？</h2><p>本節把標題當成待研究的問題，不當成已證實的結論。官方手冊把相關題組稱為 FOMO；本節沿用「錯失恐懼」作中文說明。英文原文 fear of missing out／中文（本頁翻譯）：害怕錯過。標題中的「症」不代表問卷已提供臨床診斷；IG／TikTok 引發 FOMO 或外貌焦慮的因果估計：資料夾內查無。本節以下的關聯路徑與分析提問均為本頁研究設計，並非官方研究發現。</p><div class="source" id="social-src-1">出處：TIGPSw2_b_s.pdf · PDF 第 60 頁（閱讀器頁碼）；TIGPSw1_cb_s.pdf · PDF 第 15、18、19 頁（閱讀器頁碼）；TIGPSw2_cb_s.pdf · PDF 第 9、10、11 頁（閱讀器頁碼）；第60頁列FOMO題目與文獻題名中的英文用語；因果估計查無屬本頁全文核查結果，範圍見本節末。</div><h3>先辨識資料真的測到了什麼</h3><p>第一波可用 as31a3 辨識 Instagram 帳號、as31a6 辨識抖音（Tiktok）帳號；它們問的是帳號有無，不是觀看頻率、觀看內容或短影音暴露量。第一波 as35d 把看影片、聽音樂、迷因梗圖、卡通與漫畫放在同一活動類別，也不能單獨命名成「短影音時數」。IG Reels／TikTok 專屬觀看時數、濾鏡使用與推薦演算法暴露的直接題目：資料夾內查無。</p><div class="source" id="social-src-2">出處：TIGPSw1_cb_s.pdf · PDF 第 15、16、17 頁（閱讀器頁碼）；帳號及活動題意由所引頁面支持；專屬題目查無是兩波學生文件全文核查結果，見本節末。</div><p>第二波有挑選好看照片、在意貼文回應、發文前焦慮、受歡迎程度比較，以及被嘲笑外貌或言行舉止等題目。這些可供研究社群互動與形象經驗，但題意不能互換：挑照片是行為，擔心受批評是感受，被嘲笑是經驗；嘲笑題還同時涵蓋言行舉止，不能只歸為外貌。以「外貌焦慮」命名的直接量表或專屬題組：資料夾內查無。</p><div class="source" id="social-src-3">出處：TIGPSw2_cb_s.pdf · PDF 第 9、10、11、13、14 頁（閱讀器頁碼）；概念區分為本頁依題意整理；量表名稱查無範圍見本節末。</div><div class="scroll"><table><thead><tr><th>研究材料</th><th>實際變項與題意</th><th>代碼讀法／界線</th><th>出處</th></tr></thead><tbody><tr><td>平台帳號</td><td>as31a3：Instagram；as31a6：抖音（Tiktok）。</td><td>原值碼：0＝沒有，1＝有。先核對 as31 的跳答；不能把所有負值或未答都改為「沒有」。</td><td><div class="source" id="social-src-4">出處：TIGPSw1_cb_s.pdf · PDF 第 1、15 頁（閱讀器頁碼）</div></td></tr><tr><td>FOMO</td><td>第一波 as39a–as39d；第二波 bs27a–bs27d。題意包含錯過聊天話題、線上聚會、追蹤朋友動態及錯過首播／直播／活動。</td><td>原值碼為1至4；第一波中間選項是「不同意／同意」，第二波是「不太同意／還算同意」。不是平台專屬題。</td><td><div class="source" id="social-src-5">出處：TIGPSw1_cb_s.pdf · PDF 第 18、19 頁（閱讀器頁碼）；TIGPSw2_cb_s.pdf · PDF 第 11 頁（閱讀器頁碼）</div></td></tr><tr><td>社群形象呈現</td><td>bs23b：刻意挑好看照片；bs23d：不介意發佈不太好看的照片。</td><td>原值碼1至4，從「很不符合」至「很符合」。兩題語意方向不同；本頁不自行宣布它們為外貌焦慮量表或提供反向計分。</td><td><div class="source" id="social-src-6">出處：TIGPSw2_cb_s.pdf · PDF 第 9 頁（閱讀器頁碼）</div></td></tr><tr><td>評價與回應焦慮</td><td>bs24a–bs24f；包括自我價值取決於他人看法、擔心批評、沒回應時失望、查看新回應，以及發文前焦慮。</td><td>原值碼1至4。官方手冊標籤是「社群媒體評價焦慮」，不等於外貌焦慮。</td><td><div class="source" id="social-src-7">出處：TIGPSw2_cb_s.pdf · PDF 第 9、10 頁（閱讀器頁碼）；TIGPSw2_b_s.pdf · PDF 第 52、53 頁（閱讀器頁碼）</div></td></tr><tr><td>社會比較與自我形象</td><td>as40c／bs26c 比較受歡迎程度；as38a、as38d／bs25a、bs25d 分別問喜歡線上、現實生活的自己形象。</td><td>題幹未限定比較外貌，也未把「形象」限定成身體外觀；本頁保留原測量意義。</td><td><div class="source" id="social-src-8">出處：TIGPSw1_cb_s.pdf · PDF 第 17、18、19 頁（閱讀器頁碼）；TIGPSw2_cb_s.pdf · PDF 第 10、11 頁（閱讀器頁碼）</div></td></tr><tr><td>外貌／言行嘲笑與照片受害</td><td>第一波 as51a4、as53a4；第二波 bs35d、bs39d。另可看網路散布丟臉照片／影片的 as53a6、bs39f。</td><td>這些是受害經驗。第一波網路題先看 as53，第二波先看 bs38；跳答需保留，不能把受害經驗當成焦慮分數。</td><td><div class="source" id="social-src-9">出處：TIGPSw1_cb_s.pdf · PDF 第 22、23、24 頁（閱讀器頁碼）；TIGPSw2_cb_s.pdf · PDF 第 13、14 頁（閱讀器頁碼）</div></td></tr><tr><td>身材體態資訊搜尋</td><td>as36_2：使用網路搜尋過「身材體態」健康議題。</td><td>原值碼0＝沒有、1＝有；只代表搜尋經驗，不能解讀成對身體不滿或外貌焦慮。</td><td><div class="source" id="social-src-10">出處：TIGPSw1_cb_s.pdf · PDF 第 17 頁（閱讀器頁碼）</div></td></tr></tbody></table></div><h3>英文題目與本頁翻譯並列</h3><div class="scroll"><table><thead><tr><th>變項／問卷位置</th><th>英文原文</th><th>中文（本頁翻譯）</th><th>出處</th></tr></thead><tbody><tr><td>as31a3、as31a6 所屬題幹</td><td>Which social media platforms do you have accounts on?</td><td>本頁翻譯：你在哪些社群媒體平台擁有帳號？</td><td><div class="source" id="social-src-11">出處：TIGPSw1_q_s_en.pdf · PDF 第 9 頁（閱讀器頁碼）；英文原句逐句核對；中文為本頁翻譯，值碼仍依中文編碼簿。</div></td></tr><tr><td>bs27a</td><td>Not keeping up with my friends’ online chats or jokes makes me feel anxious.</td><td>本頁翻譯：沒跟上朋友們的線上聊天或玩笑話題，會讓我感到焦慮。</td><td><div class="source" id="social-src-12">出處：TIGPSw2_q_s_en.pdf · PDF 第 11 頁（閱讀器頁碼）；英文原句逐句核對；中文為本頁翻譯，值碼仍依中文編碼簿。</div></td></tr><tr><td>bs23b</td><td>I deliberately choose photos in which I look good to post.</td><td>本頁翻譯：我會刻意挑選自己看起來好看的照片來發佈。</td><td><div class="source" id="social-src-13">出處：TIGPSw2_q_s_en.pdf · PDF 第 9 頁（閱讀器頁碼）；英文原句逐句核對；中文為本頁翻譯，值碼仍依中文編碼簿。</div></td></tr><tr><td>bs23d</td><td>I do not mind posting photos in which I do not look very good.</td><td>本頁翻譯：我不介意發佈自己看起來不太好看的照片。</td><td><div class="source" id="social-src-14">出處：TIGPSw2_q_s_en.pdf · PDF 第 9 頁（閱讀器頁碼）；英文原句逐句核對；中文為本頁翻譯，值碼仍依中文編碼簿。</div></td></tr><tr><td>bs26c</td><td>I often compare how popular I am with others online.</td><td>本頁翻譯：我經常在線上比較自己與他人受歡迎的程度。</td><td><div class="source" id="social-src-15">出處：TIGPSw2_q_s_en.pdf · PDF 第 11 頁（閱讀器頁碼）；英文原句逐句核對；中文為本頁翻譯，值碼仍依中文編碼簿。</div></td></tr><tr><td>bs24f</td><td>I feel anxious before posting anything.</td><td>本頁翻譯：發佈任何內容前，我都會感到焦慮。</td><td><div class="source" id="social-src-16">出處：TIGPSw2_q_s_en.pdf · PDF 第 10 頁（閱讀器頁碼）；英文原句逐句核對；中文為本頁翻譯，值碼仍依中文編碼簿。</div></td></tr></tbody></table></div><h3>把「如何引發」改成可以檢驗的問題</h3><p>本頁研究問題示例：在第二波，較常挑選好看照片的學生，是否也較常在發文前感到焦慮？經常比較受歡迎程度的學生，是否較認同「沒跟上朋友聊天會焦慮」？可分別對照 bs23b 與 bs24f、bs26c 與 bs27a，先描述各題作答與共同有效樣本，再檢驗關聯。本頁尚未計算這些關聯；不能據此寫成照片挑選或社會比較「造成」焦慮。</p><div class="source" id="social-src-17">出處：TIGPSw2_cb_s.pdf · PDF 第 9、10、11 頁（閱讀器頁碼）；題意為文件原文依據；研究問題與分析順序為本頁設計。</div><p>本頁另一個研究問題示例：第一波的 IG／抖音帳號狀態，與第二波 FOMO 題目的作答是否相關？可用 nstudent_id 串接，並逐題保留第一波 FOMO 作為先前狀態的研究材料。但帳號不等於後續觀看內容，也沒有短影音專屬暴露或外貌焦慮直接測量；因此即使發現跨波關聯，仍不能寫成「IG／TikTok 透過某機制引發外貌焦慮」。本頁沒有估計任何中介效果。</p><div class="source" id="social-src-18">出處：TIGPSw1_cb_s.pdf · PDF 第 1、15、18、19 頁（閱讀器頁碼）；TIGPSw2_cb_s.pdf · PDF 第 1、11 頁（閱讀器頁碼）；識別欄位與題意是來源內容；跨波分析設計與解讀界線為本頁整理。</div><h3>先處理題本與共同有效樣本</h3><p>第一波帳號題列在 B 卷，FOMO 列在 A 卷；手冊說明學生先作共同題及所分配題本，再由有意願者續答附加題本。本頁讀檔提醒：不能假定所有學生都同時回答帳號與 FOMO，也不要把因題本未答當作「沒有帳號」或「沒有錯失恐懼」。</p><div class="source" id="social-src-19">出處：TIGPSw1_cb_s.pdf · PDF 第 1、15、18、19 頁（閱讀器頁碼）；TIGPSw1_b_s.pdf · PDF 第 13 頁（閱讀器頁碼）；前述為施測安排；未答解讀為本頁依設計提醒。</div><p>程式檢查：第一波 CSV 中，Instagram 與抖音帳號欄均為合法值，且 FOMO 全部子題均為合法值的共同資料紀錄有 4,329 筆。這只是本節所選欄位的未加權並存筆數，沒有表示其中多少人擁有帳號，也不是最終模型樣本數。</p><div class="source" id="social-src-20">出處：TIGPSw1_cb_s.pdf · PDF 第 15、18、19 頁（閱讀器頁碼）；PDF只支持值碼。計算來源：TIGPSw1_s.csv，資料紀錄第1–8958筆（不含標頭）；欄 as31a3、as31a6 合法集合為{0,1}，as39a–as39d 為{1,2,3,4}；逐列取交集計數。</div><details><summary>共同有效紀錄的重算程式</summary><pre>import csv
+from pathlib import Path
+path = Path("01_學生/TIGPSw1_s.csv")
+with path.open(encoding="utf-8-sig", newline="") as f:
+    rows = list(csv.DictReader(f))
+platform = ["as31a3", "as31a6"]
+fomo = ["as39" + suffix for suffix in "abcd"]
+count = sum(
+    all(r[v] in {"0", "1"} for v in platform)
+    and all(r[v] in {"1", "2", "3", "4"} for v in fomo)
+    for r in rows
+)
+print(count)
+</pre><div class="source" id="social-src-21">出處：TIGPSw1_cb_s.pdf · PDF 第 15、18、19 頁（閱讀器頁碼）；本頁程式；資料來源 TIGPSw1_s.csv，上述欄位與全檔資料紀錄。</div></details><h3>「資料夾內查無」的核查範圍</h3><p>本節已逐份讀取兩年度官方 PDF 的文字層，並核對兩波學生問卷、編碼簿及資料使用手冊的相關題幹。以「短影音／短視頻／short-form／short video／Reels」、「外貌焦慮／容貌焦慮／body image／appearance anxiety」及「濾鏡／演算法／filter／algorithm」檢索，未見對應直接測量題；相關平台名稱出現於帳號題及密碼管理例子，不能推成觀看暴露。資料夾內查無可直接回答本節標題的短影音專屬測量、外貌焦慮直接量表及因果結果。本節以現有帳號、FOMO、形象行為、評價焦慮與受害題作為可研究材料。</p><div class="source" id="social-src-22">出處：TIGPSw1_cb_s.pdf · PDF 第 15、16、17、18、19、22、23、24、27 頁（閱讀器頁碼）；TIGPSw2_cb_s.pdf · PDF 第 8、9、10、11、13、14、16 頁（閱讀器頁碼）；所引頁面為相關題目與平台名稱實際位置；「查無」是本頁全文核查結論，不冒充任何單頁的官方聲明。完整檢索檔案範圍見下方。</div><details><summary>本節全文檢索檔案與閱讀器頁序範圍</summary><pre>TIGPSw1_b_f.pdf：PDF 第1–20頁
+TIGPSw1_b_p.pdf：PDF 第1–21頁
+TIGPSw1_b_s.pdf：PDF 第1–279頁
+TIGPSw1_b_s_en.pdf：PDF 第1–290頁
+TIGPSw1_b_sc.pdf：PDF 第1–16頁
+TIGPSw1_b_st.pdf：PDF 第1–17頁
+TIGPSw1_b_t.pdf：PDF 第1–17頁
+TIGPSw1_cb_f.pdf：PDF 第1–27頁
+TIGPSw1_cb_p.pdf：PDF 第1–41頁
+TIGPSw1_cb_s.pdf：PDF 第1–47頁
+TIGPSw1_cb_sc.pdf：PDF 第1–8頁
+TIGPSw1_cb_st.pdf：PDF 第1–13頁
+TIGPSw1_cb_t.pdf：PDF 第1–19頁
+TIGPSw1_q_f.pdf：PDF 第1–22頁
+TIGPSw1_q_p.pdf：PDF 第1–26頁
+TIGPSw1_q_s.pdf：PDF 第1–22頁
+TIGPSw1_q_s_en.pdf：PDF 第1–27頁
+TIGPSw1_q_sc.pdf：PDF 第1–10頁
+TIGPSw1_q_st.pdf：PDF 第1–10頁
+TIGPSw1_q_t.pdf：PDF 第1–14頁
+TIGPSw2_b_s.pdf：PDF 第1–102頁
+TIGPSw2_b_s_en.pdf：PDF 第1–108頁
+TIGPSw2_cb_s.pdf：PDF 第1–22頁
+TIGPSw2_q_s.pdf：PDF 第1–18頁
+TIGPSw2_q_s_en.pdf：PDF 第1–22頁</pre><div class="source" id="social-src-23">出處類型：本頁PDF全文讀取紀錄；各檔頁數由程式重新開啟並計算。本節沒有採用外部研究，亦未把手冊所引文獻當成已閱讀的全文。</div></details><div class="source" id="social-src-24">出處：TIGPSw1_cb_s.pdf · PDF 第 15、17、18、19 頁（閱讀器頁碼）；TIGPSw2_cb_s.pdf · PDF 第 9、10、11、13、14 頁（閱讀器頁碼）；本節是新增主題選讀，未擴充下方原選讀變項搜尋表；本節新增引文已另核對，不包含在先前282個來源標記的歷史紀錄中。</div></section><section id="bilingual"><span class="eyebrow">TIGPS / 研究入門</span><h2>英文原文 × 本頁翻譯</h2><div class="scroll"><table><thead><tr><th>變項</th><th>英文原文（官方英文問卷）</th><th>中文（本頁翻譯）</th></tr></thead><tbody><tr><td>bs24a</td><td>My sense of self-worth largely depends on how others view me.<div class="source" id="src-63">出處：TIGPSw2_q_s_en.pdf · PDF 第 10 頁（閱讀器頁碼）</div></td><td><b>本頁翻譯：</b>我的自我價值感很大程度取決於別人怎麼看我。<div class="source" id="src-64">出處：TIGPSw2_q_s_en.pdf · PDF 第 10 頁（閱讀器頁碼）</div></td></tr><tr><td>bs24b</td><td>I worry that my comments or actions will be criticized.<div class="source" id="src-65">出處：TIGPSw2_q_s_en.pdf · PDF 第 10 頁（閱讀器頁碼）</div></td><td><b>本頁翻譯：</b>我擔心自己的言論或行為會受到批評。<div class="source" id="src-66">出處：TIGPSw2_q_s_en.pdf · PDF 第 10 頁（閱讀器頁碼）</div></td></tr><tr><td>bs24c</td><td>I feel disappointed when I update my status and no one responds.<div class="source" id="src-67">出處：TIGPSw2_q_s_en.pdf · PDF 第 10 頁（閱讀器頁碼）</div></td><td><b>本頁翻譯：</b>當我更新狀態卻沒有人回應時，我會感到失望。<div class="source" id="src-68">出處：TIGPSw2_q_s_en.pdf · PDF 第 10 頁（閱讀器頁碼）</div></td></tr><tr><td>bs24d</td><td>I frequently check whether my posts have received new responses.<div class="source" id="src-69">出處：TIGPSw2_q_s_en.pdf · PDF 第 10 頁（閱讀器頁碼）</div></td><td><b>本頁翻譯：</b>我經常查看我的貼文是否收到新的回應。<div class="source" id="src-70">出處：TIGPSw2_q_s_en.pdf · PDF 第 10 頁（閱讀器頁碼）</div></td></tr><tr><td>bs24e</td><td>If people knew the real me, they would lose interest in me.<div class="source" id="src-71">出處：TIGPSw2_q_s_en.pdf · PDF 第 10 頁（閱讀器頁碼）</div></td><td><b>本頁翻譯：</b>如果人們認識真正的我，就會對我失去興趣。<div class="source" id="src-72">出處：TIGPSw2_q_s_en.pdf · PDF 第 10 頁（閱讀器頁碼）</div></td></tr><tr><td>bs24f</td><td>I feel anxious before posting anything.<div class="source" id="src-73">出處：TIGPSw2_q_s_en.pdf · PDF 第 10 頁（閱讀器頁碼）</div></td><td><b>本頁翻譯：</b>發布任何內容前，我都會感到焦慮。<div class="source" id="src-74">出處：TIGPSw2_q_s_en.pdf · PDF 第 10 頁（閱讀器頁碼）</div></td></tr></tbody></table></div><div class="source" id="src-75">出處：TIGPSw2_q_s_en.pdf · PDF 第 10 頁（閱讀器頁碼）</div><p>官方中文對應題目與值碼請看編碼簿。英文問卷在此題的選項用 Strongly disagree / Disagree / Agree / Strongly agree；<b>本頁翻譯：</b>非常不同意／不同意／同意／非常同意。中文編碼簿則列很不符合／不太符合／還算符合／很符合。本頁保留這個語意差異，實際分析用中文編碼簿解讀值碼。</p><div class="source" id="src-76">出處：TIGPSw2_q_s_en.pdf · PDF 第 10 頁（閱讀器頁碼）</div><div class="source" id="src-77">出處：TIGPSw2_cb_s.pdf · PDF 第 9、10 頁（閱讀器頁碼）</div></section><section id="issues"><span class="eyebrow">TIGPS / 研究入門</span><h2>先知道這些文件差異</h2><div class="grid"><article class="card"><h3>第一波的悲傷題</h3><p>編碼簿 as72c 重複寫成「我的睡眠情況不好」；中文問卷 s72c 則是「我覺得悲傷」。本頁將此列為待核對事項，保留原標籤；不要僅憑編碼簿字面把它當成第二個睡眠指標。</p><div class="source" id="src-78">出處：TIGPSw1_cb_s.pdf · PDF 第 45 頁（閱讀器頁碼）</div><div class="source" id="src-80">出處：TIGPSw1_q_s.pdf · PDF 第 20 頁（閱讀器頁碼）</div></article><article class="card"><h3>第二波的睡眠題號</h3><p>使用手冊把睡眠品質標成 bs58e；編碼簿把睡眠品質題標成 bs60e，並把 bs58e 列為幸福感的生活興趣題。CSV 標頭確有 bs60e 與 bs58e；標頭本身不能判定題義。本頁讀檔建議：依編碼簿核對 bs60e，並保留手冊題號差異。</p><div class="source" id="src-79">出處：TIGPSw2_b_s.pdf · PDF 第 101 頁（閱讀器頁碼）</div><div class="source" id="src-81">出處：TIGPSw2_cb_s.pdf · PDF 第 20、21 頁（閱讀器頁碼）；CSV 標頭另核對 TIGPSw2_s.csv 的 bs60e、bs58e 欄。</div></article></div><p>兩波心理感受題組內容不完全一樣；第二波另列自我傷害想法及死亡意念題。本頁讀法：不要僅以字尾或原始題組加總做跨波比較；本頁未建立共同量尺。</p><div class="source" id="src-82">出處：TIGPSw1_cb_s.pdf · PDF 第 45 頁（閱讀器頁碼）</div><div class="source" id="src-83">出處：TIGPSw2_cb_s.pdf · PDF 第 19、20 頁（閱讀器頁碼）</div></section><section id="search"><span class="eyebrow">TIGPS / 研究入門</span><h2>變項搜尋與有效值檢查</h2><label for="query">搜尋變項、中文標籤或題組</label><div class="controls"><input id="query" placeholder="例如：bs24、FOMO、寂寞"><select id="wave" aria-label="波次"><option value="">全部波次</option><option>w1</option><option>w2</option></select><button id="reset">重設</button></div><output id="count" aria-live="polite"></output><div class="scroll"><table><thead><tr><th>波次</th><th>題組（本頁分類）</th><th>變項</th><th>原資料標籤</th><th>合法值筆數</th><th>負值碼筆數／空白</th><th>出處</th></tr></thead><tbody><tr><td>w1</td><td>FOMO</td><td><code>as39a</code></td><td>[as39a]FOMO_沒跟上朋友們在網路上聊天或開玩笑的話題，會讓我感到很焦慮</td><td>4,684</td><td>-9=53；-999=4221；空白=0</td><td><div class="source" id="src-84">出處：TIGPSw1_cb_s.pdf · PDF 第 18 頁（閱讀器頁碼）；此處核對變項、題意與選項。標籤逐字來源另為 TIGPSw1_s.dta 的變項 as39a（variable label，非PDF文字）。</div><div class="source" id="src-85">程式重算：TIGPSw1_s.csv，欄 as39a，資料紀錄第 1–8958 筆（不含標頭）；合法值集合 1,2,3,4；負值碼與空白另計。</div></td></tr><tr><td>w1</td><td>FOMO</td><td><code>as39b</code></td><td>[as39b]FOMO_錯過和朋友們在網路上的聚會，會讓我感到很困擾</td><td>4,684</td><td>-9=53；-999=4221；空白=0</td><td><div class="source" id="src-86">出處：TIGPSw1_cb_s.pdf · PDF 第 18、19 頁（閱讀器頁碼）；此處核對變項、題意與選項。標籤逐字來源另為 TIGPSw1_s.dta 的變項 as39b（variable label，非PDF文字）。</div><div class="source" id="src-87">程式重算：TIGPSw1_s.csv，欄 as39b，資料紀錄第 1–8958 筆（不含標頭）；合法值集合 1,2,3,4；負值碼與空白另計。</div></td></tr><tr><td>w1</td><td>FOMO</td><td><code>as39c</code></td><td>[as39c]FOMO_我會隨時透過網路追蹤朋友們的行蹤和做的事情</td><td>4,684</td><td>-9=53；-999=4221；空白=0</td><td><div class="source" id="src-88">出處：TIGPSw1_cb_s.pdf · PDF 第 18、19 頁（閱讀器頁碼）；此處核對變項、題意與選項。標籤逐字來源另為 TIGPSw1_s.dta 的變項 as39c（variable label，非PDF文字）。</div><div class="source" id="src-89">程式重算：TIGPSw1_s.csv，欄 as39c，資料紀錄第 1–8958 筆（不含標頭）；合法值集合 1,2,3,4；負值碼與空白另計。</div></td></tr><tr><td>w1</td><td>FOMO</td><td><code>as39d</code></td><td>[as39d]FOMO_沒跟上網路上的首播、直播或活動，我會感到很困擾</td><td>4,684</td><td>-9=53；-999=4221；空白=0</td><td><div class="source" id="src-90">出處：TIGPSw1_cb_s.pdf · PDF 第 18、19 頁（閱讀器頁碼）；此處核對變項、題意與選項。標籤逐字來源另為 TIGPSw1_s.dta 的變項 as39d（variable label，非PDF文字）。</div><div class="source" id="src-91">程式重算：TIGPSw1_s.csv，欄 as39d，資料紀錄第 1–8958 筆（不含標頭）；合法值集合 1,2,3,4；負值碼與空白另計。</div></td></tr><tr><td>w2</td><td>FOMO</td><td><code>bs27a</code></td><td>[bs27a]你同不同意以下說法？ (1)沒跟上朋友們在網路上聊天或開玩笑的話題，會讓我感到很</td><td>8,859</td><td>-9=46；空白=0</td><td><div class="source" id="src-92">出處：TIGPSw2_cb_s.pdf · PDF 第 11 頁（閱讀器頁碼）；此處核對變項、題意與選項。標籤逐字來源另為 TIGPSw2_s.dta 的變項 bs27a（variable label，非PDF文字）。</div><div class="source" id="src-93">程式重算：TIGPSw2_s.csv，欄 bs27a，資料紀錄第 1–8905 筆（不含標頭）；合法值集合 1,2,3,4；負值碼與空白另計。</div></td></tr><tr><td>w2</td><td>FOMO</td><td><code>bs27b</code></td><td>[bs27b]你同不同意以下說法？ (2)錯過和朋友們在網路上的聚會，會讓我感到很困擾</td><td>8,859</td><td>-9=46；空白=0</td><td><div class="source" id="src-94">出處：TIGPSw2_cb_s.pdf · PDF 第 11 頁（閱讀器頁碼）；此處核對變項、題意與選項。標籤逐字來源另為 TIGPSw2_s.dta 的變項 bs27b（variable label，非PDF文字）。</div><div class="source" id="src-95">程式重算：TIGPSw2_s.csv，欄 bs27b，資料紀錄第 1–8905 筆（不含標頭）；合法值集合 1,2,3,4；負值碼與空白另計。</div></td></tr><tr><td>w2</td><td>FOMO</td><td><code>bs27c</code></td><td>[bs27c]你同不同意以下說法？ (3)我會隨時透過網路追蹤朋友們的行蹤和做的事情</td><td>8,859</td><td>-9=46；空白=0</td><td><div class="source" id="src-96">出處：TIGPSw2_cb_s.pdf · PDF 第 11 頁（閱讀器頁碼）；此處核對變項、題意與選項。標籤逐字來源另為 TIGPSw2_s.dta 的變項 bs27c（variable label，非PDF文字）。</div><div class="source" id="src-97">程式重算：TIGPSw2_s.csv，欄 bs27c，資料紀錄第 1–8905 筆（不含標頭）；合法值集合 1,2,3,4；負值碼與空白另計。</div></td></tr><tr><td>w2</td><td>FOMO</td><td><code>bs27d</code></td><td>[bs27d]你同不同意以下說法？ (4)沒跟上網路上的首播、直播或活動，我會感到很困擾</td><td>8,859</td><td>-9=46；空白=0</td><td><div class="source" id="src-98">出處：TIGPSw2_cb_s.pdf · PDF 第 11 頁（閱讀器頁碼）；此處核對變項、題意與選項。標籤逐字來源另為 TIGPSw2_s.dta 的變項 bs27d（variable label，非PDF文字）。</div><div class="source" id="src-99">程式重算：TIGPSw2_s.csv，欄 bs27d，資料紀錄第 1–8905 筆（不含標頭）；合法值集合 1,2,3,4；負值碼與空白另計。</div></td></tr><tr><td>w2</td><td>社群媒體評價焦慮</td><td><code>bs24a</code></td><td>[bs24a]關於你在社群媒體上與人們的互動，以下敘述符不符合你的感受。 (1)我對自己感到的</td><td>8,865</td><td>-9=40；空白=0</td><td><div class="source" id="src-100">出處：TIGPSw2_cb_s.pdf · PDF 第 9 頁（閱讀器頁碼）；此處核對變項、題意與選項。標籤逐字來源另為 TIGPSw2_s.dta 的變項 bs24a（variable label，非PDF文字）。</div><div class="source" id="src-101">程式重算：TIGPSw2_s.csv，欄 bs24a，資料紀錄第 1–8905 筆（不含標頭）；合法值集合 1,2,3,4；負值碼與空白另計。</div></td></tr><tr><td>w2</td><td>社群媒體評價焦慮</td><td><code>bs24b</code></td><td>[bs24b]關於你在社群媒體上與人們的互動，以下敘述符不符合你的感受。 (2)我擔心自己的言</td><td>8,865</td><td>-9=40；空白=0</td><td><div class="source" id="src-102">出處：TIGPSw2_cb_s.pdf · PDF 第 9、10 頁（閱讀器頁碼）；此處核對變項、題意與選項。標籤逐字來源另為 TIGPSw2_s.dta 的變項 bs24b（variable label，非PDF文字）。</div><div class="source" id="src-103">程式重算：TIGPSw2_s.csv，欄 bs24b，資料紀錄第 1–8905 筆（不含標頭）；合法值集合 1,2,3,4；負值碼與空白另計。</div></td></tr><tr><td>w2</td><td>社群媒體評價焦慮</td><td><code>bs24c</code></td><td>[bs24c]關於你在社群媒體上與人們的互動，以下敘述符不符合你的感受。 (3)當我更新狀態而</td><td>8,865</td><td>-9=40；空白=0</td><td><div class="source" id="src-104">出處：TIGPSw2_cb_s.pdf · PDF 第 9、10 頁（閱讀器頁碼）；此處核對變項、題意與選項。標籤逐字來源另為 TIGPSw2_s.dta 的變項 bs24c（variable label，非PDF文字）。</div><div class="source" id="src-105">程式重算：TIGPSw2_s.csv，欄 bs24c，資料紀錄第 1–8905 筆（不含標頭）；合法值集合 1,2,3,4；負值碼與空白另計。</div></td></tr><tr><td>w2</td><td>社群媒體評價焦慮</td><td><code>bs24d</code></td><td>[bs24d]關於你在社群媒體上與人們的互動，以下敘述符不符合你的感受。 (4)我經常檢查我的</td><td>8,865</td><td>-9=40；空白=0</td><td><div class="source" id="src-106">出處：TIGPSw2_cb_s.pdf · PDF 第 9、10 頁（閱讀器頁碼）；此處核對變項、題意與選項。標籤逐字來源另為 TIGPSw2_s.dta 的變項 bs24d（variable label，非PDF文字）。</div><div class="source" id="src-107">程式重算：TIGPSw2_s.csv，欄 bs24d，資料紀錄第 1–8905 筆（不含標頭）；合法值集合 1,2,3,4；負值碼與空白另計。</div></td></tr><tr><td>w2</td><td>社群媒體評價焦慮</td><td><code>bs24e</code></td><td>[bs24e]關於你在社群媒體上與人們的互動，以下敘述符不符合你的感受。 (5)如果人們認識真</td><td>8,865</td><td>-9=40；空白=0</td><td><div class="source" id="src-108">出處：TIGPSw2_cb_s.pdf · PDF 第 9、10 頁（閱讀器頁碼）；此處核對變項、題意與選項。標籤逐字來源另為 TIGPSw2_s.dta 的變項 bs24e（variable label，非PDF文字）。</div><div class="source" id="src-109">程式重算：TIGPSw2_s.csv，欄 bs24e，資料紀錄第 1–8905 筆（不含標頭）；合法值集合 1,2,3,4；負值碼與空白另計。</div></td></tr><tr><td>w2</td><td>社群媒體評價焦慮</td><td><code>bs24f</code></td><td>[bs24f]關於你在社群媒體上與人們的互動，以下敘述符不符合你的感受。 (6)發佈任何內容之</td><td>8,865</td><td>-9=40；空白=0</td><td><div class="source" id="src-110">出處：TIGPSw2_cb_s.pdf · PDF 第 9、10 頁（閱讀器頁碼）；此處核對變項、題意與選項。標籤逐字來源另為 TIGPSw2_s.dta 的變項 bs24f（variable label，非PDF文字）。</div><div class="source" id="src-111">程式重算：TIGPSw2_s.csv，欄 bs24f，資料紀錄第 1–8905 筆（不含標頭）；合法值集合 1,2,3,4；負值碼與空白另計。</div></td></tr><tr><td>w1</td><td>社會比較</td><td><code>as40a</code></td><td>[as40a]網路社會比較_我經常會在網路上和他人比較自己在生活上獲得的成就</td><td>4,667</td><td>-9=70；-999=4221；空白=0</td><td><div class="source" id="src-112">出處：TIGPSw1_cb_s.pdf · PDF 第 19 頁（閱讀器頁碼）；此處核對變項、題意與選項。標籤逐字來源另為 TIGPSw1_s.dta 的變項 as40a（variable label，非PDF文字）。</div><div class="source" id="src-113">程式重算：TIGPSw1_s.csv，欄 as40a，資料紀錄第 1–8958 筆（不含標頭）；合法值集合 1,2,3,4；負值碼與空白另計。</div></td></tr><tr><td>w1</td><td>社會比較</td><td><code>as40b</code></td><td>[as40b]網路社會比較_我總是在網路上留意他人的表現，並和自己的表現進行比較</td><td>4,667</td><td>-9=70；-999=4221；空白=0</td><td><div class="source" id="src-114">出處：TIGPSw1_cb_s.pdf · PDF 第 19 頁（閱讀器頁碼）；此處核對變項、題意與選項。標籤逐字來源另為 TIGPSw1_s.dta 的變項 as40b（variable label，非PDF文字）。</div><div class="source" id="src-115">程式重算：TIGPSw1_s.csv，欄 as40b，資料紀錄第 1–8958 筆（不含標頭）；合法值集合 1,2,3,4；負值碼與空白另計。</div></td></tr><tr><td>w1</td><td>社會比較</td><td><code>as40c</code></td><td>[as40c]網路社會比較_我經常在網路上和他人比較自己受歡迎的程度</td><td>4,667</td><td>-9=70；-999=4221；空白=0</td><td><div class="source" id="src-116">出處：TIGPSw1_cb_s.pdf · PDF 第 19 頁（閱讀器頁碼）；此處核對變項、題意與選項。標籤逐字來源另為 TIGPSw1_s.dta 的變項 as40c（variable label，非PDF文字）。</div><div class="source" id="src-117">程式重算：TIGPSw1_s.csv，欄 as40c，資料紀錄第 1–8958 筆（不含標頭）；合法值集合 1,2,3,4；負值碼與空白另計。</div></td></tr><tr><td>w1</td><td>社會比較</td><td><code>as40d</code></td><td>[as40d]網路社會比較_如果我想要更瞭解某些事情，我會試著去網路上看看別人的想法</td><td>4,667</td><td>-9=70；-999=4221；空白=0</td><td><div class="source" id="src-118">出處：TIGPSw1_cb_s.pdf · PDF 第 19 頁（閱讀器頁碼）；此處核對變項、題意與選項。標籤逐字來源另為 TIGPSw1_s.dta 的變項 as40d（variable label，非PDF文字）。</div><div class="source" id="src-119">程式重算：TIGPSw1_s.csv，欄 as40d，資料紀錄第 1–8958 筆（不含標頭）；合法值集合 1,2,3,4；負值碼與空白另計。</div></td></tr><tr><td>w1</td><td>社會比較</td><td><code>as40e</code></td><td>[as40e]網路社會比較_我總是好奇網路上的人們在和我遇到相同的問題時會怎麼想或怎麼做</td><td>4,667</td><td>-9=70；-999=4221；空白=0</td><td><div class="source" id="src-120">出處：TIGPSw1_cb_s.pdf · PDF 第 19 頁（閱讀器頁碼）；此處核對變項、題意與選項。標籤逐字來源另為 TIGPSw1_s.dta 的變項 as40e（variable label，非PDF文字）。</div><div class="source" id="src-121">程式重算：TIGPSw1_s.csv，欄 as40e，資料紀錄第 1–8958 筆（不含標頭）；合法值集合 1,2,3,4；負值碼與空白另計。</div></td></tr><tr><td>w1</td><td>社會比較</td><td><code>as40f</code></td><td>[as40f]網路社會比較_我喜歡在網路上看看其他人的不同觀點和經歷</td><td>4,667</td><td>-9=70；-999=4221；空白=0</td><td><div class="source" id="src-122">出處：TIGPSw1_cb_s.pdf · PDF 第 19 頁（閱讀器頁碼）；此處核對變項、題意與選項。標籤逐字來源另為 TIGPSw1_s.dta 的變項 as40f（variable label，非PDF文字）。</div><div class="source" id="src-123">程式重算：TIGPSw1_s.csv，欄 as40f，資料紀錄第 1–8958 筆（不含標頭）；合法值集合 1,2,3,4；負值碼與空白另計。</div></td></tr><tr><td>w2</td><td>社會比較</td><td><code>bs26a</code></td><td>[bs26a]【網路社會比較】關於你在網路上的意見表達，以下敘述你同不同意？ (1)我經常會在</td><td>8,860</td><td>-9=45；空白=0</td><td><div class="source" id="src-124">出處：TIGPSw2_cb_s.pdf · PDF 第 11 頁（閱讀器頁碼）；此處核對變項、題意與選項。標籤逐字來源另為 TIGPSw2_s.dta 的變項 bs26a（variable label，非PDF文字）。</div><div class="source" id="src-125">程式重算：TIGPSw2_s.csv，欄 bs26a，資料紀錄第 1–8905 筆（不含標頭）；合法值集合 1,2,3,4；負值碼與空白另計。</div></td></tr><tr><td>w2</td><td>社會比較</td><td><code>bs26b</code></td><td>[bs26b]【網路社會比較】關於你在網路上的意見表達，以下敘述你同不同意？ (2)我總是在網</td><td>8,860</td><td>-9=45；空白=0</td><td><div class="source" id="src-126">出處：TIGPSw2_cb_s.pdf · PDF 第 11 頁（閱讀器頁碼）；此處核對變項、題意與選項。標籤逐字來源另為 TIGPSw2_s.dta 的變項 bs26b（variable label，非PDF文字）。</div><div class="source" id="src-127">程式重算：TIGPSw2_s.csv，欄 bs26b，資料紀錄第 1–8905 筆（不含標頭）；合法值集合 1,2,3,4；負值碼與空白另計。</div></td></tr><tr><td>w2</td><td>社會比較</td><td><code>bs26c</code></td><td>[bs26c]【網路社會比較】關於你在網路上的意見表達，以下敘述你同不同意？ (3)我經常在網</td><td>8,860</td><td>-9=45；空白=0</td><td><div class="source" id="src-128">出處：TIGPSw2_cb_s.pdf · PDF 第 11 頁（閱讀器頁碼）；此處核對變項、題意與選項。標籤逐字來源另為 TIGPSw2_s.dta 的變項 bs26c（variable label，非PDF文字）。</div><div class="source" id="src-129">程式重算：TIGPSw2_s.csv，欄 bs26c，資料紀錄第 1–8905 筆（不含標頭）；合法值集合 1,2,3,4；負值碼與空白另計。</div></td></tr><tr><td>w2</td><td>社會比較</td><td><code>bs26d</code></td><td>[bs26d]【網路社會比較】關於你在網路上的意見表達，以下敘述你同不同意？ (4)如果我想要</td><td>8,860</td><td>-9=45；空白=0</td><td><div class="source" id="src-130">出處：TIGPSw2_cb_s.pdf · PDF 第 11 頁（閱讀器頁碼）；此處核對變項、題意與選項。標籤逐字來源另為 TIGPSw2_s.dta 的變項 bs26d（variable label，非PDF文字）。</div><div class="source" id="src-131">程式重算：TIGPSw2_s.csv，欄 bs26d，資料紀錄第 1–8905 筆（不含標頭）；合法值集合 1,2,3,4；負值碼與空白另計。</div></td></tr><tr><td>w2</td><td>社會比較</td><td><code>bs26e</code></td><td>[bs26e]【網路社會比較】關於你在網路上的意見表達，以下敘述你同不同意？ (5)我總是好奇</td><td>8,860</td><td>-9=45；空白=0</td><td><div class="source" id="src-132">出處：TIGPSw2_cb_s.pdf · PDF 第 11 頁（閱讀器頁碼）；此處核對變項、題意與選項。標籤逐字來源另為 TIGPSw2_s.dta 的變項 bs26e（variable label，非PDF文字）。</div><div class="source" id="src-133">程式重算：TIGPSw2_s.csv，欄 bs26e，資料紀錄第 1–8905 筆（不含標頭）；合法值集合 1,2,3,4；負值碼與空白另計。</div></td></tr><tr><td>w2</td><td>社會比較</td><td><code>bs26f</code></td><td>[bs26f]【網路社會比較】關於你在網路上的意見表達，以下敘述你同不同意？ (6)我喜歡在網</td><td>8,860</td><td>-9=45；空白=0</td><td><div class="source" id="src-134">出處：TIGPSw2_cb_s.pdf · PDF 第 11 頁（閱讀器頁碼）；此處核對變項、題意與選項。標籤逐字來源另為 TIGPSw2_s.dta 的變項 bs26f（variable label，非PDF文字）。</div><div class="source" id="src-135">程式重算：TIGPSw2_s.csv，欄 bs26f，資料紀錄第 1–8905 筆（不含標頭）；合法值集合 1,2,3,4；負值碼與空白另計。</div></td></tr><tr><td>w1</td><td>心理感受</td><td><code>as72a</code></td><td>[as72a]CESD-R_我的胃口不好</td><td>8,699</td><td>-9=258；-999=1；空白=0</td><td><div class="source" id="src-136">出處：TIGPSw1_cb_s.pdf · PDF 第 45 頁（閱讀器頁碼）；此處核對變項、題意與選項。標籤逐字來源另為 TIGPSw1_s.dta 的變項 as72a（variable label，非PDF文字）。</div><div class="source" id="src-137">程式重算：TIGPSw1_s.csv，欄 as72a，資料紀錄第 1–8958 筆（不含標頭）；合法值集合 0,1,2,3,4；負值碼與空白另計。</div></td></tr><tr><td>w1</td><td>心理感受</td><td><code>as72b</code></td><td>[as72b]CESD-R_我的睡眠情況不好</td><td>8,699</td><td>-9=258；-999=1；空白=0</td><td><div class="source" id="src-138">出處：TIGPSw1_cb_s.pdf · PDF 第 45 頁（閱讀器頁碼）；此處核對變項、題意與選項。標籤逐字來源另為 TIGPSw1_s.dta 的變項 as72b（variable label，非PDF文字）。</div><div class="source" id="src-139">程式重算：TIGPSw1_s.csv，欄 as72b，資料紀錄第 1–8958 筆（不含標頭）；合法值集合 0,1,2,3,4；負值碼與空白另計。</div></td></tr><tr><td>w1</td><td>心理感受</td><td><code>as72c</code></td><td>[as72c]CESD-R_我覺得悲傷</td><td>8,699</td><td>-9=258；-999=1；空白=0</td><td><div class="source" id="src-140">出處：TIGPSw1_cb_s.pdf · PDF 第 45 頁（閱讀器頁碼）；此處核對變項、題意與選項。標籤逐字來源另為 TIGPSw1_s.dta 的變項 as72c（variable label，非PDF文字）。</div><div class="source" id="src-141">程式重算：TIGPSw1_s.csv，欄 as72c，資料紀錄第 1–8958 筆（不含標頭）；合法值集合 0,1,2,3,4；負值碼與空白另計。</div></td></tr><tr><td>w1</td><td>心理感受</td><td><code>as72d</code></td><td>[as72d]CESD-R_我覺得自己是一個壞人</td><td>8,699</td><td>-9=258；-999=1；空白=0</td><td><div class="source" id="src-142">出處：TIGPSw1_cb_s.pdf · PDF 第 45 頁（閱讀器頁碼）；此處核對變項、題意與選項。標籤逐字來源另為 TIGPSw1_s.dta 的變項 as72d（variable label，非PDF文字）。</div><div class="source" id="src-143">程式重算：TIGPSw1_s.csv，欄 as72d，資料紀錄第 1–8958 筆（不含標頭）；合法值集合 0,1,2,3,4；負值碼與空白另計。</div></td></tr><tr><td>w1</td><td>心理感受</td><td><code>as72e</code></td><td>[as72e]CESD-R_我對平時有興趣做的事情都失去興趣</td><td>8,699</td><td>-9=258；-999=1；空白=0</td><td><div class="source" id="src-144">出處：TIGPSw1_cb_s.pdf · PDF 第 45 頁（閱讀器頁碼）；此處核對變項、題意與選項。標籤逐字來源另為 TIGPSw1_s.dta 的變項 as72e（variable label，非PDF文字）。</div><div class="source" id="src-145">程式重算：TIGPSw1_s.csv，欄 as72e，資料紀錄第 1–8958 筆（不含標頭）；合法值集合 0,1,2,3,4；負值碼與空白另計。</div></td></tr><tr><td>w1</td><td>心理感受</td><td><code>as72f</code></td><td>[as72f]CESD-R_我覺得自己的行動太緩慢</td><td>8,699</td><td>-9=258；-999=1；空白=0</td><td><div class="source" id="src-146">出處：TIGPSw1_cb_s.pdf · PDF 第 45 頁（閱讀器頁碼）；此處核對變項、題意與選項。標籤逐字來源另為 TIGPSw1_s.dta 的變項 as72f（variable label，非PDF文字）。</div><div class="source" id="src-147">程式重算：TIGPSw1_s.csv，欄 as72f，資料紀錄第 1–8958 筆（不含標頭）；合法值集合 0,1,2,3,4；負值碼與空白另計。</div></td></tr><tr><td>w1</td><td>心理感受</td><td><code>as72g</code></td><td>[as72g]CESD-R_我總是感到疲憊</td><td>8,699</td><td>-9=258；-999=1；空白=0</td><td><div class="source" id="src-148">出處：TIGPSw1_cb_s.pdf · PDF 第 45 頁（閱讀器頁碼）；此處核對變項、題意與選項。標籤逐字來源另為 TIGPSw1_s.dta 的變項 as72g（variable label，非PDF文字）。</div><div class="source" id="src-149">程式重算：TIGPSw1_s.csv，欄 as72g，資料紀錄第 1–8958 筆（不含標頭）；合法值集合 0,1,2,3,4；負值碼與空白另計。</div></td></tr><tr><td>w1</td><td>心理感受</td><td><code>as72h</code></td><td>[as72h]CESD-R_我無法集中精神做一些重要的事情</td><td>8,699</td><td>-9=258；-999=1；空白=0</td><td><div class="source" id="src-150">出處：TIGPSw1_cb_s.pdf · PDF 第 45 頁（閱讀器頁碼）；此處核對變項、題意與選項。標籤逐字來源另為 TIGPSw1_s.dta 的變項 as72h（variable label，非PDF文字）。</div><div class="source" id="src-151">程式重算：TIGPSw1_s.csv，欄 as72h，資料紀錄第 1–8958 筆（不含標頭）；合法值集合 0,1,2,3,4；負值碼與空白另計。</div></td></tr><tr><td>w1</td><td>心理感受</td><td><code>as72i</code></td><td>[as72i]CESD-R_我覺得坐立不安</td><td>8,699</td><td>-9=258；-999=1；空白=0</td><td><div class="source" id="src-152">出處：TIGPSw1_cb_s.pdf · PDF 第 45 頁（閱讀器頁碼）；此處核對變項、題意與選項。標籤逐字來源另為 TIGPSw1_s.dta 的變項 as72i（variable label，非PDF文字）。</div><div class="source" id="src-153">程式重算：TIGPSw1_s.csv，欄 as72i，資料紀錄第 1–8958 筆（不含標頭）；合法值集合 0,1,2,3,4；負值碼與空白另計。</div></td></tr><tr><td>w1</td><td>心理感受</td><td><code>as72j</code></td><td>[as72j]CESD-R_我覺得很寂寞(孤單、沒伴)</td><td>8,699</td><td>-9=258；-999=1；空白=0</td><td><div class="source" id="src-154">出處：TIGPSw1_cb_s.pdf · PDF 第 45 頁（閱讀器頁碼）；此處核對變項、題意與選項。標籤逐字來源另為 TIGPSw1_s.dta 的變項 as72j（variable label，非PDF文字）。</div><div class="source" id="src-155">程式重算：TIGPSw1_s.csv，欄 as72j，資料紀錄第 1–8958 筆（不含標頭）；合法值集合 0,1,2,3,4；負值碼與空白另計。</div></td></tr><tr><td>w1</td><td>心理感受</td><td><code>as72k</code></td><td>[as72k]CESD-R_我感到緊張焦慮</td><td>8,699</td><td>-9=258；-999=1；空白=0</td><td><div class="source" id="src-156">出處：TIGPSw1_cb_s.pdf · PDF 第 45 頁（閱讀器頁碼）；此處核對變項、題意與選項。標籤逐字來源另為 TIGPSw1_s.dta 的變項 as72k（variable label，非PDF文字）。</div><div class="source" id="src-157">程式重算：TIGPSw1_s.csv，欄 as72k，資料紀錄第 1–8958 筆（不含標頭）；合法值集合 0,1,2,3,4；負值碼與空白另計。</div></td></tr><tr><td>w1</td><td>心理感受</td><td><code>as72l</code></td><td>[as72l]CESD-R_我不能停止或是無法控制擔心</td><td>8,699</td><td>-9=258；-999=1；空白=0</td><td><div class="source" id="src-158">出處：TIGPSw1_cb_s.pdf · PDF 第 45 頁（閱讀器頁碼）；此處核對變項、題意與選項。標籤逐字來源另為 TIGPSw1_s.dta 的變項 as72l（variable label，非PDF文字）。</div><div class="source" id="src-159">程式重算：TIGPSw1_s.csv，欄 as72l，資料紀錄第 1–8958 筆（不含標頭）；合法值集合 0,1,2,3,4；負值碼與空白另計。</div></td></tr><tr><td>w2</td><td>心理感受</td><td><code>bs56a</code></td><td>[bs56a]請勾選在過去1到2週你感受到下列選項之頻率 (1)我的胃口不好</td><td>8,816</td><td>-9=89；空白=0</td><td><div class="source" id="src-160">出處：TIGPSw2_cb_s.pdf · PDF 第 19、20 頁（閱讀器頁碼）；此處核對變項、題意與選項。標籤逐字來源另為 TIGPSw2_s.dta 的變項 bs56a（variable label，非PDF文字）。</div><div class="source" id="src-161">程式重算：TIGPSw2_s.csv，欄 bs56a，資料紀錄第 1–8905 筆（不含標頭）；合法值集合 0,1,2,3,4；負值碼與空白另計。</div></td></tr><tr><td>w2</td><td>心理感受</td><td><code>bs56b</code></td><td>[bs56b]請勾選在過去1到2週你感受到下列選項之頻率 (2)我的睡眠情況不好</td><td>8,815</td><td>-9=89；空白=0</td><td><div class="source" id="src-162">出處：TIGPSw2_cb_s.pdf · PDF 第 19、20 頁（閱讀器頁碼）；此處核對變項、題意與選項。標籤逐字來源另為 TIGPSw2_s.dta 的變項 bs56b（variable label，非PDF文字）。</div><div class="source" id="src-163">程式重算：TIGPSw2_s.csv，欄 bs56b，資料紀錄第 1–8905 筆（不含標頭）；合法值集合 0,1,2,3,4；負值碼與空白另計。</div></td></tr><tr><td>w2</td><td>心理感受</td><td><code>bs56c</code></td><td>[bs56c]請勾選在過去1到2週你感受到下列選項之頻率 (3)我覺得悲傷</td><td>8,816</td><td>-9=89；空白=0</td><td><div class="source" id="src-164">出處：TIGPSw2_cb_s.pdf · PDF 第 19、20 頁（閱讀器頁碼）；此處核對變項、題意與選項。標籤逐字來源另為 TIGPSw2_s.dta 的變項 bs56c（variable label，非PDF文字）。</div><div class="source" id="src-165">程式重算：TIGPSw2_s.csv，欄 bs56c，資料紀錄第 1–8905 筆（不含標頭）；合法值集合 0,1,2,3,4；負值碼與空白另計。</div></td></tr><tr><td>w2</td><td>心理感受</td><td><code>bs56d</code></td><td>[bs56d]請勾選在過去1到2週你感受到下列選項之頻率 (4)我覺得自己是一個壞人</td><td>8,815</td><td>-9=90；空白=0</td><td><div class="source" id="src-166">出處：TIGPSw2_cb_s.pdf · PDF 第 19、20 頁（閱讀器頁碼）；此處核對變項、題意與選項。標籤逐字來源另為 TIGPSw2_s.dta 的變項 bs56d（variable label，非PDF文字）。</div><div class="source" id="src-167">程式重算：TIGPSw2_s.csv，欄 bs56d，資料紀錄第 1–8905 筆（不含標頭）；合法值集合 0,1,2,3,4；負值碼與空白另計。</div></td></tr><tr><td>w2</td><td>心理感受</td><td><code>bs56e</code></td><td>[bs56e]請勾選在過去1到2週你感受到下列選項之頻率 (5)我想傷害自己</td><td>8,816</td><td>-9=89；空白=0</td><td><div class="source" id="src-168">出處：TIGPSw2_cb_s.pdf · PDF 第 19、20 頁（閱讀器頁碼）；此處核對變項、題意與選項。標籤逐字來源另為 TIGPSw2_s.dta 的變項 bs56e（variable label，非PDF文字）。</div><div class="source" id="src-169">程式重算：TIGPSw2_s.csv，欄 bs56e，資料紀錄第 1–8905 筆（不含標頭）；合法值集合 0,1,2,3,4；負值碼與空白另計。</div></td></tr><tr><td>w2</td><td>心理感受</td><td><code>bs56f</code></td><td>[bs56f]請勾選在過去1到2週你感受到下列選項之頻率 (6)我對平時有興趣做的事情都失去興趣</td><td>8,816</td><td>-9=89；空白=0</td><td><div class="source" id="src-170">出處：TIGPSw2_cb_s.pdf · PDF 第 19、20 頁（閱讀器頁碼）；此處核對變項、題意與選項。標籤逐字來源另為 TIGPSw2_s.dta 的變項 bs56f（variable label，非PDF文字）。</div><div class="source" id="src-171">程式重算：TIGPSw2_s.csv，欄 bs56f，資料紀錄第 1–8905 筆（不含標頭）；合法值集合 0,1,2,3,4；負值碼與空白另計。</div></td></tr><tr><td>w2</td><td>心理感受</td><td><code>bs56g</code></td><td>[bs56g]請勾選在過去1到2週你感受到下列選項之頻率 (7)我覺得自己的行動太緩慢</td><td>8,816</td><td>-9=89；空白=0</td><td><div class="source" id="src-172">出處：TIGPSw2_cb_s.pdf · PDF 第 19、20 頁（閱讀器頁碼）；此處核對變項、題意與選項。標籤逐字來源另為 TIGPSw2_s.dta 的變項 bs56g（variable label，非PDF文字）。</div><div class="source" id="src-173">程式重算：TIGPSw2_s.csv，欄 bs56g，資料紀錄第 1–8905 筆（不含標頭）；合法值集合 0,1,2,3,4；負值碼與空白另計。</div></td></tr><tr><td>w2</td><td>心理感受</td><td><code>bs56h</code></td><td>[bs56h]請勾選在過去1到2週你感受到下列選項之頻率 (8)我總是感到疲憊</td><td>8,816</td><td>-9=89；空白=0</td><td><div class="source" id="src-174">出處：TIGPSw2_cb_s.pdf · PDF 第 19、20 頁（閱讀器頁碼）；此處核對變項、題意與選項。標籤逐字來源另為 TIGPSw2_s.dta 的變項 bs56h（variable label，非PDF文字）。</div><div class="source" id="src-175">程式重算：TIGPSw2_s.csv，欄 bs56h，資料紀錄第 1–8905 筆（不含標頭）；合法值集合 0,1,2,3,4；負值碼與空白另計。</div></td></tr><tr><td>w2</td><td>心理感受</td><td><code>bs56i</code></td><td>[bs56i]請勾選在過去1到2週你感受到下列選項之頻率 (9)我寧願自己已經死亡</td><td>8,816</td><td>-9=89；空白=0</td><td><div class="source" id="src-176">出處：TIGPSw2_cb_s.pdf · PDF 第 19、20 頁（閱讀器頁碼）；此處核對變項、題意與選項。標籤逐字來源另為 TIGPSw2_s.dta 的變項 bs56i（variable label，非PDF文字）。</div><div class="source" id="src-177">程式重算：TIGPSw2_s.csv，欄 bs56i，資料紀錄第 1–8905 筆（不含標頭）；合法值集合 0,1,2,3,4；負值碼與空白另計。</div></td></tr><tr><td>w2</td><td>心理感受</td><td><code>bs56j</code></td><td>[bs56j]請勾選在過去1到2週你感受到下列選項之頻率 (10)我無法集中精神做一些重要的事情</td><td>8,816</td><td>-9=89；空白=0</td><td><div class="source" id="src-178">出處：TIGPSw2_cb_s.pdf · PDF 第 19、20 頁（閱讀器頁碼）；此處核對變項、題意與選項。標籤逐字來源另為 TIGPSw2_s.dta 的變項 bs56j（variable label，非PDF文字）。</div><div class="source" id="src-179">程式重算：TIGPSw2_s.csv，欄 bs56j，資料紀錄第 1–8905 筆（不含標頭）；合法值集合 0,1,2,3,4；負值碼與空白另計。</div></td></tr><tr><td>w2</td><td>心理感受</td><td><code>bs56k</code></td><td>[bs56k]請勾選在過去1到2週你感受到下列選項之頻率 (11)我覺得坐立不安</td><td>8,816</td><td>-9=89；空白=0</td><td><div class="source" id="src-180">出處：TIGPSw2_cb_s.pdf · PDF 第 19、20 頁（閱讀器頁碼）；此處核對變項、題意與選項。標籤逐字來源另為 TIGPSw2_s.dta 的變項 bs56k（variable label，非PDF文字）。</div><div class="source" id="src-181">程式重算：TIGPSw2_s.csv，欄 bs56k，資料紀錄第 1–8905 筆（不含標頭）；合法值集合 0,1,2,3,4；負值碼與空白另計。</div></td></tr><tr><td>w2</td><td>心理感受</td><td><code>bs56l</code></td><td>[bs56l]請勾選在過去1到2週你感受到下列選項之頻率 (12)我覺得很寂寞(孤單、沒伴)</td><td>8,816</td><td>-9=89；空白=0</td><td><div class="source" id="src-182">出處：TIGPSw2_cb_s.pdf · PDF 第 19、20 頁（閱讀器頁碼）；此處核對變項、題意與選項。標籤逐字來源另為 TIGPSw2_s.dta 的變項 bs56l（variable label，非PDF文字）。</div><div class="source" id="src-183">程式重算：TIGPSw2_s.csv，欄 bs56l，資料紀錄第 1–8905 筆（不含標頭）；合法值集合 0,1,2,3,4；負值碼與空白另計。</div></td></tr><tr><td>w2</td><td>心理感受</td><td><code>bs56m</code></td><td>[bs56m]請勾選在過去1到2週你感受到下列選項之頻率 (13)我感到緊張焦慮</td><td>8,816</td><td>-9=89；空白=0</td><td><div class="source" id="src-184">出處：TIGPSw2_cb_s.pdf · PDF 第 19、20 頁（閱讀器頁碼）；此處核對變項、題意與選項。標籤逐字來源另為 TIGPSw2_s.dta 的變項 bs56m（variable label，非PDF文字）。</div><div class="source" id="src-185">程式重算：TIGPSw2_s.csv，欄 bs56m，資料紀錄第 1–8905 筆（不含標頭）；合法值集合 0,1,2,3,4；負值碼與空白另計。</div></td></tr><tr><td>w2</td><td>心理感受</td><td><code>bs56n</code></td><td>[bs56n]請勾選在過去1到2週你感受到下列選項之頻率 (14)我不能停止或是無法控制擔心</td><td>8,815</td><td>-9=89；空白=0</td><td><div class="source" id="src-186">出處：TIGPSw2_cb_s.pdf · PDF 第 19、20 頁（閱讀器頁碼）；此處核對變項、題意與選項。標籤逐字來源另為 TIGPSw2_s.dta 的變項 bs56n（variable label，非PDF文字）。</div><div class="source" id="src-187">程式重算：TIGPSw2_s.csv，欄 bs56n，資料紀錄第 1–8905 筆（不含標頭）；合法值集合 0,1,2,3,4；負值碼與空白另計。</div></td></tr><tr><td>w1</td><td>幸福感</td><td><code>as73a</code></td><td>[as73a]幸福感(WHO_5)_我感到情緒開朗且精神不錯</td><td>8,711</td><td>-9=246；-999=1；空白=0</td><td><div class="source" id="src-188">出處：TIGPSw1_cb_s.pdf · PDF 第 45 頁（閱讀器頁碼）；此處核對變項、題意與選項。標籤逐字來源另為 TIGPSw1_s.dta 的變項 as73a（variable label，非PDF文字）。</div><div class="source" id="src-189">程式重算：TIGPSw1_s.csv，欄 as73a，資料紀錄第 1–8958 筆（不含標頭）；合法值集合 0,1,2,3,4；負值碼與空白另計。</div></td></tr><tr><td>w1</td><td>幸福感</td><td><code>as73b</code></td><td>[as73b]幸福感(WHO_5)_我感到心情平靜和放鬆</td><td>8,711</td><td>-9=246；-999=1；空白=0</td><td><div class="source" id="src-190">出處：TIGPSw1_cb_s.pdf · PDF 第 45 頁（閱讀器頁碼）；此處核對變項、題意與選項。標籤逐字來源另為 TIGPSw1_s.dta 的變項 as73b（variable label，非PDF文字）。</div><div class="source" id="src-191">程式重算：TIGPSw1_s.csv，欄 as73b，資料紀錄第 1–8958 筆（不含標頭）；合法值集合 0,1,2,3,4；負值碼與空白另計。</div></td></tr><tr><td>w1</td><td>幸福感</td><td><code>as73c</code></td><td>[as73c]幸福感(WHO_5)_我感到有活力且精力充沛</td><td>8,711</td><td>-9=246；-999=1；空白=0</td><td><div class="source" id="src-192">出處：TIGPSw1_cb_s.pdf · PDF 第 45 頁（閱讀器頁碼）；此處核對變項、題意與選項。標籤逐字來源另為 TIGPSw1_s.dta 的變項 as73c（variable label，非PDF文字）。</div><div class="source" id="src-193">程式重算：TIGPSw1_s.csv，欄 as73c，資料紀錄第 1–8958 筆（不含標頭）；合法值集合 0,1,2,3,4；負值碼與空白另計。</div></td></tr><tr><td>w1</td><td>幸福感</td><td><code>as73d</code></td><td>[as73d]幸福感(WHO_5)_我醒來感到神清氣爽並有充分休息</td><td>8,711</td><td>-9=246；-999=1；空白=0</td><td><div class="source" id="src-194">出處：TIGPSw1_cb_s.pdf · PDF 第 45 頁（閱讀器頁碼）；此處核對變項、題意與選項。標籤逐字來源另為 TIGPSw1_s.dta 的變項 as73d（variable label，非PDF文字）。</div><div class="source" id="src-195">程式重算：TIGPSw1_s.csv，欄 as73d，資料紀錄第 1–8958 筆（不含標頭）；合法值集合 0,1,2,3,4；負值碼與空白另計。</div></td></tr><tr><td>w1</td><td>幸福感</td><td><code>as73e</code></td><td>[as73e]幸福感(WHO_5)_我的日常生活中充滿讓我感興趣的事物</td><td>8,711</td><td>-9=246；-999=1；空白=0</td><td><div class="source" id="src-196">出處：TIGPSw1_cb_s.pdf · PDF 第 45 頁（閱讀器頁碼）；此處核對變項、題意與選項。標籤逐字來源另為 TIGPSw1_s.dta 的變項 as73e（variable label，非PDF文字）。</div><div class="source" id="src-197">程式重算：TIGPSw1_s.csv，欄 as73e，資料紀錄第 1–8958 筆（不含標頭）；合法值集合 0,1,2,3,4；負值碼與空白另計。</div></td></tr><tr><td>w2</td><td>幸福感</td><td><code>bs58a</code></td><td>[bs58a]請問過去兩週中，你對以下敘述的感受程度？ (1)我感到情緒開朗且精神不錯</td><td>8,799</td><td>-9=100；空白=0</td><td><div class="source" id="src-198">出處：TIGPSw2_cb_s.pdf · PDF 第 20 頁（閱讀器頁碼）；此處核對變項、題意與選項。標籤逐字來源另為 TIGPSw2_s.dta 的變項 bs58a（variable label，非PDF文字）。</div><div class="source" id="src-199">程式重算：TIGPSw2_s.csv，欄 bs58a，資料紀錄第 1–8905 筆（不含標頭）；合法值集合 0,1,2,3,4；負值碼與空白另計。</div></td></tr><tr><td>w2</td><td>幸福感</td><td><code>bs58b</code></td><td>[bs58b]請問過去兩週中，你對以下敘述的感受程度？ (2)我感到心情平靜和放鬆</td><td>8,800</td><td>-9=100；空白=0</td><td><div class="source" id="src-200">出處：TIGPSw2_cb_s.pdf · PDF 第 20 頁（閱讀器頁碼）；此處核對變項、題意與選項。標籤逐字來源另為 TIGPSw2_s.dta 的變項 bs58b（variable label，非PDF文字）。</div><div class="source" id="src-201">程式重算：TIGPSw2_s.csv，欄 bs58b，資料紀錄第 1–8905 筆（不含標頭）；合法值集合 0,1,2,3,4；負值碼與空白另計。</div></td></tr><tr><td>w2</td><td>幸福感</td><td><code>bs58c</code></td><td>[bs58c]請問過去兩週中，你對以下敘述的感受程度？ (3)我感到有活力且精力充沛</td><td>8,802</td><td>-9=100；空白=0</td><td><div class="source" id="src-202">出處：TIGPSw2_cb_s.pdf · PDF 第 20 頁（閱讀器頁碼）；此處核對變項、題意與選項。標籤逐字來源另為 TIGPSw2_s.dta 的變項 bs58c（variable label，非PDF文字）。</div><div class="source" id="src-203">程式重算：TIGPSw2_s.csv，欄 bs58c，資料紀錄第 1–8905 筆（不含標頭）；合法值集合 0,1,2,3,4；負值碼與空白另計。</div></td></tr><tr><td>w2</td><td>幸福感</td><td><code>bs58d</code></td><td>[bs58d]請問過去兩週中，你對以下敘述的感受程度？ (4)我醒來感到神清氣爽並有充分休息</td><td>8,800</td><td>-9=100；空白=0</td><td><div class="source" id="src-204">出處：TIGPSw2_cb_s.pdf · PDF 第 20 頁（閱讀器頁碼）；此處核對變項、題意與選項。標籤逐字來源另為 TIGPSw2_s.dta 的變項 bs58d（variable label，非PDF文字）。</div><div class="source" id="src-205">程式重算：TIGPSw2_s.csv，欄 bs58d，資料紀錄第 1–8905 筆（不含標頭）；合法值集合 0,1,2,3,4；負值碼與空白另計。</div></td></tr><tr><td>w2</td><td>幸福感</td><td><code>bs58e</code></td><td>[bs58e]請問過去兩週中，你對以下敘述的感受程度？ (5)我的日常生活中充滿讓我感興趣的事</td><td>8,800</td><td>-9=100；空白=0</td><td><div class="source" id="src-206">出處：TIGPSw2_cb_s.pdf · PDF 第 20、21 頁（閱讀器頁碼）；此處核對變項、題意與選項。標籤逐字來源另為 TIGPSw2_s.dta 的變項 bs58e（variable label，非PDF文字）。</div><div class="source" id="src-207">程式重算：TIGPSw2_s.csv，欄 bs58e，資料紀錄第 1–8905 筆（不含標頭）；合法值集合 0,1,2,3,4；負值碼與空白另計。</div></td></tr><tr><td>w1</td><td>線上因應</td><td><code>as37a</code></td><td>[as37a]網路壓力因應_找人聊天給你支持或安慰</td><td>4,687</td><td>-9=50；-999=4221；空白=0</td><td><div class="source" id="src-208">出處：TIGPSw1_cb_s.pdf · PDF 第 17 頁（閱讀器頁碼）；此處核對變項、題意與選項。標籤逐字來源另為 TIGPSw1_s.dta 的變項 as37a（variable label，非PDF文字）。</div><div class="source" id="src-209">程式重算：TIGPSw1_s.csv，欄 as37a，資料紀錄第 1–8958 筆（不含標頭）；合法值集合 1,2,3,4；負值碼與空白另計。</div></td></tr><tr><td>w1</td><td>線上因應</td><td><code>as37b</code></td><td>[as37b]網路壓力因應_找人討論問題，設法解決困難</td><td>4,687</td><td>-9=50；-999=4221；空白=0</td><td><div class="source" id="src-210">出處：TIGPSw1_cb_s.pdf · PDF 第 17 頁（閱讀器頁碼）；此處核對變項、題意與選項。標籤逐字來源另為 TIGPSw1_s.dta 的變項 as37b（variable label，非PDF文字）。</div><div class="source" id="src-211">程式重算：TIGPSw1_s.csv，欄 as37b，資料紀錄第 1–8958 筆（不含標頭）；合法值集合 1,2,3,4；負值碼與空白另計。</div></td></tr><tr><td>w1</td><td>線上因應</td><td><code>as37c</code></td><td>[as37c]網路壓力因應_搜尋相關的資訊，設法解決困難</td><td>4,687</td><td>-9=50；-999=4221；空白=0</td><td><div class="source" id="src-212">出處：TIGPSw1_cb_s.pdf · PDF 第 17 頁（閱讀器頁碼）；此處核對變項、題意與選項。標籤逐字來源另為 TIGPSw1_s.dta 的變項 as37c（variable label，非PDF文字）。</div><div class="source" id="src-213">程式重算：TIGPSw1_s.csv，欄 as37c，資料紀錄第 1–8958 筆（不含標頭）；合法值集合 1,2,3,4；負值碼與空白另計。</div></td></tr><tr><td>w1</td><td>線上因應</td><td><code>as37d</code></td><td>[as37d]網路壓力因應_瀏覽跟困難無關的資訊，轉移自己的注意力</td><td>4,687</td><td>-9=50；-999=4221；空白=0</td><td><div class="source" id="src-214">出處：TIGPSw1_cb_s.pdf · PDF 第 17 頁（閱讀器頁碼）；此處核對變項、題意與選項。標籤逐字來源另為 TIGPSw1_s.dta 的變項 as37d（variable label，非PDF文字）。</div><div class="source" id="src-215">程式重算：TIGPSw1_s.csv，欄 as37d，資料紀錄第 1–8958 筆（不含標頭）；合法值集合 1,2,3,4；負值碼與空白另計。</div></td></tr><tr><td>w1</td><td>線上因應</td><td><code>as37e</code></td><td>[as37e]網路壓力因應_玩遊戲來減少困擾或壓力感受</td><td>4,687</td><td>-9=50；-999=4221；空白=0</td><td><div class="source" id="src-216">出處：TIGPSw1_cb_s.pdf · PDF 第 17 頁（閱讀器頁碼）；此處核對變項、題意與選項。標籤逐字來源另為 TIGPSw1_s.dta 的變項 as37e（variable label，非PDF文字）。</div><div class="source" id="src-217">程式重算：TIGPSw1_s.csv，欄 as37e，資料紀錄第 1–8958 筆（不含標頭）；合法值集合 1,2,3,4；負值碼與空白另計。</div></td></tr><tr><td>w1</td><td>線上因應</td><td><code>as37f</code></td><td>[as37f]網路壓力因應_購物來改善心情或壓力感受</td><td>4,687</td><td>-9=50；-999=4221；空白=0</td><td><div class="source" id="src-218">出處：TIGPSw1_cb_s.pdf · PDF 第 17 頁（閱讀器頁碼）；此處核對變項、題意與選項。標籤逐字來源另為 TIGPSw1_s.dta 的變項 as37f（variable label，非PDF文字）。</div><div class="source" id="src-219">程式重算：TIGPSw1_s.csv，欄 as37f，資料紀錄第 1–8958 筆（不含標頭）；合法值集合 1,2,3,4；負值碼與空白另計。</div></td></tr><tr><td>w2</td><td>線上因應</td><td><code>bs22a</code></td><td>[bs22a]【網路壓力因應】當你在現實生活遇到困難感到憂慮時，你會上網： (1)找人聊天給你</td><td>8,854</td><td>-9=51；空白=0</td><td><div class="source" id="src-220">出處：TIGPSw2_cb_s.pdf · PDF 第 9 頁（閱讀器頁碼）；此處核對變項、題意與選項。標籤逐字來源另為 TIGPSw2_s.dta 的變項 bs22a（variable label，非PDF文字）。</div><div class="source" id="src-221">程式重算：TIGPSw2_s.csv，欄 bs22a，資料紀錄第 1–8905 筆（不含標頭）；合法值集合 1,2,3,4；負值碼與空白另計。</div></td></tr><tr><td>w2</td><td>線上因應</td><td><code>bs22b</code></td><td>[bs22b【網路壓力因應】]當你在現實生活遇到困難感到憂慮時，你會上網： (2)找人討論問題</td><td>8,854</td><td>-9=51；空白=0</td><td><div class="source" id="src-222">出處：TIGPSw2_cb_s.pdf · PDF 第 9 頁（閱讀器頁碼）；此處核對變項、題意與選項。標籤逐字來源另為 TIGPSw2_s.dta 的變項 bs22b（variable label，非PDF文字）。</div><div class="source" id="src-223">程式重算：TIGPSw2_s.csv，欄 bs22b，資料紀錄第 1–8905 筆（不含標頭）；合法值集合 1,2,3,4；負值碼與空白另計。</div></td></tr><tr><td>w2</td><td>線上因應</td><td><code>bs22c</code></td><td>[bs22c]【網路壓力因應】當你在現實生活遇到困難感到憂慮時，你會上網： (3)搜尋相關的資</td><td>8,854</td><td>-9=51；空白=0</td><td><div class="source" id="src-224">出處：TIGPSw2_cb_s.pdf · PDF 第 9 頁（閱讀器頁碼）；此處核對變項、題意與選項。標籤逐字來源另為 TIGPSw2_s.dta 的變項 bs22c（variable label，非PDF文字）。</div><div class="source" id="src-225">程式重算：TIGPSw2_s.csv，欄 bs22c，資料紀錄第 1–8905 筆（不含標頭）；合法值集合 1,2,3,4；負值碼與空白另計。</div></td></tr><tr><td>w2</td><td>線上因應</td><td><code>bs22d</code></td><td>[bs22d]【網路壓力因應】當你在現實生活遇到困難感到憂慮時，你會上網： (4)瀏覽跟困難無</td><td>8,854</td><td>-9=51；空白=0</td><td><div class="source" id="src-226">出處：TIGPSw2_cb_s.pdf · PDF 第 9 頁（閱讀器頁碼）；此處核對變項、題意與選項。標籤逐字來源另為 TIGPSw2_s.dta 的變項 bs22d（variable label，非PDF文字）。</div><div class="source" id="src-227">程式重算：TIGPSw2_s.csv，欄 bs22d，資料紀錄第 1–8905 筆（不含標頭）；合法值集合 1,2,3,4；負值碼與空白另計。</div></td></tr><tr><td>w2</td><td>線上因應</td><td><code>bs22e</code></td><td>[bs22e]【網路壓力因應】當你在現實生活遇到困難感到憂慮時，你會上網： (5)玩遊戲來減少</td><td>8,854</td><td>-9=51；空白=0</td><td><div class="source" id="src-228">出處：TIGPSw2_cb_s.pdf · PDF 第 9 頁（閱讀器頁碼）；此處核對變項、題意與選項。標籤逐字來源另為 TIGPSw2_s.dta 的變項 bs22e（variable label，非PDF文字）。</div><div class="source" id="src-229">程式重算：TIGPSw2_s.csv，欄 bs22e，資料紀錄第 1–8905 筆（不含標頭）；合法值集合 1,2,3,4；負值碼與空白另計。</div></td></tr><tr><td>w2</td><td>線上因應</td><td><code>bs22f</code></td><td>[bs22f]【網路壓力因應】當你在現實生活遇到困難感到憂慮時，你會上網： (6)購物來改善心</td><td>8,854</td><td>-9=51；空白=0</td><td><div class="source" id="src-230">出處：TIGPSw2_cb_s.pdf · PDF 第 9 頁（閱讀器頁碼）；此處核對變項、題意與選項。標籤逐字來源另為 TIGPSw2_s.dta 的變項 bs22f（variable label，非PDF文字）。</div><div class="source" id="src-231">程式重算：TIGPSw2_s.csv，欄 bs22f，資料紀錄第 1–8905 筆（不含標頭）；合法值集合 1,2,3,4；負值碼與空白另計。</div></td></tr><tr><td>w2</td><td>情緒調節</td><td><code>bs57a</code></td><td>[bs57a]請問你同不同意以下的敘述： (1)我的情緒只有我自己知道</td><td>8,815</td><td>-9=90；空白=0</td><td><div class="source" id="src-232">出處：TIGPSw2_cb_s.pdf · PDF 第 20 頁（閱讀器頁碼）；此處核對變項、題意與選項。標籤逐字來源另為 TIGPSw2_s.dta 的變項 bs57a（variable label，非PDF文字）。</div><div class="source" id="src-233">程式重算：TIGPSw2_s.csv，欄 bs57a，資料紀錄第 1–8905 筆（不含標頭）；合法值集合 1,2,3,4,5,6,7；負值碼與空白另計。</div></td></tr><tr><td>w2</td><td>情緒調節</td><td><code>bs57b</code></td><td>[bs57b]請問你同不同意以下的敘述： (2)我會用想別的事情的方式，來減少自己的負面情緒(例</td><td>8,815</td><td>-9=90；空白=0</td><td><div class="source" id="src-234">出處：TIGPSw2_cb_s.pdf · PDF 第 20 頁（閱讀器頁碼）；此處核對變項、題意與選項。標籤逐字來源另為 TIGPSw2_s.dta 的變項 bs57b（variable label，非PDF文字）。</div><div class="source" id="src-235">程式重算：TIGPSw2_s.csv，欄 bs57b，資料紀錄第 1–8905 筆（不含標頭）；合法值集合 1,2,3,4,5,6,7；負值碼與空白另計。</div></td></tr><tr><td>w2</td><td>情緒調節</td><td><code>bs57c</code></td><td>[bs57c]請問你同不同意以下的敘述： (3)當我面對有壓力的情境時，我會往可以讓自己冷靜下</td><td>8,815</td><td>-9=90；空白=0</td><td><div class="source" id="src-236">出處：TIGPSw2_cb_s.pdf · PDF 第 20 頁（閱讀器頁碼）；此處核對變項、題意與選項。標籤逐字來源另為 TIGPSw2_s.dta 的變項 bs57c（variable label，非PDF文字）。</div><div class="source" id="src-237">程式重算：TIGPSw2_s.csv，欄 bs57c，資料紀錄第 1–8905 筆（不含標頭）；合法值集合 1,2,3,4,5,6,7；負值碼與空白另計。</div></td></tr><tr><td>w2</td><td>情緒調節</td><td><code>bs57d</code></td><td>[bs57d]請問你同不同意以下的敘述： (4)我控制自己情緒的方法是不把它們表現出來</td><td>8,815</td><td>-9=90；空白=0</td><td><div class="source" id="src-238">出處：TIGPSw2_cb_s.pdf · PDF 第 20 頁（閱讀器頁碼）；此處核對變項、題意與選項。標籤逐字來源另為 TIGPSw2_s.dta 的變項 bs57d（variable label，非PDF文字）。</div><div class="source" id="src-239">程式重算：TIGPSw2_s.csv，欄 bs57d，資料紀錄第 1–8905 筆（不含標頭）；合法值集合 1,2,3,4,5,6,7；負值碼與空白另計。</div></td></tr><tr><td>w2</td><td>情緒調節</td><td><code>bs57e</code></td><td>[bs57e]請問你同不同意以下的敘述： (5)當我想讓自己有更正向的情緒，我會換個角度來想當</td><td>8,815</td><td>-9=90；空白=0</td><td><div class="source" id="src-240">出處：TIGPSw2_cb_s.pdf · PDF 第 20 頁（閱讀器頁碼）；此處核對變項、題意與選項。標籤逐字來源另為 TIGPSw2_s.dta 的變項 bs57e（variable label，非PDF文字）。</div><div class="source" id="src-241">程式重算：TIGPSw2_s.csv，欄 bs57e，資料紀錄第 1–8905 筆（不含標頭）；合法值集合 1,2,3,4,5,6,7；負值碼與空白另計。</div></td></tr><tr><td>w2</td><td>情緒調節</td><td><code>bs57f</code></td><td>[bs57f]請問你同不同意以下的敘述： (6)當我感受到負向情緒時，我會努力不表現出來</td><td>8,815</td><td>-9=90；空白=0</td><td><div class="source" id="src-242">出處：TIGPSw2_cb_s.pdf · PDF 第 20 頁（閱讀器頁碼）；此處核對變項、題意與選項。標籤逐字來源另為 TIGPSw2_s.dta 的變項 bs57f（variable label，非PDF文字）。</div><div class="source" id="src-243">程式重算：TIGPSw2_s.csv，欄 bs57f，資料紀錄第 1–8905 筆（不含標頭）；合法值集合 1,2,3,4,5,6,7；負值碼與空白另計。</div></td></tr><tr><td>w2</td><td>社群媒體行為</td><td><code>bs23a</code></td><td>[bs23a]關於你在社群媒體上的行為，以下敘述符不符合你的情況。 (1)我只會發布自己看起來</td><td>8,872</td><td>-9=33；空白=0</td><td><div class="source" id="src-244">出處：TIGPSw2_cb_s.pdf · PDF 第 9 頁（閱讀器頁碼）；此處核對變項、題意與選項。標籤逐字來源另為 TIGPSw2_s.dta 的變項 bs23a（variable label，非PDF文字）。</div><div class="source" id="src-245">程式重算：TIGPSw2_s.csv，欄 bs23a，資料紀錄第 1–8905 筆（不含標頭）；合法值集合 1,2,3,4；負值碼與空白另計。</div></td></tr><tr><td>w2</td><td>社群媒體行為</td><td><code>bs23b</code></td><td>[bs23b]關於你在社群媒體上的行為，以下敘述符不符合你的情況。 (2)我會刻意選擇自己看起</td><td>8,872</td><td>-9=33；空白=0</td><td><div class="source" id="src-246">出處：TIGPSw2_cb_s.pdf · PDF 第 9 頁（閱讀器頁碼）；此處核對變項、題意與選項。標籤逐字來源另為 TIGPSw2_s.dta 的變項 bs23b（variable label，非PDF文字）。</div><div class="source" id="src-247">程式重算：TIGPSw2_s.csv，欄 bs23b，資料紀錄第 1–8905 筆（不含標頭）；合法值集合 1,2,3,4；負值碼與空白另計。</div></td></tr><tr><td>w2</td><td>社群媒體行為</td><td><code>bs23c</code></td><td>[bs23c]關於你在社群媒體上的行為，以下敘述符不符合你的情況。 (3)我會發佈對自己形象加</td><td>8,872</td><td>-9=33；空白=0</td><td><div class="source" id="src-248">出處：TIGPSw2_cb_s.pdf · PDF 第 9 頁（閱讀器頁碼）；此處核對變項、題意與選項。標籤逐字來源另為 TIGPSw2_s.dta 的變項 bs23c（variable label，非PDF文字）。</div><div class="source" id="src-249">程式重算：TIGPSw2_s.csv，欄 bs23c，資料紀錄第 1–8905 筆（不含標頭）；合法值集合 1,2,3,4；負值碼與空白另計。</div></td></tr><tr><td>w2</td><td>社群媒體行為</td><td><code>bs23d</code></td><td>[bs23d]關於你在社群媒體上的行為，以下敘述符不符合你的情況。 (4)我不會介意發佈自己不</td><td>8,872</td><td>-9=33；空白=0</td><td><div class="source" id="src-250">出處：TIGPSw2_cb_s.pdf · PDF 第 9 頁（閱讀器頁碼）；此處核對變項、題意與選項。標籤逐字來源另為 TIGPSw2_s.dta 的變項 bs23d（variable label，非PDF文字）。</div><div class="source" id="src-251">程式重算：TIGPSw2_s.csv，欄 bs23d，資料紀錄第 1–8905 筆（不含標頭）；合法值集合 1,2,3,4；負值碼與空白另計。</div></td></tr><tr><td>w2</td><td>社群媒體行為</td><td><code>bs23e</code></td><td>[bs23e]關於你在社群媒體上的行為，以下敘述符不符合你的情況。 (5)我不介意發佈可能對自</td><td>8,872</td><td>-9=33；空白=0</td><td><div class="source" id="src-252">出處：TIGPSw2_cb_s.pdf · PDF 第 9 頁（閱讀器頁碼）；此處核對變項、題意與選項。標籤逐字來源另為 TIGPSw2_s.dta 的變項 bs23e（variable label，非PDF文字）。</div><div class="source" id="src-253">程式重算：TIGPSw2_s.csv，欄 bs23e，資料紀錄第 1–8905 筆（不含標頭）；合法值集合 1,2,3,4；負值碼與空白另計。</div></td></tr><tr><td>w2</td><td>社群媒體行為</td><td><code>bs23f</code></td><td>[bs23f]關於你在社群媒體上的行為，以下敘述符不符合你的情況。 (6)我不介意在我的社群媒</td><td>8,872</td><td>-9=33；空白=0</td><td><div class="source" id="src-254">出處：TIGPSw2_cb_s.pdf · PDF 第 9 頁（閱讀器頁碼）；此處核對變項、題意與選項。標籤逐字來源另為 TIGPSw2_s.dta 的變項 bs23f（variable label，非PDF文字）。</div><div class="source" id="src-255">程式重算：TIGPSw2_s.csv，欄 bs23f，資料紀錄第 1–8905 筆（不含標頭）；合法值集合 1,2,3,4；負值碼與空白另計。</div></td></tr><tr><td>w2</td><td>社群媒體行為</td><td><code>bs23g</code></td><td>[bs23g]關於你在社群媒體上的行為，以下敘述符不符合你的情況。 (7)我會用不被發現的方式</td><td>8,872</td><td>-9=33；空白=0</td><td><div class="source" id="src-256">出處：TIGPSw2_cb_s.pdf · PDF 第 9 頁（閱讀器頁碼）；此處核對變項、題意與選項。標籤逐字來源另為 TIGPSw2_s.dta 的變項 bs23g（variable label，非PDF文字）。</div><div class="source" id="src-257">程式重算：TIGPSw2_s.csv，欄 bs23g，資料紀錄第 1–8905 筆（不含標頭）；合法值集合 1,2,3,4；負值碼與空白另計。</div></td></tr><tr><td>w2</td><td>社群媒體行為</td><td><code>bs23h</code></td><td>[bs23h]關於你在社群媒體上的行為，以下敘述符不符合你的情況。 (8)我會隱藏自己正在線上</td><td>8,872</td><td>-9=33；空白=0</td><td><div class="source" id="src-258">出處：TIGPSw2_cb_s.pdf · PDF 第 9 頁（閱讀器頁碼）；此處核對變項、題意與選項。標籤逐字來源另為 TIGPSw2_s.dta 的變項 bs23h（variable label，非PDF文字）。</div><div class="source" id="src-259">程式重算：TIGPSw2_s.csv，欄 bs23h，資料紀錄第 1–8905 筆（不含標頭）；合法值集合 1,2,3,4；負值碼與空白另計。</div></td></tr><tr><td>w2</td><td>社群媒體行為</td><td><code>bs23i</code></td><td>[bs23i]關於你在社群媒體上的行為，以下敘述符不符合你的情況。 (9)我會避免加入朋友們在</td><td>8,872</td><td>-9=33；空白=0</td><td><div class="source" id="src-260">出處：TIGPSw2_cb_s.pdf · PDF 第 9 頁（閱讀器頁碼）；此處核對變項、題意與選項。標籤逐字來源另為 TIGPSw2_s.dta 的變項 bs23i（variable label，非PDF文字）。</div><div class="source" id="src-261">程式重算：TIGPSw2_s.csv，欄 bs23i，資料紀錄第 1–8905 筆（不含標頭）；合法值集合 1,2,3,4；負值碼與空白另計。</div></td></tr></tbody></table></div><p>表內合法值筆數按編碼簿的選項範圍，以程式逐欄比對 CSV 計數。心理感受與幸福感保留零值，情緒調節依其選項範圍，其餘題組依各題值碼；負值與空白另外列出。這是單題有效筆數，不是完整量表或模型可用樣本數。原資料標籤取自同名 DTA，若與問卷不一致，請依上方差異說明核對。</p><div class="source" id="src-262">出處：TIGPSw1_cb_s.pdf · PDF 第 17、18、19、45 頁（閱讀器頁碼）；計數規則是本頁程式，並非PDF中的統計。</div><div class="source" id="src-263">出處：TIGPSw2_cb_s.pdf · PDF 第 9、10、11、19、20、21 頁（閱讀器頁碼）；DTA標籤與CSV計數來源已逐列另標。</div></section><section id="audit"><span class="eyebrow">TIGPS / 研究入門</span><h2>離線查核與使用範圍</h2><details><summary>本次更正摘要</summary><ul><li>補齊跨頁題幹：as39b 為第18、19頁；bs24b 為第9、10頁；bs58e 為第20、21頁。</li><li>變項表逐列補上DTA標籤的真正來源，並補足題組共用選項所在頁。</li><li>科任教師科目欄補第2頁；第一波權重說明補第10頁；線上因應值碼補第17頁。</li><li>檔名規則、檔案格式、缺檔與擷取程序改標本頁盤點，不再掛在無法支持的PDF首頁。</li><li>共同ID數改引CSV計算，移除無法支持該數字的手冊第10頁引用；所有原有數字重算一致。</li><li>將研究設計、資料清理與合併提醒明標本頁建議；刪除原引用無法支持的診斷切點、完整命名規則、統一計分與共同量尺缺漏判定。</li><li>悲傷題與睡眠題差異的兩側來源移到各自卡片內；CSV欄名的解讀限縮為標頭核對。</li><li>內嵌PDF摘錄以重新讀取的原頁內容更新，新增逐條核對紀錄。</li></ul></details><p>本頁的 PDF 定位以檔案第一頁起算，使用閱讀器頁序（本頁擷取方式）。下列原文擷取可離線核對；表格換行可能與原 PDF 排版不同。本次資料夾檔案盤點沒有 Excel 檔，因此沒有工作表與儲存格引用。</p><div class="source" id="src-264">出處類型：本頁擷取程序與檔案盤點；不是 TIGPSw1_cb_s.pdf 第1頁的官方說明。</div><details><summary>TIGPSw1_cb_s.pdf · PDF 第 1 頁原文擷取</summary><pre> 
+ 
+ 
+臺灣數位世代追蹤研究（TIGPS）第一波 
+學生問卷編碼簿 
+ 
+ 
+題號 變項名稱 變項說明 選項數值說明 備註 
+ qb_code 題本編號   
+ q_name 問卷名稱   
+ nstudent_id 學生 ID   
+ nschool_id 學校 ID   
+ nclass 班級  區 別 同 一 學
+校 內 之 受 測
+班級。 
+ school_class 學校班級 ID  由學校 ID 與
+校 內 班 級 編
+碼 組 成 之 受
+測班級 ID。 
+ school_type 學校類型 (1)公立 
+(2)私立 
+ 
+ 
+digi_level 數位發展區域 數位發展成熟區；數位發展
+潛力區；數位發展起步區；
+數位發展萌動區 
+ 
+ seat_n 座號   
+ JKZONE Jackknife zone   
+ JKREP Jackknife replicate   
+ SCHWGT    
+通例選項 
+-4：不適用 
+-5：不一定 
+-6：跳答 
+-7：不知道、不清楚、忘記了 
+-8：拒答 
+-9：系統遺漏值 
+-99：無意義作答/邏輯矛盾 
+-999：此卷未答 </pre><div class="source" id="src-265">出處：TIGPSw1_cb_s.pdf · PDF 第 1 頁（閱讀器頁碼）</div></details><details><summary>TIGPSw1_cb_s.pdf · PDF 第 18 頁原文擷取</summary><pre> 
+ 
+ 
+象。 (2)不符合 
+(3)符合 
+(4)很符合 
+s38b as38b 我在網路上可以表現出我最
+好的一面。 
+s38c as38c 在網路世界中我覺得自己可
+以成為理想的自己。 
+s38d as38d 我喜歡自己在現實生活裡的
+形象。 
+s38e as38e 我在現實生活裡可以表現出
+我最好的一面。 
+s38f as38f 在現實生活裡我覺得自己可
+以成為理想的自己。 
+s38g as38g 我在網路世界裡經常會扮演
+成不一樣的角色。 
+s38h as38h 我在不同的社群媒體中（如
+臉書、IG）會有不一樣的形
+象。 
+s38i as38i 我喜歡在網路上擁有多種不
+一樣的身分、形象或樣貌。 
+s38j as38j 我 在 網 路 上 呈 現 自 我 的 方
+式，與在現實生活的自我並
+不相同。 
+s38k as38k 我覺得我在網絡世界和現實
+世界中是不同的人。 
+s38l as38l 我在網路世界中表現出與現
+實世界中截然不同的言行舉
+止。 
+s38m as38m 比起在現實生活，我覺得自
+己在網路上比較輕鬆自在。 
+s38n as38n 我喜歡在網路上的生活，勝
+過於現實中的生活。 
+s38o as38o 如果可以，我希望自己可以
+一直待在網路上。 
+s39 你同不同意以下說法？ 僅 A 卷作答 
+s39a as39a 沒跟上朋友們在網路上聊天
+或開玩笑的話題，會讓我感
+到很焦慮。 
+(1)很不同意 
+(2)不同意 
+(3)同意 
+(4)很同意 
+ 
+s39b as39b 錯過和朋友們在網路上的聚</pre><div class="source" id="src-266">出處：TIGPSw1_cb_s.pdf · PDF 第 18 頁（閱讀器頁碼）</div></details><details><summary>TIGPSw1_cb_s.pdf · PDF 第 19 頁原文擷取</summary><pre> 
+ 
+ 
+會，會讓我感到很困擾。 
+s39c as39c 我會隨時透過網路追蹤朋友
+們的行蹤和做的事情。 
+s39d as39d 沒跟上網路上的首播、直播
+或活動，我會感到很困擾。 
+s40 關於你在網路上的意見表達，以下敘述你同不同意？ 僅 A 卷作答 
+s40a as40a 我經常會在網路上和他人比
+較 自 己 在 生 活 上 獲 得 的 成
+就。 
+(1)很不同意 
+(2)不同意 
+(3)同意 
+(4)很同意 
+ 
+s40b as40b 我總是在網路上留意他人的
+表現，並和自己的表現進行
+比較。 
+s40c as40c 我經常在網路上和他人比較
+自己受歡迎的程度。 
+s40d as40d 如 果 我 想 要 更 瞭 解 某 些 事
+情，我會試著去網路上看看
+別人的想法。 
+s40e as40e 我總是好奇網路上的人們在
+和我遇到相同的問題時會怎
+麼想或怎麼做。 
+s40f as40f 我喜歡在網路上看看其他人
+的不同觀點和經歷。 
+s41 關於上網，以下敘述符不符合您的情形？  
+s41a as41a 想上網而無法上網的時候，
+我就會感到坐立不安。 
+(1)很不符合 
+(2)不符合 
+(3)符合 
+(4)很符合 
+ 
+s41b as41b 只要有一段時間沒有上網，
+我就會覺得心裡不舒服。 
+ 
+s41c as41c 我只要超過一天沒上網玩，
+就會很難受。 
+ 
+s41d as41d 發現自己上網休閒的時間越
+來越長。 
+ 
+s41e as41e 平均而言，我每週上網休閒
+的時間比以前增加許多。 
+ 
+s41f as41f 我實際上網所花的時間遠遠
+超過原來預期的時間。 
+ 
+s41g as41g 上網對我的學業或工作已造
+成一些負面的影響。 
+ </pre><div class="source" id="src-267">出處：TIGPSw1_cb_s.pdf · PDF 第 19 頁（閱讀器頁碼）</div></details><details><summary>TIGPSw1_cb_s.pdf · PDF 第 45 頁原文擷取</summary><pre> 
+ 
+ 
+s72a as72a 我的胃口不好。 (0)完全沒有或少於一天 
+(1)最近 1 週一到兩天 
+(2)最近 1 週三到四天 
+(3)最近 1 週五到七天 
+(4)最近兩週幾乎天天 
+ 
+s72b as72b 我的睡眠情況不好。  
+s72c as72c 我的睡眠情況不好。  
+s72d as72d 我覺得自己是一個壞人。  
+s72e as72e 
+我對平時有興趣做的事情都
+失去興趣。 
+ 
+s72f as72f 我覺得自己的行動太緩慢。  
+s72g as72g 我總是感到疲憊。  
+s72h as72h 
+我無法集中精神做一些重要
+的事情。 
+ 
+s72i as72i 我覺得坐立不安。  
+s72j as72j 我覺得很寂寞 （孤單 、 沒伴） 。  
+s72k as72k 我感到緊張焦慮。  
+s72l as72l 
+我不能停止或是無法控制擔
+心。 
+ 
+s73 請問過去兩週中，您對以下敘述的感受程度？  
+s73a as73a 
+我 感 到 情 緒 開 朗 且 精 神 不
+錯。 
+(0)從來沒有 
+(1)有時候 
+(2)少於一半的時間 
+(3)一半以上的時間 
+(4)大部分的時間 
+ 
+s73b as73b 我感到心情平靜和放鬆。  
+s73c as73c 我感到有活力且精力充沛。  
+s73d as73d 
+我醒來感到神清氣爽並有充
+分休息。 
+ 
+s73e as73e 
+我的日常生活中充滿讓我感
+興趣的事物。 
+ 
+s74 as74 
+最近你的身高成長情形怎麼
+樣？ 
+(1)還沒開始長高 
+(2)只長高一點點 
+(3)長高很多 
+(4)我的身高似乎已經長完
+了，感覺不會再長高了 
+ 
+s75 as75 
+你的體毛 （指腋毛和陰毛） 生
+長情形怎麼樣？ 
+(1)還沒開始長出 
+(2)只長出一點點 
+(3)很明顯地在長 
+(4)已經長得很齊全 
+ 
+s76 as76 
+你注意到任何皮膚改變嗎？
+（特別是粉刺或青春痘的生
+長） 
+(1)我皮膚沒有變化  
+(2)我皮膚只有一點變化 （有
+長一點粉刺或青春痘） 
+(3)我皮膚有很大的變化 （不
+ </pre><div class="source" id="src-268">出處：TIGPSw1_cb_s.pdf · PDF 第 45 頁（閱讀器頁碼）</div></details><details><summary>TIGPSw2_cb_s.pdf · PDF 第 1 頁原文擷取</summary><pre> 
+ 
+ 
+臺灣數位世代追蹤研究（TIGPS）第二波 
+學生問卷編碼簿 
+ 
+ 
+題號 變項名稱 變項說明 選項數值說明 備註 
+ q_name 問卷名稱   
+ nstudent_id 學生 ID   
+ nschool_id 學校 ID   
+ nclass 班級  區 別 同 一 學
+校 內 之 受 測
+班級。 
+ school_class 學校班級 ID  由學校 ID 與
+校 內 班 級 編
+碼 組 成 之 受
+測班級 ID。 
+ school_type 學校類型 (1)公立 
+(2)私立 
+ 
+ 
+digi_level 數位發展區域 數位發展成熟區；數位發
+展潛力區；數位發展起步
+區；數位發展萌動區 
+ 
+ JKZONE Jackknife zone   
+ JKREP Jackknife replicate   
+ SCHWGT    
+ CLAWGT    
+ STUWGT    
+ TOTWGT    
+通例選項 
+-4：不適用 
+-5：不一定 
+-6：跳答 
+-7：不知道、不清楚、忘記了 
+-8：拒答 
+-9：系統遺漏值 
+-99：無意義作答/邏輯矛盾 </pre><div class="source" id="src-269">出處：TIGPSw2_cb_s.pdf · PDF 第 1 頁（閱讀器頁碼）</div></details><details><summary>TIGPSw2_cb_s.pdf · PDF 第 9 頁原文擷取</summary><pre> 
+ 
+ 
+s22a bs22a 找人聊天給你支持或安慰。 (1)從未 
+(2)偶爾 
+(3)有時 
+(4)經常 
+ 
+s22b bs22b 找人討論問題，設法解決困
+難。 
+s22c bs22c 搜尋相關的資訊，設法解決
+困難。 
+s22d bs22d 瀏覽跟困難無關的資訊，轉
+移自己的注意力。 
+s22e bs22e 玩遊戲來減少困擾或壓力感
+受。 
+s22f bs22f 購 物 來 改 善 心 情 或 壓 力 感
+受。 
+s23 關於你在社群媒體上的行為，以下敘述符不符合你的情況？  
+s23a bs23a 我 只 會 發 布 自 己 看 起 來 高
+興、愉快的照片。 
+(1)很不符合 
+(2)不太符合 
+(3)還算符合 
+(4)很符合 
+ 
+s23b bs23b 我會刻意選擇自己看起來好
+看的照片發佈。 
+ 
+s23c bs23c 我會發佈對自己形象加分的
+訊息，即使那不是真實的情
+況。 
+ 
+s23d bs23d 我不會介意發佈自己不太好
+看的照片。 
+ 
+s23e bs23e 我不介意發佈可能對自己形
+象扣分的貼文。 
+ 
+s23f bs23f 我不介意在我的社群媒體上
+寫下發生在我身上的壞事。 
+ 
+s23g bs23g 我會用不被發現的方式，瀏
+覽人們在網路上的訊息。 
+ 
+s23h bs23h 我會隱藏自己正在線上活動
+的紀錄。 
+ 
+s23i bs23i 我會避免加入朋友們在社群
+媒體上的對話，即便我正在
+看著他們的訊息。 
+ 
+s24 關於你在社群媒體上與人們的互動，以下敘述符不符合你的感受？  
+s24a bs24a 我對自己感到的價值，很大
+程度是取決於他人對我的看
+法。 
+(1)很不符合 
+(2)不太符合 
+(3)還算符合 
+(4)很符合 
+ 
+s24b bs24b 我擔心自己的言論或行為會  </pre><div class="source" id="src-270">出處：TIGPSw2_cb_s.pdf · PDF 第 9 頁（閱讀器頁碼）</div></details><details><summary>TIGPSw2_cb_s.pdf · PDF 第 10 頁原文擷取</summary><pre> 
+ 
+ 
+受到批評。 
+s24c bs24c 當我更新狀態而沒有人回應
+我時，我會感到失望。  
+ 
+s24d bs24d 我經常檢查我的貼文有沒有
+獲得新的回應。 
+ 
+s24e bs24e 如果人們認識真實的我，他
+們會對我失去興趣。 
+ 
+s24f bs24f 發佈任何內容之前，我都會
+感到焦慮。  
+ 
+s25 以下描述符不符合你的個人經驗感受呢？  
+s25a bs25a 我 喜 歡 自 己 在 網 路 上 的 形
+象。 
+(1)很不符合 
+(2)不太符合 
+(3)還算符合 
+(4)很符合 
+ 
+s25b bs25b 我在網路上可以表現出我最
+好的一面。 
+s25c bs25c 在網路世界中我覺得自己可
+以成為理想的自己。 
+s25d bs25d 我喜歡自己在現實生活裡的
+形象。 
+s25e bs25e 我在現實生活裡可以表現出
+我最好的一面。 
+s25f bs25f 在現實生活裡我覺得自己可
+以成為理想的自己。 
+s25g bs25g 我在網路世界裡經常會扮演
+成不一樣的角色。 
+s25h bs25h 我在不同的社群媒體中（如
+臉書、IG）會有不一樣的形
+象。 
+s25i bs25i 我喜歡在網路上擁有多種不
+一樣的身分、形象或樣貌。 
+s25j bs25j 我 在 網 路 上 呈 現 自 我 的 方
+式，與在現實生活的自我並
+不相同。 
+s25k bs25k 我覺得我在網絡世界和現實
+世界中是不同的人。 
+s25l bs25l 我在網路世界中表現出與現
+實世界中截然不同的言行舉
+止。 </pre><div class="source" id="src-271">出處：TIGPSw2_cb_s.pdf · PDF 第 10 頁（閱讀器頁碼）</div></details><details><summary>TIGPSw2_cb_s.pdf · PDF 第 11 頁原文擷取</summary><pre> 
+ 
+ 
+s25m bs25m 比起在現實生活，我覺得自
+己在網路上比較輕鬆自在。 
+s25n bs25n 我喜歡在網路上的生活，勝
+過於現實中的生活。 
+s25o bs25o 如果可以，我希望自己可以
+一直待在網路上。 
+s26 關於你在網路上的意見表達，以下敘述你同不同意？  
+s26a bs26a 我經常會在網路上和他人比
+較 自 己 在 生 活 上 獲 得 的 成
+就。 
+(1)很不同意 
+(2)不太同意 
+(3)還算同意 
+(4)很同意 
+ 
+s26b bs26b 我總是在網路上留意他人的
+表現，並和自己的表現進行
+比較。 
+s26c bs26c 我經常在網路上和他人比較
+自己受歡迎的程度。 
+s26d bs26d 如 果 我 想 要 更 瞭 解 某 些 事
+情，我會試著去網路上看看
+別人的想法。 
+s26e bs26e 我總是好奇網路上的人們在
+和我遇到相同的問題時會怎
+麼想或怎麼做。 
+s26f bs26f 我喜歡在網路上看看其他人
+的不同觀點和經歷。 
+s27 你同不同意以下說法？  
+s27a bs27a 沒跟上朋友們在網路上聊天
+或開玩笑的話題，會讓我感
+到很焦慮。 
+(1)很不同意 
+(2)不太同意 
+(3)還算同意 
+(4)很同意 
+ 
+s27b bs27b 錯過和朋友們在網路上的聚
+會，會讓我感到很困擾。 
+s27c bs27c 我會隨時透過網路追蹤朋友
+們的行蹤和做的事情。 
+s27d bs27d 沒跟上網路上的首播、直播
+或活動，我會感到很困擾。 
+s28 關於上網，以下敘述符不符合您的情形？  
+s28a bs28a 想上網而無法上網的時候，
+我就會感到坐立不安。 
+(1)很不符合 
+(2)不太符合 
+(3)還算符合 
+ 
+s28b bs28b 只要有一段時間沒有上網，  </pre><div class="source" id="src-272">出處：TIGPSw2_cb_s.pdf · PDF 第 11 頁（閱讀器頁碼）</div></details><details><summary>TIGPSw2_cb_s.pdf · PDF 第 19 頁原文擷取</summary><pre> 
+ 
+ 
+s55d bs55d 當我難過的時候，我知道如
+何讓自己感覺好一點。 
+ 
+s55e bs55e 我 知 道 如 何 讓 自 己 平 靜 下
+來。 
+ 
+s55f bs55f 當我感到沮喪時，我會調整
+自己以度過低潮。 
+ 
+s55g bs55g 我會為自己設定目標。  
+s55h bs55h 我 會 達 成 自 己 所 設 定 的 目
+標。 
+ 
+s55i bs55i 我會思考達到目標所需要採
+取的步驟。 
+ 
+s55j bs55j 我會跟同學好好的相處。  
+s55k bs55k 我會跟別人分享自己的感受
+或想法。 
+ 
+s55l bs55l 在學校有困難或問題時，我
+會 找 老 師 或 認 識 的 大 人 聊
+聊。 
+ 
+s55m bs55m 我 會 接 納 那 些 我 不 熟 悉 的
+人。 
+ 
+s55n bs55n 我從別人的臉部表情知道他
+們當時可能的感受。 
+ 
+s55o bs55o 我知道別人何時需要幫助。  
+s55p bs55p 當我跟同學相處有問題時，
+我知道如何尋求協助。 
+ 
+s55q bs55q 在做決定前，我預先思考之
+後可能發生的情況。 
+ 
+s55r bs55r 我知道哪些事情是對的、哪
+些事情是不對的。 
+ 
+s55s bs55s 我會去想不同的方法來解決
+問題。 
+ 
+s55t bs55t 當 朋 友 或 同 學 要 違 反 規 定
+時，我會告訴他們這是不對
+的。 
+ 
+s56 請勾選在過去 1 到 2 週您感受到下列選項之頻率。  
+s56a bs56a 我的胃口不好。 (0)完全沒有或少於一天 
+(1)最近 1 週一到兩天 
+(2)最近 1 週三到四天 
+ 
+s56b bs56b 我的睡眠情況不好。  
+s56c bs56c 我覺得悲傷。  </pre><div class="source" id="src-273">出處：TIGPSw2_cb_s.pdf · PDF 第 19 頁（閱讀器頁碼）</div></details><details><summary>TIGPSw2_cb_s.pdf · PDF 第 20 頁原文擷取</summary><pre> 
+ 
+ 
+s56d bs56d 我覺得自己是一個壞人。 (3)最近 1 週五到七天 
+(4)最近兩週幾乎天天 
+ 
+s56e bs56e 我想傷害自己。  
+s56f bs56f 
+我對平時有興趣做的事情都
+失去興趣。 
+ 
+s56g bs56g 我覺得自己的行動太緩慢。  
+s56h bs56h 我總是感到疲憊。  
+s56i bs56i 我寧願自己已經死亡。  
+s56j bs56j 
+我無法集中精神做一些重要
+的事情。 
+ 
+s56k bs56k 我覺得坐立不安。  
+s56l bs56l 我覺得很寂寞 （孤單 、 沒伴） 。  
+s56m bs56m 我感到緊張焦慮。  
+s56n bs56n 
+我不能停止或是無法控制擔
+心。 
+ 
+s57 請問你同不同意以下的敘述：  
+s57a bs57a 我的情緒只有我自己知道 (1)完全不同意 
+(2)  
+(3) 
+(4) 
+(5) 
+(6) 
+(7)完全同意 
+ 
+s57b bs57b 
+我會用想別的事情的方式，
+來減少自己的負面情緒 (例
+如:難過或生氣) 
+ 
+s57c bs57c 
+當我面對有壓力的情境時，
+我會往可以讓自己冷靜下來
+的方向來想這件事 
+ 
+s57d bs57d 
+我控制自己情緒的方法是不
+把它們表現出來 
+ 
+s57e bs57e 
+當我想讓自己有更正向的情
+緒，我會換個角度來想當下
+的狀況 
+ 
+s57f bs57f 
+當我感受到負向情緒時，我
+會努力不表現出來 
+ 
+s58 請問過去兩週中，您對以下敘述的感受程度？  
+s58a bs58a 
+我 感 到 情 緒 開 朗 且 精 神 不
+錯。 
+(0)從來沒有 
+(1)有時候 
+(2)少於一半的時間 
+(3)一半以上的時間 
+(4)大部分的時間 
+ 
+s58b bs58b 我感到心情平靜和放鬆。  
+s58c bs58c 我感到有活力且精力充沛。  
+s58d bs58d 
+我醒來感到神清氣爽並有充
+分休息。 
+ 
+s58e bs58e 我的日常生活中充滿讓我感  </pre><div class="source" id="src-274">出處：TIGPSw2_cb_s.pdf · PDF 第 20 頁（閱讀器頁碼）</div></details><details><summary>TIGPSw2_cb_s.pdf · PDF 第 21 頁原文擷取</summary><pre> 
+ 
+ 
+興趣的事物。 
+s59 請問在一般要上學的日子裡，你通常：  
+s59a 幾點到學校？  
+bs59ah ______點 (點：5,6,…10)  
+bs59am _______分 (分：0,5,10,…55) 
+s59b 幾點離開學校？  
+bs59bh ______點 (點：1,2,…24)  
+bs59bm _______分 (分：0,5,10,…55) 
+s60 請問你過去一個月來的日常(大多數)睡眠習慣：  
+s60a 過去一個月來，在需要上課的日子，你通常幾點上床睡覺？ 
+bs60ah _____時 (時：1,2,…24)  
+bs60am _____分 (分：0,5,10,…55) 
+s60b 過去一個月來，在需要上課的日子，你通常幾點起床？  
+bs60bh _____時 (時：1,2,…24)  
+bs60bm _____分 (分：0,5,10,…55) 
+s60c 過去一個月來，在放假前一天或不需要上課的日子，你通常幾點上床睡
+覺？ 
+ 
+bs60ch _____時 (時：1,2,…24)  
+bs60cm _____分 (分：0,5,10,…55) 
+s60d 過去一個月來，在不需要上課的日子，你通常幾點起床？  
+bs60dh _____時 (時：1,2,…24)  
+bs60dm _____分 (分：0,5,10,…55) 
+s60e bs60e 過去一個月來，你整體的睡
+眠品質好不好？ 
+(1)非常不好 
+(2)不太好 
+(3)還算好 
+(4)非常好 
+s61 過去一個月，請問以下飲料你平均一週七天喝多少？  
+s61a bs61a 鋁箔包、樂利包或瓶裝的含
+糖飲料 
+(1)沒有 
+(2)1-7 瓶 
+(3)8-14 瓶 
+(4)15-21 瓶 
+(5)22-28 瓶 
+(6)29-35 瓶 
+(7)36 瓶以上 
+ 
+s61b bs61b 手搖杯 (1)沒有 
+(2)1-2 杯 
+(3)3-4 杯 </pre><div class="source" id="src-275">出處：TIGPSw2_cb_s.pdf · PDF 第 21 頁（閱讀器頁碼）</div></details><details><summary>TIGPSw2_b_s.pdf · PDF 第 52 頁原文擷取</summary><pre>52 
+ 
+ 
+bs23i. 我會避免加入朋友們在社群媒體上的對話，即便我正在看著他們的訊息 
+ 次數 百分比 (%) 
+1. 很不符合  2791 31.3 
+2. 不太符合  3002 33.7 
+3. 還算符合  2220 24.9 
+4. 很符合  859 9.6 
+-9. 遺漏值  33 0.4 
+總計 8905 100.0 
+【網路行為】   
+內部一致性：0.824   
+   
+bs24. 關於你在社群媒體上與人們的互動 ， 以下敘述符不符合你的感受 。 【社群媒體評價焦慮】 
+bs24a. 我對自己感到的價值，很大程度是取決於他人對我的看法 
+ 次數 百分比 (%) 
+1. 很不符合  1305 14.7 
+2. 不太符合  2250 25.3 
+3. 還算符合  3923 44.1 
+4. 很符合  1387 15.6 
+-9. 遺漏值  40 0.4 
+總計 8905 100.0 
+bs24b. 我擔心自己的言論或行為會受到批評 
+ 次數 百分比 (%) 
+1. 很不符合  1188 13.3 
+2. 不太符合  1763 19.8 
+3. 還算符合  4102 46.1 
+4. 很符合  1812 20.3 
+-9. 遺漏值  40 0.4 
+總計 8905 100.0 
+bs24c. 當我更新狀態而沒有人回應我時，我會感到失望 
+ 次數 百分比 (%) 
+1. 很不符合  2158 24.2 
+2. 不太符合  2791 31.3 
+3. 還算符合  2803 31.5 
+4. 很符合  1113 12.5 
+-9. 遺漏值  40 0.4 
+總計 8905 100.0 </pre><div class="source" id="src-276">出處：TIGPSw2_b_s.pdf · PDF 第 52 頁（閱讀器頁碼）</div></details><details><summary>TIGPSw2_b_s.pdf · PDF 第 53 頁原文擷取</summary><pre>53 
+ 
+ 
+bs24d. 我經常檢查我的貼文有沒有獲得新的回應 
+ 次數 百分比 (%) 
+1. 很不符合  2592 29.1 
+2. 不太符合  2784 31.3 
+3. 還算符合  2552 28.7 
+4. 很符合  937 10.5 
+-9. 遺漏值  40 0.4 
+總計 8905 100.0 
+bs24e. 如果人們認識真實的我，他們會對我失去興趣 
+ 次數 百分比 (%) 
+1. 很不符合  2884 32.4 
+2. 不太符合  3660 41.1 
+3. 還算符合  1712 19.2 
+4. 很符合  609 6.8 
+-9. 遺漏值  40 0.4 
+總計 8905 100.0 
+bs24f. 發佈任何內容之前，我都會感到焦慮   
+ 次數 百分比 (%) 
+1. 很不符合  3180 35.7 
+2. 不太符合  2889 32.4 
+3. 還算符合  2006 22.5 
+4. 很符合  790 8.9 
+-9. 遺漏值  40 0.4 
+總計 8905 100.0 
+【社群媒體評價焦慮】   
+內部一致性：0.881   
+   </pre><div class="source" id="src-277">出處：TIGPSw2_b_s.pdf · PDF 第 53 頁（閱讀器頁碼）</div></details><details><summary>TIGPSw2_b_s.pdf · PDF 第 60 頁原文擷取</summary><pre>60 
+ 
+ 
+bs27. 你同不同意以下說法？【FOMO】   
+bs27a. 沒跟上朋友們在網路上聊天或開玩笑的話題，會讓我感到很焦慮 
+ 次數 百分比 (%) 
+1. 很不同意  2562 28.8 
+2. 不太同意  3788 42.5 
+3. 還算同意  2020 22.7 
+4. 很同意  489 5.5 
+-9. 遺漏值  46 0.5 
+總計 8905 100.0 
+bs27b. 錯過和朋友們在網路上的聚會，會讓我感到很困擾 
+ 次數 百分比 (%) 
+1. 很不同意  2484 27.9 
+2. 不太同意  3544 39.8 
+3. 還算同意  2279 25.6 
+4. 很同意  552 6.2 
+-9. 遺漏值  46 0.5 
+總計 8905 100.0 
+bs27c. 我會隨時透過網路追蹤朋友們的行蹤和做的事情 
+ 次數 百分比 (%) 
+1. 很不同意  2736 30.7 
+2. 不太同意  3396 38.1 
+3. 還算同意  2246 25.2 
+4. 很同意  481 5.4 
+-9. 遺漏值  46 0.5 
+總計 8905 100.0 
+bs27d. 沒跟上網路上的首播、直播或活動，我會感到很困擾，會讓我感到很焦慮 
+ 次數 百分比 (%) 
+1. 很不同意  3720 41.8 
+2. 不太同意  3446 38.7 
+3. 還算同意  1311 14.7 
+4. 很同意  382 4.3 
+-9. 遺漏值  46 0.5 
+總計 8905 100.0 
+【FOMO】   
+內部一致性：0.839   
+資料來源：Przybylski, A. K., Murayama, K., DeHaan, C. R., &amp; Gladwell, V . (2013). Motivational, 
+emotional, and behavioral correlates of fear of missing out. Computers in human behavior, 29(4), 
+1841-1848.. </pre><div class="source" id="src-278">出處：TIGPSw2_b_s.pdf · PDF 第 60 頁（閱讀器頁碼）</div></details><details><summary>TIGPSw2_b_s.pdf · PDF 第 101 頁原文擷取</summary><pre>101 
+ 
+ 
+bs58e. 過去一個月來，你整體的睡眠品質好不好？【睡眠品質】 
+ 次數 百分比 (%) 
+1. 非常不好  352 4.0 
+2. 不太好  1437 16.1 
+3. 還算好  4560 51.2 
+4. 非常好  2399 26.9 
+-9. 遺漏值  157 1.8 
+總計 8905 100.0 
+bs59. 過去一個月，請問以下飲料你平均一週七天喝多少？【飲料】 
+bs59a. 鋁箔包、樂利包或瓶裝的含糖飲料   
+ 次數 百分比 (%) 
+1. 沒有 2095 23.5 
+2. 1-7 瓶 5967 67.0 
+3. 8-14 瓶 461 5.2 
+4. 15-21 瓶 108 1.2 
+5. 22-28 瓶 39 0.4 
+6. 29-35 瓶 13 0.1 
+6. 36 瓶以上  75 0.8 
+-9. 遺漏值  147 1.7 
+總計 8905 100.0 
+bs59b. 手搖杯   
+ 次數 百分比 (%) 
+1. 沒有 2978 33.4 
+2. 1-7 瓶 4451 50.0 
+3. 8-14 瓶 888 10.0 
+4. 15-21 瓶 203 2.3 
+5. 22-28 瓶 95 1.1 
+6. 29-35 瓶 38 .4 
+6. 36 瓶以上  105 1.2 
+-9. 遺漏值  147 1.7 
+總計 8905 100.0 </pre><div class="source" id="src-279">出處：TIGPSw2_b_s.pdf · PDF 第 101 頁（閱讀器頁碼）</div></details><details><summary>TIGPSw1_q_s.pdf · PDF 第 20 頁原文擷取</summary><pre>20 
+ 
+s72.請勾選在過去 1 到 2 週您感受到下列選項之頻率。 
+ 完全
+沒有
+或少
+於一
+天 
+最近1
+週一
+到兩
+天 
+最近1
+週三
+到四
+天 
+最近1
+週五
+到七
+天 
+最近
+兩週
+幾乎
+天天 
+s72a.我的胃口不好。 □(00) □(01) □(02) □(03) □(04) 
+s72b.我的睡眠情況不好。 □(00) □(01) □(02) □(03) □(04) 
+s72c.我覺得悲傷。 □(00) □(01) □(02) □(03) □(04) 
+s72d.我覺得自己是一個壞人。 □(00) □(01) □(02) □(03) □(04) 
+s72e.我對平時有興趣做的事情都失去興趣。 □(00) □(01) □(02) □(03) □(04) 
+s72f.我覺得自己的行動太緩慢。 □(00) □(01) □(02) □(03) □(04) 
+s72g.我總是感到疲憊。 □(00) □(01) □(02) □(03) □(04) 
+s72h.我無法集中精神做一些重要的事情。 □(00) □(01) □(02) □(03) □(04) 
+s72i.我覺得坐立不安。 □(00) □(01) □(02) □(03) □(04) 
+s72j.我覺得很寂寞（孤單、沒伴）。 □(00) □(01) □(02) □(03) □(04) 
+s72k.我感到緊張焦慮。 □(00) □(01) □(02) □(03) □(04) 
+s72l.我不能停止或是無法控制擔心。 □(00) □(01) □(02) □(03) □(04) 
+s73.請問過去兩週中，您對以下敘述的感受程度？ 
+ 從來
+沒有 
+有時
+候 
+少於一
+半的時
+間 
+一半以
+上的時
+間 
+大部
+分的
+時間 
+s73a.我感到情緒開朗且精神不錯。  □(00) □(01) □(02) □(03) □(04) 
+s73b.我感到心情平靜和放鬆。  □(00) □(01) □(02) □(03) □(04) 
+s73c.我感到有活力且精力充沛。  □(00) □(01) □(02) □(03) □(04) 
+s73d.我醒來感到神清氣爽並有充分休息。  □(00) □(01) □(02) □(03) □(04) 
+s73e.我的日常生活中充滿讓我感興趣的事
+物。 □(00) □(01) □(02) □(03) □(04) 
+s74.最近你的身高成長情形怎麼樣？ 
+□(01)還沒開始長高   □(02)只長高一點點   □(03)長高很多 
+□(04)我的身高似乎已經長完了，感覺不會再長高了 
+s75.你的體毛（指腋毛和陰毛）生長情形怎麼樣？ 
+□(01)還沒開始長出  □(02)只長出一點點   
+□(03)很明顯地在長  □(04)已經長得很齊全 
+s76.你注意到任何皮膚改變嗎？（特別是粉刺或青春痘的生長） 
+□(01)我皮膚沒有變化  
+□(02)我皮膚只有一點變化（有長一點粉刺或青春痘） 
+□(03)我皮膚有很大的變化（不時會冒出粉刺或青春痘） 
+□(04)我皮膚的變化趨於穩定（長粉刺或青春痘已成常態） 
+ </pre><div class="source" id="src-280">出處：TIGPSw1_q_s.pdf · PDF 第 20 頁（閱讀器頁碼）</div></details><details><summary>本次官方檔案盤點清單</summary><pre>wave 1 2023/01_學生/TIGPSw1_b_s.pdf
+wave 1 2023/01_學生/TIGPSw1_b_s_en.pdf
+wave 1 2023/01_學生/TIGPSw1_cb_s.pdf
+wave 1 2023/01_學生/TIGPSw1_q_s.pdf
+wave 1 2023/01_學生/TIGPSw1_q_s_en.pdf
+wave 1 2023/01_學生/TIGPSw1_s.csv
+wave 1 2023/01_學生/TIGPSw1_s.dta
+wave 1 2023/01_學生/TIGPSw1_s.sav
+wave 1 2023/02_照顧者/TIGPSw1_b_p.pdf
+wave 1 2023/02_照顧者/TIGPSw1_cb_p.pdf
+wave 1 2023/02_照顧者/TIGPSw1_p.csv
+wave 1 2023/02_照顧者/TIGPSw1_p.dta
+wave 1 2023/02_照顧者/TIGPSw1_p.sav
+wave 1 2023/02_照顧者/TIGPSw1_q_p.pdf
+wave 1 2023/03_手足/TIGPSw1_b_f.pdf
+wave 1 2023/03_手足/TIGPSw1_cb_f.pdf
+wave 1 2023/03_手足/TIGPSw1_f.csv
+wave 1 2023/03_手足/TIGPSw1_f.dta
+wave 1 2023/03_手足/TIGPSw1_f.sav
+wave 1 2023/03_手足/TIGPSw1_q_f.pdf
+wave 1 2023/04_導師/TIGPSw1_b_t.pdf
+wave 1 2023/04_導師/TIGPSw1_cb_t.pdf
+wave 1 2023/04_導師/TIGPSw1_q_t.pdf
+wave 1 2023/04_導師/TIGPSw1_t.csv
+wave 1 2023/04_導師/TIGPSw1_t.dta
+wave 1 2023/04_導師/TIGPSw1_t.sav
+wave 1 2023/05_科任老師/TIGPSw1_b_st.pdf
+wave 1 2023/05_科任老師/TIGPSw1_cb_st.pdf
+wave 1 2023/05_科任老師/TIGPSw1_q_st.pdf
+wave 1 2023/05_科任老師/TIGPSw1_st.csv
+wave 1 2023/05_科任老師/TIGPSw1_st.dta
+wave 1 2023/05_科任老師/TIGPSw1_st.sav
+wave 1 2023/06_學校/TIGPSW1_sc.sav
+wave 1 2023/06_學校/TIGPSw1_b_sc.pdf
+wave 1 2023/06_學校/TIGPSw1_cb_sc.pdf
+wave 1 2023/06_學校/TIGPSw1_q_sc.pdf
+wave 1 2023/06_學校/TIGPSw1_sc.csv
+wave 1 2023/06_學校/TIGPSw1_sc.dta
+wave 1 2023/資料使用說明.doc
+wave 2 2024/01_學生/TIGPSw2_b_s.pdf
+wave 2 2024/01_學生/TIGPSw2_b_s_en.pdf
+wave 2 2024/01_學生/TIGPSw2_cb_s.pdf
+wave 2 2024/01_學生/TIGPSw2_q_s.pdf
+wave 2 2024/01_學生/TIGPSw2_q_s_en.pdf
+wave 2 2024/01_學生/TIGPSw2_s.csv
+wave 2 2024/01_學生/TIGPSw2_s.dta
+wave 2 2024/01_學生/TIGPSw2_s.sav
+wave 2 2024/資料使用說明.docx</pre><div class="source" id="src-281">出處：兩個年度資料夾檔案系統，程式遞迴盤點；這是檔名清單，不是 PDF 頁面。</div></details><details><summary>計算方式與可重現程式</summary><pre>import csv
+from collections import Counter
+from pathlib import Path
+# 在 wave 1 2023 資料夾執行；CSV 以 utf-8-sig、字串讀取
+root = Path.cwd()
+def read(path):
+    with path.open(encoding="utf-8-sig", newline="") as f:
+        reader = csv.DictReader(f)
+        rows = list(reader)
+        return rows, reader.fieldnames
+first, cols1 = read(root / "01_學生/TIGPSw1_s.csv")
+second, cols2 = read(root.parent / "wave 2 2024/01_學生/TIGPSw2_s.csv")
+a = {r["nstudent_id"] for r in first if r["nstudent_id"].strip()}
+b = {r["nstudent_id"] for r in second if r["nstudent_id"].strip()}
+print(len(first), len(cols1), len(second), len(cols2))
+print(len(a &amp; b), len(a-b), len(b-a))
+# 有效值範圍須查各題編碼簿；此例只示範 bs24a
+freq = Counter(r["bs24a"] for r in second)
+print(sum(freq[str(k)] for k in range(1,5)))
+print({k:v for k,v in freq.items() if k.startswith("-")})
+# 重複鍵值數（不是多出列數）
+print(sum(v&gt;1 for v in Counter(r["nstudent_id"] for r in second
+                             if r["nstudent_id"].strip()).values()))
+</pre><div class="source" id="src-282">出處：本頁計算程序；輸入為上列 CSV。沒有將個人層級紀錄嵌入 HTML。</div></details><details><summary>本次逐條核對紀錄（原有 282 個來源標記）</summary><p>編號對應修改前每個來源區塊，包含PDF引用、程式計算來源與編輯說明。PDF已重新開啟核對；CSV與DTA已重新讀取。下表的「處理／證據」區分內容修正、來源補正與原樣保留。</p><div class="scroll"><table><thead><tr><th>原來源編號</th><th>修改前來源</th><th>處理／核對證據</th></tr></thead><tbody><tr><td><a href="#src-1">1</a></td><td>編輯範圍：本機 wave 1 2023 與 wave 2 2024 資料夾；本段為本頁編輯說明。PDF 頁碼均指閱讀器頁碼；所有顯示統計由程式計算。</td><td>本頁編輯範圍，非官方文獻陳述。</td></tr><tr><td><a href="#src-2">2</a></td><td>統計出處：TIGPSw1_s.csv、TIGPSw2_s.csv 全檔；共同 ID 以 nstudent_id 計算。本頁變項數為下方選讀目錄的實際列數，非完整資料庫變項總數。識別欄位見 TIGPSw1_cb_s.pdf、TIGPSw2_cb_s.pdf，PDF 第 1 頁。</td><td>兩個CSV的列數、欄位與ID交集重算通過；選讀目錄列數由HTML實數。</td></tr><tr><td><a href="#src-3">3</a></td><td>出處：TIGPSw1_b_s.pdf · PDF 第 1、2、5、6 頁（閱讀器頁碼）</td><td>刪除多餘的第5、6頁；研究全名與英文名在第1頁，研究架構在第2頁。</td></tr><tr><td><a href="#src-4">4</a></td><td>出處：TIGPSw2_b_s.pdf · PDF 第 6、9、10 頁（閱讀器頁碼）</td><td>第6頁界定原基礎年母群；第9頁說明繼續追蹤至八年級；第10頁為官方評量／調查人數。</td></tr><tr><td><a href="#src-5">5</a></td><td>出處：TIGPSw2_b_s.pdf · PDF 第 52、53、60 頁（閱讀器頁碼）</td><td>區分官方題組標籤與本頁選題建議。</td></tr><tr><td><a href="#src-6">6</a></td><td>出處：TIGPSw2_cb_s.pdf · PDF 第 19、20、21 頁（閱讀器頁碼）</td><td>刪除無法由所引頁面證成的「臨床診斷切點與治療建議：資料夾內查無」。</td></tr><tr><td><a href="#src-7">7</a></td><td>出處：TIGPSw1_b_s.pdf · PDF 第 1 頁（閱讀器頁碼）</td><td>原第1頁只支持學生手冊標題，不能支持全套檔名規則；改標檔案盤點。</td></tr><tr><td><a href="#src-8">8</a></td><td>出處：TIGPSw2_b_s.pdf · PDF 第 1 頁（閱讀器頁碼）</td><td>限縮首頁引用的用途。</td></tr><tr><td><a href="#src-9">9</a></td><td>出處：TIGPSw1_cb_s.pdf · PDF 第 1 頁（閱讀器頁碼）</td><td>首頁標題為學生問卷編碼簿。</td></tr><tr><td><a href="#src-10">10</a></td><td>程式計算：TIGPSw1_s.csv，全檔資料列（不含標頭）；欄數取標頭。</td><td>重新用csv.DictReader計算全檔資料紀錄與標頭欄數，原表數字一致。</td></tr><tr><td><a href="#src-11">11</a></td><td>出處：TIGPSw1_cb_p.pdf · PDF 第 1 頁（閱讀器頁碼）</td><td>首頁標題為家長問卷編碼簿。</td></tr><tr><td><a href="#src-12">12</a></td><td>程式計算：TIGPSw1_p.csv，全檔資料列（不含標頭）；欄數取標頭。</td><td>重新用csv.DictReader計算全檔資料紀錄與標頭欄數，原表數字一致。</td></tr><tr><td><a href="#src-13">13</a></td><td>出處：TIGPSw1_cb_f.pdf · PDF 第 1 頁（閱讀器頁碼）</td><td>首頁標題為手足問卷編碼簿。</td></tr><tr><td><a href="#src-14">14</a></td><td>程式計算：TIGPSw1_f.csv，全檔資料列（不含標頭）；欄數取標頭。</td><td>重新用csv.DictReader計算全檔資料紀錄與標頭欄數，原表數字一致。</td></tr><tr><td><a href="#src-15">15</a></td><td>出處：TIGPSw1_cb_t.pdf · PDF 第 1 頁（閱讀器頁碼）</td><td>首頁標題為共同+導師問卷編碼簿。</td></tr><tr><td><a href="#src-16">16</a></td><td>程式計算：TIGPSw1_t.csv，全檔資料列（不含標頭）；欄數取標頭。</td><td>重新用csv.DictReader計算全檔資料紀錄與標頭欄數，原表數字一致。</td></tr><tr><td><a href="#src-17">17</a></td><td>出處：TIGPSw1_cb_st.pdf · PDF 第 1 頁（閱讀器頁碼）</td><td>首頁標題為共同+科任問卷編碼簿。</td></tr><tr><td><a href="#src-18">18</a></td><td>程式計算：TIGPSw1_st.csv，全檔資料列（不含標頭）；欄數取標頭。</td><td>重新用csv.DictReader計算全檔資料紀錄與標頭欄數，原表數字一致。</td></tr><tr><td><a href="#src-19">19</a></td><td>出處：TIGPSw1_cb_sc.pdf · PDF 第 1 頁（閱讀器頁碼）</td><td>首頁標題為學校問卷編碼簿。</td></tr><tr><td><a href="#src-20">20</a></td><td>程式計算：TIGPSw1_sc.csv，全檔資料列（不含標頭）；欄數取標頭。</td><td>重新用csv.DictReader計算全檔資料紀錄與標頭欄數，原表數字一致。</td></tr><tr><td><a href="#src-21">21</a></td><td>出處：TIGPSw2_cb_s.pdf · PDF 第 1 頁（閱讀器頁碼）</td><td>首頁標題為第二波學生問卷編碼簿。</td></tr><tr><td><a href="#src-22">22</a></td><td>程式計算：TIGPSw2_s.csv，全檔資料列（不含標頭）；欄數取標頭。</td><td>重新用csv.DictReader計算全檔資料紀錄與標頭欄數，原表數字一致。</td></tr><tr><td><a href="#src-23">23</a></td><td>出處：TIGPSw1_cb_s.pdf · PDF 第 1、2 頁（閱讀器頁碼）</td><td>原編碼簿第1、2頁不支持檔案格式與抽樣程序；改為對應文件與頁次。</td></tr><tr><td><a href="#src-24">24</a></td><td>出處：TIGPSw2_cb_s.pdf · PDF 第 1 頁（閱讀器頁碼）</td><td>移除無關的第二波編碼簿首頁引用。</td></tr><tr><td><a href="#src-25">25</a></td><td>檔案格式及缺檔判定：程式盤點兩個年度資料夾全部檔名；完整清單見本頁末尾。</td><td>重新盤點兩資料夾檔案，第二波只有學生資料檔；沒有Excel檔。</td></tr><tr><td><a href="#src-26">26</a></td><td>出處：TIGPSw1_cb_s.pdf · PDF 第 1 頁（閱讀器頁碼）</td><td>nclass與school_class定義在第1頁。</td></tr><tr><td><a href="#src-27">27</a></td><td>出處：TIGPSw1_cb_t.pdf · PDF 第 1 頁（閱讀器頁碼）</td><td>教師ID種類與可能重複的備註在第1頁。</td></tr><tr><td><a href="#src-28">28</a></td><td>出處：TIGPSw1_cb_st.pdf · PDF 第 1 頁（閱讀器頁碼）</td><td>科目 subject 在第2頁，原只標第1頁不完整。</td></tr><tr><td><a href="#src-29">29</a></td><td>出處：TIGPSw1_cb_p.pdf · PDF 第 1 頁（閱讀器頁碼）</td><td>補上該列統計真正的 CSV 欄位與紀錄範圍，PDF 僅供鍵定義。</td></tr><tr><td><a href="#src-30">30</a></td><td>出處：TIGPSw1_cb_f.pdf · PDF 第 1 頁（閱讀器頁碼）</td><td>補上該列統計真正的 CSV 欄位與紀錄範圍，PDF 僅供鍵定義。</td></tr><tr><td><a href="#src-31">31</a></td><td>出處：TIGPSw1_cb_t.pdf · PDF 第 1 頁（閱讀器頁碼）</td><td>補上該列統計真正的 CSV 欄位與紀錄範圍，PDF 僅供鍵定義。</td></tr><tr><td><a href="#src-32">32</a></td><td>出處：TIGPSw1_cb_st.pdf · PDF 第 1 頁（閱讀器頁碼）</td><td>補上該列統計真正的 CSV 欄位與紀錄範圍，PDF 僅供鍵定義。</td></tr><tr><td><a href="#src-33">33</a></td><td>出處：TIGPSw1_cb_sc.pdf · PDF 第 1 頁（閱讀器頁碼）</td><td>補上該列統計真正的 CSV 欄位與紀錄範圍，PDF 僅供鍵定義。</td></tr><tr><td><a href="#src-34">34</a></td><td>出處：TIGPSw2_cb_s.pdf · PDF 第 1 頁（閱讀器頁碼）</td><td>補上該列統計真正的 CSV 欄位與紀錄範圍，PDF 僅供鍵定義。</td></tr><tr><td><a href="#src-35">35</a></td><td>程式計算：各 CSV 全檔；空字串排除；重複鍵指該鍵出現次數大於一，並非多出列數。未輸出任何個人 ID。</td><td>逐檔Counter重算不同鍵值與重複鍵值數通過。</td></tr><tr><td><a href="#src-36">36</a></td><td>出處：TIGPSw2_b_s.pdf · PDF 第 10 頁（閱讀器頁碼）</td><td>刪除將程式算出的共同ID數掛在手冊第10頁的引用；該頁官方數字的母體不同。</td></tr><tr><td><a href="#src-37">37</a></td><td>計算輸入：TIGPSw1_s.csv、TIGPSw2_s.csv 的 nstudent_id 全欄；計算方法：集合交集與差集。</td><td>共同及獨有ID集合重算通過。</td></tr><tr><td><a href="#src-38">38</a></td><td>出處：TIGPSw1_cb_p.pdf · PDF 第 1 頁（閱讀器頁碼）</td><td>將合併策略明確標為本頁建議；原頁只定義識別欄位。</td></tr><tr><td><a href="#src-39">39</a></td><td>出處：TIGPSw1_cb_f.pdf · PDF 第 1 頁（閱讀器頁碼）</td><td>限縮來源所支持的範圍。</td></tr><tr><td><a href="#src-40">40</a></td><td>出處：TIGPSw2_cb_s.pdf · PDF 第 1、9、10 頁（閱讀器頁碼）</td><td>區分編碼簿欄名原文與本頁解釋。</td></tr><tr><td><a href="#src-41">41</a></td><td>出處：TIGPSw1_cb_s.pdf · PDF 第 2、18、19 頁（閱讀器頁碼）</td><td>刪除無法由列舉頁面證成的「完整命名規則：資料夾內查無」，保留有頁面依據的欄名觀察。</td></tr><tr><td><a href="#src-42">42</a></td><td>出處：TIGPSw2_cb_s.pdf · PDF 第 2、9、10、11 頁（閱讀器頁碼）</td><td>第2頁有bs及文字補充欄例子；第9至11頁有字母子題例子。</td></tr><tr><td><a href="#src-43">43</a></td><td>出處：TIGPSw1_cb_s.pdf · PDF 第 1 頁（閱讀器頁碼）</td><td>逐一比對第一波首頁的所有負值通例。</td></tr><tr><td><a href="#src-44">44</a></td><td>出處：TIGPSw2_cb_s.pdf · PDF 第 1 頁（閱讀器頁碼）</td><td>逐一比對第二波首頁的所有負值通例；未列-999。</td></tr><tr><td><a href="#src-45">45</a></td><td>出處：TIGPSw1_b_s.pdf · PDF 第 13 頁（閱讀器頁碼）</td><td>區分官方施測設計與清理建議。</td></tr><tr><td><a href="#src-46">46</a></td><td>出處：TIGPSw1_cb_s.pdf · PDF 第 1、15、18 頁（閱讀器頁碼）</td><td>第1頁負值通例、第15頁B卷及跳答註記、第18頁A卷註記。</td></tr><tr><td><a href="#src-47">47</a></td><td>出處：TIGPSw2_cb_s.pdf · PDF 第 9、10、20 頁（閱讀器頁碼）</td><td>研究問題不在原文，明確標本頁設計。</td></tr><tr><td><a href="#src-48">48</a></td><td>出處：TIGPSw2_b_s.pdf · PDF 第 52、53 頁（閱讀器頁碼）</td><td>刪除由第二波頁面推論「第一波查無相同題組」的說法，改成此頁選讀範圍。</td></tr><tr><td><a href="#src-49">49</a></td><td>出處：TIGPSw1_cb_s.pdf · PDF 第 18、19 頁（閱讀器頁碼）</td><td>第一波FOMO題幹跨第18、19頁，中間選項文字不同意／同意。</td></tr><tr><td><a href="#src-50">50</a></td><td>出處：TIGPSw2_cb_s.pdf · PDF 第 11 頁（閱讀器頁碼）</td><td>第二波FOMO在第11頁，中間選項不太同意／還算同意。</td></tr><tr><td><a href="#src-51">51</a></td><td>出處：TIGPSw1_cb_s.pdf · PDF 第 19 頁（閱讀器頁碼）</td><td>第19頁as40a至as40f題意。</td></tr><tr><td><a href="#src-52">52</a></td><td>出處：TIGPSw2_cb_s.pdf · PDF 第 11 頁（閱讀器頁碼）</td><td>第11頁bs26a至bs26f題意。</td></tr><tr><td><a href="#src-53">53</a></td><td>出處：TIGPSw1_cb_s.pdf · PDF 第 45 頁（閱讀器頁碼）</td><td>第45頁as72k、as72l題幹。</td></tr><tr><td><a href="#src-54">54</a></td><td>出處：TIGPSw2_cb_s.pdf · PDF 第 20 頁（閱讀器頁碼）</td><td>第20頁bs56m、bs56n題幹。</td></tr><tr><td><a href="#src-55">55</a></td><td>出處：TIGPSw1_cb_s.pdf · PDF 第 45 頁（閱讀器頁碼）</td><td>第45頁as72j寂寞。</td></tr><tr><td><a href="#src-56">56</a></td><td>出處：TIGPSw2_cb_s.pdf · PDF 第 20 頁（閱讀器頁碼）</td><td>第20頁bs56l寂寞。</td></tr><tr><td><a href="#src-57">57</a></td><td>出處：TIGPSw1_cb_s.pdf · PDF 第 45 頁（閱讀器頁碼）</td><td>第45頁as73a至as73e及值碼。</td></tr><tr><td><a href="#src-58">58</a></td><td>出處：TIGPSw2_cb_s.pdf · PDF 第 20、21 頁（閱讀器頁碼）</td><td>第20至21頁bs58a至bs58e及值碼。</td></tr><tr><td><a href="#src-59">59</a></td><td>出處：TIGPSw2_b_s.pdf · PDF 第 52、53、60 頁（閱讀器頁碼）</td><td>移除所引頁面無法證明的全資料夾完整計分規則缺漏判定。</td></tr><tr><td><a href="#src-60">60</a></td><td>出處：TIGPSw1_b_s.pdf · PDF 第 8、11 頁（閱讀器頁碼）</td><td>補上真正說明權重公式的第10頁。</td></tr><tr><td><a href="#src-61">61</a></td><td>出處：TIGPSw2_b_s.pdf · PDF 第 8、9 頁（閱讀器頁碼）</td><td>第8、9頁權重公式及normalized weight說明。</td></tr><tr><td><a href="#src-62">62</a></td><td>出處：TIGPSw2_cb_s.pdf · PDF 第 1、2 頁（閱讀器頁碼）</td><td>第1頁列JKZONE、JKREP、TOTWGT，第2頁列HOUWGT。</td></tr><tr><td><a href="#src-63">63</a></td><td>出處：TIGPSw2_q_s_en.pdf · PDF 第 10 頁（閱讀器頁碼）</td><td>第10頁英文原句逐字核對通過；中文欄為本頁翻譯，不冒充官方中文。</td></tr><tr><td><a href="#src-64">64</a></td><td>出處：TIGPSw2_q_s_en.pdf · PDF 第 10 頁（閱讀器頁碼）</td><td>第10頁英文原句逐字核對通過；中文欄為本頁翻譯，不冒充官方中文。</td></tr><tr><td><a href="#src-65">65</a></td><td>出處：TIGPSw2_q_s_en.pdf · PDF 第 10 頁（閱讀器頁碼）</td><td>第10頁英文原句逐字核對通過；中文欄為本頁翻譯，不冒充官方中文。</td></tr><tr><td><a href="#src-66">66</a></td><td>出處：TIGPSw2_q_s_en.pdf · PDF 第 10 頁（閱讀器頁碼）</td><td>第10頁英文原句逐字核對通過；中文欄為本頁翻譯，不冒充官方中文。</td></tr><tr><td><a href="#src-67">67</a></td><td>出處：TIGPSw2_q_s_en.pdf · PDF 第 10 頁（閱讀器頁碼）</td><td>第10頁英文原句逐字核對通過；中文欄為本頁翻譯，不冒充官方中文。</td></tr><tr><td><a href="#src-68">68</a></td><td>出處：TIGPSw2_q_s_en.pdf · PDF 第 10 頁（閱讀器頁碼）</td><td>第10頁英文原句逐字核對通過；中文欄為本頁翻譯，不冒充官方中文。</td></tr><tr><td><a href="#src-69">69</a></td><td>出處：TIGPSw2_q_s_en.pdf · PDF 第 10 頁（閱讀器頁碼）</td><td>第10頁英文原句逐字核對通過；中文欄為本頁翻譯，不冒充官方中文。</td></tr><tr><td><a href="#src-70">70</a></td><td>出處：TIGPSw2_q_s_en.pdf · PDF 第 10 頁（閱讀器頁碼）</td><td>第10頁英文原句逐字核對通過；中文欄為本頁翻譯，不冒充官方中文。</td></tr><tr><td><a href="#src-71">71</a></td><td>出處：TIGPSw2_q_s_en.pdf · PDF 第 10 頁（閱讀器頁碼）</td><td>第10頁英文原句逐字核對通過；中文欄為本頁翻譯，不冒充官方中文。</td></tr><tr><td><a href="#src-72">72</a></td><td>出處：TIGPSw2_q_s_en.pdf · PDF 第 10 頁（閱讀器頁碼）</td><td>第10頁英文原句逐字核對通過；中文欄為本頁翻譯，不冒充官方中文。</td></tr><tr><td><a href="#src-73">73</a></td><td>出處：TIGPSw2_q_s_en.pdf · PDF 第 10 頁（閱讀器頁碼）</td><td>第10頁英文原句逐字核對通過；中文欄為本頁翻譯，不冒充官方中文。</td></tr><tr><td><a href="#src-74">74</a></td><td>出處：TIGPSw2_q_s_en.pdf · PDF 第 10 頁（閱讀器頁碼）</td><td>第10頁英文原句逐字核對通過；中文欄為本頁翻譯，不冒充官方中文。</td></tr><tr><td><a href="#src-75">75</a></td><td>出處：TIGPSw2_q_s_en.pdf · PDF 第 10 頁（閱讀器頁碼）</td><td>六個英文原句均逐句核對第10頁，翻譯明列本頁翻譯。</td></tr><tr><td><a href="#src-76">76</a></td><td>出處：TIGPSw2_q_s_en.pdf · PDF 第 10 頁（閱讀器頁碼）</td><td>第10頁選項Strongly disagree / Disagree / Agree / Strongly agree。</td></tr><tr><td><a href="#src-77">77</a></td><td>出處：TIGPSw2_cb_s.pdf · PDF 第 9、10 頁（閱讀器頁碼）</td><td>中文選項在第9頁，題幹延續第10頁。</td></tr><tr><td><a href="#src-78">78</a></td><td>出處：TIGPSw1_cb_s.pdf · PDF 第 45 頁（閱讀器頁碼）</td><td>第45頁as72c確重複睡眠題；中文問卷第20頁為悲傷題。</td></tr><tr><td><a href="#src-79">79</a></td><td>出處：TIGPSw2_b_s.pdf · PDF 第 101 頁（閱讀器頁碼）</td><td>限縮「CSV欄名對應」的說法：CSV標頭只能驗證欄名，題義仍由編碼簿支持。</td></tr><tr><td><a href="#src-80">80</a></td><td>出處：TIGPSw1_q_s.pdf · PDF 第 20 頁（閱讀器頁碼）</td><td>將中文問卷第20頁來源移至悲傷題卡片內。</td></tr><tr><td><a href="#src-81">81</a></td><td>出處：TIGPSw2_cb_s.pdf · PDF 第 20、21 頁（閱讀器頁碼）</td><td>將編碼簿第20、21頁來源移至睡眠題號卡片內。</td></tr><tr><td><a href="#src-82">82</a></td><td>出處：TIGPSw1_cb_s.pdf · PDF 第 45 頁（閱讀器頁碼）</td><td>移除未由頁面支持的「共同量尺資料夾內查無」，將比較提醒標為本頁讀法。</td></tr><tr><td><a href="#src-83">83</a></td><td>出處：TIGPSw2_cb_s.pdf · PDF 第 19、20 頁（閱讀器頁碼）</td><td>第19頁起bs56，第20頁新增自傷及死亡意念題。</td></tr><tr><td><a href="#src-84">84</a></td><td>出處：TIGPSw1_cb_s.pdf · PDF 第 18 頁（閱讀器頁碼）</td><td>逐字比對DTA標籤通過；補明標籤真正出處及題組共用選項頁。</td></tr><tr><td><a href="#src-85">85</a></td><td>計算：TIGPSw1_s.csv，該欄全列</td><td>逐欄重算合法值、負值與空白筆數均與原表一致；補明欄位、紀錄範圍與合法值集合。</td></tr><tr><td><a href="#src-86">86</a></td><td>出處：TIGPSw1_cb_s.pdf · PDF 第 18 頁（閱讀器頁碼）</td><td>逐字比對DTA標籤通過；補明標籤真正出處及題組共用選項頁。補齊跨頁題幹。</td></tr><tr><td><a href="#src-87">87</a></td><td>計算：TIGPSw1_s.csv，該欄全列</td><td>逐欄重算合法值、負值與空白筆數均與原表一致；補明欄位、紀錄範圍與合法值集合。</td></tr><tr><td><a href="#src-88">88</a></td><td>出處：TIGPSw1_cb_s.pdf · PDF 第 19 頁（閱讀器頁碼）</td><td>逐字比對DTA標籤通過；補明標籤真正出處及題組共用選項頁。</td></tr><tr><td><a href="#src-89">89</a></td><td>計算：TIGPSw1_s.csv，該欄全列</td><td>逐欄重算合法值、負值與空白筆數均與原表一致；補明欄位、紀錄範圍與合法值集合。</td></tr><tr><td><a href="#src-90">90</a></td><td>出處：TIGPSw1_cb_s.pdf · PDF 第 19 頁（閱讀器頁碼）</td><td>逐字比對DTA標籤通過；補明標籤真正出處及題組共用選項頁。</td></tr><tr><td><a href="#src-91">91</a></td><td>計算：TIGPSw1_s.csv，該欄全列</td><td>逐欄重算合法值、負值與空白筆數均與原表一致；補明欄位、紀錄範圍與合法值集合。</td></tr><tr><td><a href="#src-92">92</a></td><td>出處：TIGPSw2_cb_s.pdf · PDF 第 11 頁（閱讀器頁碼）</td><td>逐字比對DTA標籤通過；補明標籤真正出處及題組共用選項頁。</td></tr><tr><td><a href="#src-93">93</a></td><td>計算：TIGPSw2_s.csv，該欄全列</td><td>逐欄重算合法值、負值與空白筆數均與原表一致；補明欄位、紀錄範圍與合法值集合。</td></tr><tr><td><a href="#src-94">94</a></td><td>出處：TIGPSw2_cb_s.pdf · PDF 第 11 頁（閱讀器頁碼）</td><td>逐字比對DTA標籤通過；補明標籤真正出處及題組共用選項頁。</td></tr><tr><td><a href="#src-95">95</a></td><td>計算：TIGPSw2_s.csv，該欄全列</td><td>逐欄重算合法值、負值與空白筆數均與原表一致；補明欄位、紀錄範圍與合法值集合。</td></tr><tr><td><a href="#src-96">96</a></td><td>出處：TIGPSw2_cb_s.pdf · PDF 第 11 頁（閱讀器頁碼）</td><td>逐字比對DTA標籤通過；補明標籤真正出處及題組共用選項頁。</td></tr><tr><td><a href="#src-97">97</a></td><td>計算：TIGPSw2_s.csv，該欄全列</td><td>逐欄重算合法值、負值與空白筆數均與原表一致；補明欄位、紀錄範圍與合法值集合。</td></tr><tr><td><a href="#src-98">98</a></td><td>出處：TIGPSw2_cb_s.pdf · PDF 第 11 頁（閱讀器頁碼）</td><td>逐字比對DTA標籤通過；補明標籤真正出處及題組共用選項頁。</td></tr><tr><td><a href="#src-99">99</a></td><td>計算：TIGPSw2_s.csv，該欄全列</td><td>逐欄重算合法值、負值與空白筆數均與原表一致；補明欄位、紀錄範圍與合法值集合。</td></tr><tr><td><a href="#src-100">100</a></td><td>出處：TIGPSw2_cb_s.pdf · PDF 第 9 頁（閱讀器頁碼）</td><td>逐字比對DTA標籤通過；補明標籤真正出處及題組共用選項頁。</td></tr><tr><td><a href="#src-101">101</a></td><td>計算：TIGPSw2_s.csv，該欄全列</td><td>逐欄重算合法值、負值與空白筆數均與原表一致；補明欄位、紀錄範圍與合法值集合。</td></tr><tr><td><a href="#src-102">102</a></td><td>出處：TIGPSw2_cb_s.pdf · PDF 第 9 頁（閱讀器頁碼）</td><td>逐字比對DTA標籤通過；補明標籤真正出處及題組共用選項頁。補齊跨頁題幹。</td></tr><tr><td><a href="#src-103">103</a></td><td>計算：TIGPSw2_s.csv，該欄全列</td><td>逐欄重算合法值、負值與空白筆數均與原表一致；補明欄位、紀錄範圍與合法值集合。</td></tr><tr><td><a href="#src-104">104</a></td><td>出處：TIGPSw2_cb_s.pdf · PDF 第 10 頁（閱讀器頁碼）</td><td>逐字比對DTA標籤通過；補明標籤真正出處及題組共用選項頁。</td></tr><tr><td><a href="#src-105">105</a></td><td>計算：TIGPSw2_s.csv，該欄全列</td><td>逐欄重算合法值、負值與空白筆數均與原表一致；補明欄位、紀錄範圍與合法值集合。</td></tr><tr><td><a href="#src-106">106</a></td><td>出處：TIGPSw2_cb_s.pdf · PDF 第 10 頁（閱讀器頁碼）</td><td>逐字比對DTA標籤通過；補明標籤真正出處及題組共用選項頁。</td></tr><tr><td><a href="#src-107">107</a></td><td>計算：TIGPSw2_s.csv，該欄全列</td><td>逐欄重算合法值、負值與空白筆數均與原表一致；補明欄位、紀錄範圍與合法值集合。</td></tr><tr><td><a href="#src-108">108</a></td><td>出處：TIGPSw2_cb_s.pdf · PDF 第 10 頁（閱讀器頁碼）</td><td>逐字比對DTA標籤通過；補明標籤真正出處及題組共用選項頁。</td></tr><tr><td><a href="#src-109">109</a></td><td>計算：TIGPSw2_s.csv，該欄全列</td><td>逐欄重算合法值、負值與空白筆數均與原表一致；補明欄位、紀錄範圍與合法值集合。</td></tr><tr><td><a href="#src-110">110</a></td><td>出處：TIGPSw2_cb_s.pdf · PDF 第 10 頁（閱讀器頁碼）</td><td>逐字比對DTA標籤通過；補明標籤真正出處及題組共用選項頁。</td></tr><tr><td><a href="#src-111">111</a></td><td>計算：TIGPSw2_s.csv，該欄全列</td><td>逐欄重算合法值、負值與空白筆數均與原表一致；補明欄位、紀錄範圍與合法值集合。</td></tr><tr><td><a href="#src-112">112</a></td><td>出處：TIGPSw1_cb_s.pdf · PDF 第 19 頁（閱讀器頁碼）</td><td>逐字比對DTA標籤通過；補明標籤真正出處及題組共用選項頁。</td></tr><tr><td><a href="#src-113">113</a></td><td>計算：TIGPSw1_s.csv，該欄全列</td><td>逐欄重算合法值、負值與空白筆數均與原表一致；補明欄位、紀錄範圍與合法值集合。</td></tr><tr><td><a href="#src-114">114</a></td><td>出處：TIGPSw1_cb_s.pdf · PDF 第 19 頁（閱讀器頁碼）</td><td>逐字比對DTA標籤通過；補明標籤真正出處及題組共用選項頁。</td></tr><tr><td><a href="#src-115">115</a></td><td>計算：TIGPSw1_s.csv，該欄全列</td><td>逐欄重算合法值、負值與空白筆數均與原表一致；補明欄位、紀錄範圍與合法值集合。</td></tr><tr><td><a href="#src-116">116</a></td><td>出處：TIGPSw1_cb_s.pdf · PDF 第 19 頁（閱讀器頁碼）</td><td>逐字比對DTA標籤通過；補明標籤真正出處及題組共用選項頁。</td></tr><tr><td><a href="#src-117">117</a></td><td>計算：TIGPSw1_s.csv，該欄全列</td><td>逐欄重算合法值、負值與空白筆數均與原表一致；補明欄位、紀錄範圍與合法值集合。</td></tr><tr><td><a href="#src-118">118</a></td><td>出處：TIGPSw1_cb_s.pdf · PDF 第 19 頁（閱讀器頁碼）</td><td>逐字比對DTA標籤通過；補明標籤真正出處及題組共用選項頁。</td></tr><tr><td><a href="#src-119">119</a></td><td>計算：TIGPSw1_s.csv，該欄全列</td><td>逐欄重算合法值、負值與空白筆數均與原表一致；補明欄位、紀錄範圍與合法值集合。</td></tr><tr><td><a href="#src-120">120</a></td><td>出處：TIGPSw1_cb_s.pdf · PDF 第 19 頁（閱讀器頁碼）</td><td>逐字比對DTA標籤通過；補明標籤真正出處及題組共用選項頁。</td></tr><tr><td><a href="#src-121">121</a></td><td>計算：TIGPSw1_s.csv，該欄全列</td><td>逐欄重算合法值、負值與空白筆數均與原表一致；補明欄位、紀錄範圍與合法值集合。</td></tr><tr><td><a href="#src-122">122</a></td><td>出處：TIGPSw1_cb_s.pdf · PDF 第 19 頁（閱讀器頁碼）</td><td>逐字比對DTA標籤通過；補明標籤真正出處及題組共用選項頁。</td></tr><tr><td><a href="#src-123">123</a></td><td>計算：TIGPSw1_s.csv，該欄全列</td><td>逐欄重算合法值、負值與空白筆數均與原表一致；補明欄位、紀錄範圍與合法值集合。</td></tr><tr><td><a href="#src-124">124</a></td><td>出處：TIGPSw2_cb_s.pdf · PDF 第 11 頁（閱讀器頁碼）</td><td>逐字比對DTA標籤通過；補明標籤真正出處及題組共用選項頁。</td></tr><tr><td><a href="#src-125">125</a></td><td>計算：TIGPSw2_s.csv，該欄全列</td><td>逐欄重算合法值、負值與空白筆數均與原表一致；補明欄位、紀錄範圍與合法值集合。</td></tr><tr><td><a href="#src-126">126</a></td><td>出處：TIGPSw2_cb_s.pdf · PDF 第 11 頁（閱讀器頁碼）</td><td>逐字比對DTA標籤通過；補明標籤真正出處及題組共用選項頁。</td></tr><tr><td><a href="#src-127">127</a></td><td>計算：TIGPSw2_s.csv，該欄全列</td><td>逐欄重算合法值、負值與空白筆數均與原表一致；補明欄位、紀錄範圍與合法值集合。</td></tr><tr><td><a href="#src-128">128</a></td><td>出處：TIGPSw2_cb_s.pdf · PDF 第 11 頁（閱讀器頁碼）</td><td>逐字比對DTA標籤通過；補明標籤真正出處及題組共用選項頁。</td></tr><tr><td><a href="#src-129">129</a></td><td>計算：TIGPSw2_s.csv，該欄全列</td><td>逐欄重算合法值、負值與空白筆數均與原表一致；補明欄位、紀錄範圍與合法值集合。</td></tr><tr><td><a href="#src-130">130</a></td><td>出處：TIGPSw2_cb_s.pdf · PDF 第 11 頁（閱讀器頁碼）</td><td>逐字比對DTA標籤通過；補明標籤真正出處及題組共用選項頁。</td></tr><tr><td><a href="#src-131">131</a></td><td>計算：TIGPSw2_s.csv，該欄全列</td><td>逐欄重算合法值、負值與空白筆數均與原表一致；補明欄位、紀錄範圍與合法值集合。</td></tr><tr><td><a href="#src-132">132</a></td><td>出處：TIGPSw2_cb_s.pdf · PDF 第 11 頁（閱讀器頁碼）</td><td>逐字比對DTA標籤通過；補明標籤真正出處及題組共用選項頁。</td></tr><tr><td><a href="#src-133">133</a></td><td>計算：TIGPSw2_s.csv，該欄全列</td><td>逐欄重算合法值、負值與空白筆數均與原表一致；補明欄位、紀錄範圍與合法值集合。</td></tr><tr><td><a href="#src-134">134</a></td><td>出處：TIGPSw2_cb_s.pdf · PDF 第 11 頁（閱讀器頁碼）</td><td>逐字比對DTA標籤通過；補明標籤真正出處及題組共用選項頁。</td></tr><tr><td><a href="#src-135">135</a></td><td>計算：TIGPSw2_s.csv，該欄全列</td><td>逐欄重算合法值、負值與空白筆數均與原表一致；補明欄位、紀錄範圍與合法值集合。</td></tr><tr><td><a href="#src-136">136</a></td><td>出處：TIGPSw1_cb_s.pdf · PDF 第 45 頁（閱讀器頁碼）</td><td>逐字比對DTA標籤通過；補明標籤真正出處及題組共用選項頁。</td></tr><tr><td><a href="#src-137">137</a></td><td>計算：TIGPSw1_s.csv，該欄全列</td><td>逐欄重算合法值、負值與空白筆數均與原表一致；補明欄位、紀錄範圍與合法值集合。</td></tr><tr><td><a href="#src-138">138</a></td><td>出處：TIGPSw1_cb_s.pdf · PDF 第 45 頁（閱讀器頁碼）</td><td>逐字比對DTA標籤通過；補明標籤真正出處及題組共用選項頁。</td></tr><tr><td><a href="#src-139">139</a></td><td>計算：TIGPSw1_s.csv，該欄全列</td><td>逐欄重算合法值、負值與空白筆數均與原表一致；補明欄位、紀錄範圍與合法值集合。</td></tr><tr><td><a href="#src-140">140</a></td><td>出處：TIGPSw1_cb_s.pdf · PDF 第 45 頁（閱讀器頁碼）</td><td>逐字比對DTA標籤通過；補明標籤真正出處及題組共用選項頁。</td></tr><tr><td><a href="#src-141">141</a></td><td>計算：TIGPSw1_s.csv，該欄全列</td><td>逐欄重算合法值、負值與空白筆數均與原表一致；補明欄位、紀錄範圍與合法值集合。</td></tr><tr><td><a href="#src-142">142</a></td><td>出處：TIGPSw1_cb_s.pdf · PDF 第 45 頁（閱讀器頁碼）</td><td>逐字比對DTA標籤通過；補明標籤真正出處及題組共用選項頁。</td></tr><tr><td><a href="#src-143">143</a></td><td>計算：TIGPSw1_s.csv，該欄全列</td><td>逐欄重算合法值、負值與空白筆數均與原表一致；補明欄位、紀錄範圍與合法值集合。</td></tr><tr><td><a href="#src-144">144</a></td><td>出處：TIGPSw1_cb_s.pdf · PDF 第 45 頁（閱讀器頁碼）</td><td>逐字比對DTA標籤通過；補明標籤真正出處及題組共用選項頁。</td></tr><tr><td><a href="#src-145">145</a></td><td>計算：TIGPSw1_s.csv，該欄全列</td><td>逐欄重算合法值、負值與空白筆數均與原表一致；補明欄位、紀錄範圍與合法值集合。</td></tr><tr><td><a href="#src-146">146</a></td><td>出處：TIGPSw1_cb_s.pdf · PDF 第 45 頁（閱讀器頁碼）</td><td>逐字比對DTA標籤通過；補明標籤真正出處及題組共用選項頁。</td></tr><tr><td><a href="#src-147">147</a></td><td>計算：TIGPSw1_s.csv，該欄全列</td><td>逐欄重算合法值、負值與空白筆數均與原表一致；補明欄位、紀錄範圍與合法值集合。</td></tr><tr><td><a href="#src-148">148</a></td><td>出處：TIGPSw1_cb_s.pdf · PDF 第 45 頁（閱讀器頁碼）</td><td>逐字比對DTA標籤通過；補明標籤真正出處及題組共用選項頁。</td></tr><tr><td><a href="#src-149">149</a></td><td>計算：TIGPSw1_s.csv，該欄全列</td><td>逐欄重算合法值、負值與空白筆數均與原表一致；補明欄位、紀錄範圍與合法值集合。</td></tr><tr><td><a href="#src-150">150</a></td><td>出處：TIGPSw1_cb_s.pdf · PDF 第 45 頁（閱讀器頁碼）</td><td>逐字比對DTA標籤通過；補明標籤真正出處及題組共用選項頁。</td></tr><tr><td><a href="#src-151">151</a></td><td>計算：TIGPSw1_s.csv，該欄全列</td><td>逐欄重算合法值、負值與空白筆數均與原表一致；補明欄位、紀錄範圍與合法值集合。</td></tr><tr><td><a href="#src-152">152</a></td><td>出處：TIGPSw1_cb_s.pdf · PDF 第 45 頁（閱讀器頁碼）</td><td>逐字比對DTA標籤通過；補明標籤真正出處及題組共用選項頁。</td></tr><tr><td><a href="#src-153">153</a></td><td>計算：TIGPSw1_s.csv，該欄全列</td><td>逐欄重算合法值、負值與空白筆數均與原表一致；補明欄位、紀錄範圍與合法值集合。</td></tr><tr><td><a href="#src-154">154</a></td><td>出處：TIGPSw1_cb_s.pdf · PDF 第 45 頁（閱讀器頁碼）</td><td>逐字比對DTA標籤通過；補明標籤真正出處及題組共用選項頁。</td></tr><tr><td><a href="#src-155">155</a></td><td>計算：TIGPSw1_s.csv，該欄全列</td><td>逐欄重算合法值、負值與空白筆數均與原表一致；補明欄位、紀錄範圍與合法值集合。</td></tr><tr><td><a href="#src-156">156</a></td><td>出處：TIGPSw1_cb_s.pdf · PDF 第 45 頁（閱讀器頁碼）</td><td>逐字比對DTA標籤通過；補明標籤真正出處及題組共用選項頁。</td></tr><tr><td><a href="#src-157">157</a></td><td>計算：TIGPSw1_s.csv，該欄全列</td><td>逐欄重算合法值、負值與空白筆數均與原表一致；補明欄位、紀錄範圍與合法值集合。</td></tr><tr><td><a href="#src-158">158</a></td><td>出處：TIGPSw1_cb_s.pdf · PDF 第 45 頁（閱讀器頁碼）</td><td>逐字比對DTA標籤通過；補明標籤真正出處及題組共用選項頁。</td></tr><tr><td><a href="#src-159">159</a></td><td>計算：TIGPSw1_s.csv，該欄全列</td><td>逐欄重算合法值、負值與空白筆數均與原表一致；補明欄位、紀錄範圍與合法值集合。</td></tr><tr><td><a href="#src-160">160</a></td><td>出處：TIGPSw2_cb_s.pdf · PDF 第 19 頁（閱讀器頁碼）</td><td>逐字比對DTA標籤通過；補明標籤真正出處及題組共用選項頁。</td></tr><tr><td><a href="#src-161">161</a></td><td>計算：TIGPSw2_s.csv，該欄全列</td><td>逐欄重算合法值、負值與空白筆數均與原表一致；補明欄位、紀錄範圍與合法值集合。</td></tr><tr><td><a href="#src-162">162</a></td><td>出處：TIGPSw2_cb_s.pdf · PDF 第 19 頁（閱讀器頁碼）</td><td>逐字比對DTA標籤通過；補明標籤真正出處及題組共用選項頁。</td></tr><tr><td><a href="#src-163">163</a></td><td>計算：TIGPSw2_s.csv，該欄全列</td><td>逐欄重算合法值、負值與空白筆數均與原表一致；補明欄位、紀錄範圍與合法值集合。</td></tr><tr><td><a href="#src-164">164</a></td><td>出處：TIGPSw2_cb_s.pdf · PDF 第 19 頁（閱讀器頁碼）</td><td>逐字比對DTA標籤通過；補明標籤真正出處及題組共用選項頁。</td></tr><tr><td><a href="#src-165">165</a></td><td>計算：TIGPSw2_s.csv，該欄全列</td><td>逐欄重算合法值、負值與空白筆數均與原表一致；補明欄位、紀錄範圍與合法值集合。</td></tr><tr><td><a href="#src-166">166</a></td><td>出處：TIGPSw2_cb_s.pdf · PDF 第 20 頁（閱讀器頁碼）</td><td>逐字比對DTA標籤通過；補明標籤真正出處及題組共用選項頁。</td></tr><tr><td><a href="#src-167">167</a></td><td>計算：TIGPSw2_s.csv，該欄全列</td><td>逐欄重算合法值、負值與空白筆數均與原表一致；補明欄位、紀錄範圍與合法值集合。</td></tr><tr><td><a href="#src-168">168</a></td><td>出處：TIGPSw2_cb_s.pdf · PDF 第 20 頁（閱讀器頁碼）</td><td>逐字比對DTA標籤通過；補明標籤真正出處及題組共用選項頁。</td></tr><tr><td><a href="#src-169">169</a></td><td>計算：TIGPSw2_s.csv，該欄全列</td><td>逐欄重算合法值、負值與空白筆數均與原表一致；補明欄位、紀錄範圍與合法值集合。</td></tr><tr><td><a href="#src-170">170</a></td><td>出處：TIGPSw2_cb_s.pdf · PDF 第 20 頁（閱讀器頁碼）</td><td>逐字比對DTA標籤通過；補明標籤真正出處及題組共用選項頁。</td></tr><tr><td><a href="#src-171">171</a></td><td>計算：TIGPSw2_s.csv，該欄全列</td><td>逐欄重算合法值、負值與空白筆數均與原表一致；補明欄位、紀錄範圍與合法值集合。</td></tr><tr><td><a href="#src-172">172</a></td><td>出處：TIGPSw2_cb_s.pdf · PDF 第 20 頁（閱讀器頁碼）</td><td>逐字比對DTA標籤通過；補明標籤真正出處及題組共用選項頁。</td></tr><tr><td><a href="#src-173">173</a></td><td>計算：TIGPSw2_s.csv，該欄全列</td><td>逐欄重算合法值、負值與空白筆數均與原表一致；補明欄位、紀錄範圍與合法值集合。</td></tr><tr><td><a href="#src-174">174</a></td><td>出處：TIGPSw2_cb_s.pdf · PDF 第 20 頁（閱讀器頁碼）</td><td>逐字比對DTA標籤通過；補明標籤真正出處及題組共用選項頁。</td></tr><tr><td><a href="#src-175">175</a></td><td>計算：TIGPSw2_s.csv，該欄全列</td><td>逐欄重算合法值、負值與空白筆數均與原表一致；補明欄位、紀錄範圍與合法值集合。</td></tr><tr><td><a href="#src-176">176</a></td><td>出處：TIGPSw2_cb_s.pdf · PDF 第 20 頁（閱讀器頁碼）</td><td>逐字比對DTA標籤通過；補明標籤真正出處及題組共用選項頁。</td></tr><tr><td><a href="#src-177">177</a></td><td>計算：TIGPSw2_s.csv，該欄全列</td><td>逐欄重算合法值、負值與空白筆數均與原表一致；補明欄位、紀錄範圍與合法值集合。</td></tr><tr><td><a href="#src-178">178</a></td><td>出處：TIGPSw2_cb_s.pdf · PDF 第 20 頁（閱讀器頁碼）</td><td>逐字比對DTA標籤通過；補明標籤真正出處及題組共用選項頁。</td></tr><tr><td><a href="#src-179">179</a></td><td>計算：TIGPSw2_s.csv，該欄全列</td><td>逐欄重算合法值、負值與空白筆數均與原表一致；補明欄位、紀錄範圍與合法值集合。</td></tr><tr><td><a href="#src-180">180</a></td><td>出處：TIGPSw2_cb_s.pdf · PDF 第 20 頁（閱讀器頁碼）</td><td>逐字比對DTA標籤通過；補明標籤真正出處及題組共用選項頁。</td></tr><tr><td><a href="#src-181">181</a></td><td>計算：TIGPSw2_s.csv，該欄全列</td><td>逐欄重算合法值、負值與空白筆數均與原表一致；補明欄位、紀錄範圍與合法值集合。</td></tr><tr><td><a href="#src-182">182</a></td><td>出處：TIGPSw2_cb_s.pdf · PDF 第 20 頁（閱讀器頁碼）</td><td>逐字比對DTA標籤通過；補明標籤真正出處及題組共用選項頁。</td></tr><tr><td><a href="#src-183">183</a></td><td>計算：TIGPSw2_s.csv，該欄全列</td><td>逐欄重算合法值、負值與空白筆數均與原表一致；補明欄位、紀錄範圍與合法值集合。</td></tr><tr><td><a href="#src-184">184</a></td><td>出處：TIGPSw2_cb_s.pdf · PDF 第 20 頁（閱讀器頁碼）</td><td>逐字比對DTA標籤通過；補明標籤真正出處及題組共用選項頁。</td></tr><tr><td><a href="#src-185">185</a></td><td>計算：TIGPSw2_s.csv，該欄全列</td><td>逐欄重算合法值、負值與空白筆數均與原表一致；補明欄位、紀錄範圍與合法值集合。</td></tr><tr><td><a href="#src-186">186</a></td><td>出處：TIGPSw2_cb_s.pdf · PDF 第 20 頁（閱讀器頁碼）</td><td>逐字比對DTA標籤通過；補明標籤真正出處及題組共用選項頁。</td></tr><tr><td><a href="#src-187">187</a></td><td>計算：TIGPSw2_s.csv，該欄全列</td><td>逐欄重算合法值、負值與空白筆數均與原表一致；補明欄位、紀錄範圍與合法值集合。</td></tr><tr><td><a href="#src-188">188</a></td><td>出處：TIGPSw1_cb_s.pdf · PDF 第 45 頁（閱讀器頁碼）</td><td>逐字比對DTA標籤通過；補明標籤真正出處及題組共用選項頁。</td></tr><tr><td><a href="#src-189">189</a></td><td>計算：TIGPSw1_s.csv，該欄全列</td><td>逐欄重算合法值、負值與空白筆數均與原表一致；補明欄位、紀錄範圍與合法值集合。</td></tr><tr><td><a href="#src-190">190</a></td><td>出處：TIGPSw1_cb_s.pdf · PDF 第 45 頁（閱讀器頁碼）</td><td>逐字比對DTA標籤通過；補明標籤真正出處及題組共用選項頁。</td></tr><tr><td><a href="#src-191">191</a></td><td>計算：TIGPSw1_s.csv，該欄全列</td><td>逐欄重算合法值、負值與空白筆數均與原表一致；補明欄位、紀錄範圍與合法值集合。</td></tr><tr><td><a href="#src-192">192</a></td><td>出處：TIGPSw1_cb_s.pdf · PDF 第 45 頁（閱讀器頁碼）</td><td>逐字比對DTA標籤通過；補明標籤真正出處及題組共用選項頁。</td></tr><tr><td><a href="#src-193">193</a></td><td>計算：TIGPSw1_s.csv，該欄全列</td><td>逐欄重算合法值、負值與空白筆數均與原表一致；補明欄位、紀錄範圍與合法值集合。</td></tr><tr><td><a href="#src-194">194</a></td><td>出處：TIGPSw1_cb_s.pdf · PDF 第 45 頁（閱讀器頁碼）</td><td>逐字比對DTA標籤通過；補明標籤真正出處及題組共用選項頁。</td></tr><tr><td><a href="#src-195">195</a></td><td>計算：TIGPSw1_s.csv，該欄全列</td><td>逐欄重算合法值、負值與空白筆數均與原表一致；補明欄位、紀錄範圍與合法值集合。</td></tr><tr><td><a href="#src-196">196</a></td><td>出處：TIGPSw1_cb_s.pdf · PDF 第 45 頁（閱讀器頁碼）</td><td>逐字比對DTA標籤通過；補明標籤真正出處及題組共用選項頁。</td></tr><tr><td><a href="#src-197">197</a></td><td>計算：TIGPSw1_s.csv，該欄全列</td><td>逐欄重算合法值、負值與空白筆數均與原表一致；補明欄位、紀錄範圍與合法值集合。</td></tr><tr><td><a href="#src-198">198</a></td><td>出處：TIGPSw2_cb_s.pdf · PDF 第 20 頁（閱讀器頁碼）</td><td>逐字比對DTA標籤通過；補明標籤真正出處及題組共用選項頁。</td></tr><tr><td><a href="#src-199">199</a></td><td>計算：TIGPSw2_s.csv，該欄全列</td><td>逐欄重算合法值、負值與空白筆數均與原表一致；補明欄位、紀錄範圍與合法值集合。</td></tr><tr><td><a href="#src-200">200</a></td><td>出處：TIGPSw2_cb_s.pdf · PDF 第 20 頁（閱讀器頁碼）</td><td>逐字比對DTA標籤通過；補明標籤真正出處及題組共用選項頁。</td></tr><tr><td><a href="#src-201">201</a></td><td>計算：TIGPSw2_s.csv，該欄全列</td><td>逐欄重算合法值、負值與空白筆數均與原表一致；補明欄位、紀錄範圍與合法值集合。</td></tr><tr><td><a href="#src-202">202</a></td><td>出處：TIGPSw2_cb_s.pdf · PDF 第 20 頁（閱讀器頁碼）</td><td>逐字比對DTA標籤通過；補明標籤真正出處及題組共用選項頁。</td></tr><tr><td><a href="#src-203">203</a></td><td>計算：TIGPSw2_s.csv，該欄全列</td><td>逐欄重算合法值、負值與空白筆數均與原表一致；補明欄位、紀錄範圍與合法值集合。</td></tr><tr><td><a href="#src-204">204</a></td><td>出處：TIGPSw2_cb_s.pdf · PDF 第 20 頁（閱讀器頁碼）</td><td>逐字比對DTA標籤通過；補明標籤真正出處及題組共用選項頁。</td></tr><tr><td><a href="#src-205">205</a></td><td>計算：TIGPSw2_s.csv，該欄全列</td><td>逐欄重算合法值、負值與空白筆數均與原表一致；補明欄位、紀錄範圍與合法值集合。</td></tr><tr><td><a href="#src-206">206</a></td><td>出處：TIGPSw2_cb_s.pdf · PDF 第 20 頁（閱讀器頁碼）</td><td>逐字比對DTA標籤通過；補明標籤真正出處及題組共用選項頁。補齊跨頁題幹。</td></tr><tr><td><a href="#src-207">207</a></td><td>計算：TIGPSw2_s.csv，該欄全列</td><td>逐欄重算合法值、負值與空白筆數均與原表一致；補明欄位、紀錄範圍與合法值集合。</td></tr><tr><td><a href="#src-208">208</a></td><td>出處：TIGPSw1_cb_s.pdf · PDF 第 17 頁（閱讀器頁碼）</td><td>逐字比對DTA標籤通過；補明標籤真正出處及題組共用選項頁。</td></tr><tr><td><a href="#src-209">209</a></td><td>計算：TIGPSw1_s.csv，該欄全列</td><td>逐欄重算合法值、負值與空白筆數均與原表一致；補明欄位、紀錄範圍與合法值集合。</td></tr><tr><td><a href="#src-210">210</a></td><td>出處：TIGPSw1_cb_s.pdf · PDF 第 17 頁（閱讀器頁碼）</td><td>逐字比對DTA標籤通過；補明標籤真正出處及題組共用選項頁。</td></tr><tr><td><a href="#src-211">211</a></td><td>計算：TIGPSw1_s.csv，該欄全列</td><td>逐欄重算合法值、負值與空白筆數均與原表一致；補明欄位、紀錄範圍與合法值集合。</td></tr><tr><td><a href="#src-212">212</a></td><td>出處：TIGPSw1_cb_s.pdf · PDF 第 17 頁（閱讀器頁碼）</td><td>逐字比對DTA標籤通過；補明標籤真正出處及題組共用選項頁。</td></tr><tr><td><a href="#src-213">213</a></td><td>計算：TIGPSw1_s.csv，該欄全列</td><td>逐欄重算合法值、負值與空白筆數均與原表一致；補明欄位、紀錄範圍與合法值集合。</td></tr><tr><td><a href="#src-214">214</a></td><td>出處：TIGPSw1_cb_s.pdf · PDF 第 17 頁（閱讀器頁碼）</td><td>逐字比對DTA標籤通過；補明標籤真正出處及題組共用選項頁。</td></tr><tr><td><a href="#src-215">215</a></td><td>計算：TIGPSw1_s.csv，該欄全列</td><td>逐欄重算合法值、負值與空白筆數均與原表一致；補明欄位、紀錄範圍與合法值集合。</td></tr><tr><td><a href="#src-216">216</a></td><td>出處：TIGPSw1_cb_s.pdf · PDF 第 17 頁（閱讀器頁碼）</td><td>逐字比對DTA標籤通過；補明標籤真正出處及題組共用選項頁。</td></tr><tr><td><a href="#src-217">217</a></td><td>計算：TIGPSw1_s.csv，該欄全列</td><td>逐欄重算合法值、負值與空白筆數均與原表一致；補明欄位、紀錄範圍與合法值集合。</td></tr><tr><td><a href="#src-218">218</a></td><td>出處：TIGPSw1_cb_s.pdf · PDF 第 17 頁（閱讀器頁碼）</td><td>逐字比對DTA標籤通過；補明標籤真正出處及題組共用選項頁。</td></tr><tr><td><a href="#src-219">219</a></td><td>計算：TIGPSw1_s.csv，該欄全列</td><td>逐欄重算合法值、負值與空白筆數均與原表一致；補明欄位、紀錄範圍與合法值集合。</td></tr><tr><td><a href="#src-220">220</a></td><td>出處：TIGPSw2_cb_s.pdf · PDF 第 9 頁（閱讀器頁碼）</td><td>逐字比對DTA標籤通過；補明標籤真正出處及題組共用選項頁。</td></tr><tr><td><a href="#src-221">221</a></td><td>計算：TIGPSw2_s.csv，該欄全列</td><td>逐欄重算合法值、負值與空白筆數均與原表一致；補明欄位、紀錄範圍與合法值集合。</td></tr><tr><td><a href="#src-222">222</a></td><td>出處：TIGPSw2_cb_s.pdf · PDF 第 9 頁（閱讀器頁碼）</td><td>逐字比對DTA標籤通過；補明標籤真正出處及題組共用選項頁。</td></tr><tr><td><a href="#src-223">223</a></td><td>計算：TIGPSw2_s.csv，該欄全列</td><td>逐欄重算合法值、負值與空白筆數均與原表一致；補明欄位、紀錄範圍與合法值集合。</td></tr><tr><td><a href="#src-224">224</a></td><td>出處：TIGPSw2_cb_s.pdf · PDF 第 9 頁（閱讀器頁碼）</td><td>逐字比對DTA標籤通過；補明標籤真正出處及題組共用選項頁。</td></tr><tr><td><a href="#src-225">225</a></td><td>計算：TIGPSw2_s.csv，該欄全列</td><td>逐欄重算合法值、負值與空白筆數均與原表一致；補明欄位、紀錄範圍與合法值集合。</td></tr><tr><td><a href="#src-226">226</a></td><td>出處：TIGPSw2_cb_s.pdf · PDF 第 9 頁（閱讀器頁碼）</td><td>逐字比對DTA標籤通過；補明標籤真正出處及題組共用選項頁。</td></tr><tr><td><a href="#src-227">227</a></td><td>計算：TIGPSw2_s.csv，該欄全列</td><td>逐欄重算合法值、負值與空白筆數均與原表一致；補明欄位、紀錄範圍與合法值集合。</td></tr><tr><td><a href="#src-228">228</a></td><td>出處：TIGPSw2_cb_s.pdf · PDF 第 9 頁（閱讀器頁碼）</td><td>逐字比對DTA標籤通過；補明標籤真正出處及題組共用選項頁。</td></tr><tr><td><a href="#src-229">229</a></td><td>計算：TIGPSw2_s.csv，該欄全列</td><td>逐欄重算合法值、負值與空白筆數均與原表一致；補明欄位、紀錄範圍與合法值集合。</td></tr><tr><td><a href="#src-230">230</a></td><td>出處：TIGPSw2_cb_s.pdf · PDF 第 9 頁（閱讀器頁碼）</td><td>逐字比對DTA標籤通過；補明標籤真正出處及題組共用選項頁。</td></tr><tr><td><a href="#src-231">231</a></td><td>計算：TIGPSw2_s.csv，該欄全列</td><td>逐欄重算合法值、負值與空白筆數均與原表一致；補明欄位、紀錄範圍與合法值集合。</td></tr><tr><td><a href="#src-232">232</a></td><td>出處：TIGPSw2_cb_s.pdf · PDF 第 20 頁（閱讀器頁碼）</td><td>逐字比對DTA標籤通過；補明標籤真正出處及題組共用選項頁。</td></tr><tr><td><a href="#src-233">233</a></td><td>計算：TIGPSw2_s.csv，該欄全列</td><td>逐欄重算合法值、負值與空白筆數均與原表一致；補明欄位、紀錄範圍與合法值集合。</td></tr><tr><td><a href="#src-234">234</a></td><td>出處：TIGPSw2_cb_s.pdf · PDF 第 20 頁（閱讀器頁碼）</td><td>逐字比對DTA標籤通過；補明標籤真正出處及題組共用選項頁。</td></tr><tr><td><a href="#src-235">235</a></td><td>計算：TIGPSw2_s.csv，該欄全列</td><td>逐欄重算合法值、負值與空白筆數均與原表一致；補明欄位、紀錄範圍與合法值集合。</td></tr><tr><td><a href="#src-236">236</a></td><td>出處：TIGPSw2_cb_s.pdf · PDF 第 20 頁（閱讀器頁碼）</td><td>逐字比對DTA標籤通過；補明標籤真正出處及題組共用選項頁。</td></tr><tr><td><a href="#src-237">237</a></td><td>計算：TIGPSw2_s.csv，該欄全列</td><td>逐欄重算合法值、負值與空白筆數均與原表一致；補明欄位、紀錄範圍與合法值集合。</td></tr><tr><td><a href="#src-238">238</a></td><td>出處：TIGPSw2_cb_s.pdf · PDF 第 20 頁（閱讀器頁碼）</td><td>逐字比對DTA標籤通過；補明標籤真正出處及題組共用選項頁。</td></tr><tr><td><a href="#src-239">239</a></td><td>計算：TIGPSw2_s.csv，該欄全列</td><td>逐欄重算合法值、負值與空白筆數均與原表一致；補明欄位、紀錄範圍與合法值集合。</td></tr><tr><td><a href="#src-240">240</a></td><td>出處：TIGPSw2_cb_s.pdf · PDF 第 20 頁（閱讀器頁碼）</td><td>逐字比對DTA標籤通過；補明標籤真正出處及題組共用選項頁。</td></tr><tr><td><a href="#src-241">241</a></td><td>計算：TIGPSw2_s.csv，該欄全列</td><td>逐欄重算合法值、負值與空白筆數均與原表一致；補明欄位、紀錄範圍與合法值集合。</td></tr><tr><td><a href="#src-242">242</a></td><td>出處：TIGPSw2_cb_s.pdf · PDF 第 20 頁（閱讀器頁碼）</td><td>逐字比對DTA標籤通過；補明標籤真正出處及題組共用選項頁。</td></tr><tr><td><a href="#src-243">243</a></td><td>計算：TIGPSw2_s.csv，該欄全列</td><td>逐欄重算合法值、負值與空白筆數均與原表一致；補明欄位、紀錄範圍與合法值集合。</td></tr><tr><td><a href="#src-244">244</a></td><td>出處：TIGPSw2_cb_s.pdf · PDF 第 9 頁（閱讀器頁碼）</td><td>逐字比對DTA標籤通過；補明標籤真正出處及題組共用選項頁。</td></tr><tr><td><a href="#src-245">245</a></td><td>計算：TIGPSw2_s.csv，該欄全列</td><td>逐欄重算合法值、負值與空白筆數均與原表一致；補明欄位、紀錄範圍與合法值集合。</td></tr><tr><td><a href="#src-246">246</a></td><td>出處：TIGPSw2_cb_s.pdf · PDF 第 9 頁（閱讀器頁碼）</td><td>逐字比對DTA標籤通過；補明標籤真正出處及題組共用選項頁。</td></tr><tr><td><a href="#src-247">247</a></td><td>計算：TIGPSw2_s.csv，該欄全列</td><td>逐欄重算合法值、負值與空白筆數均與原表一致；補明欄位、紀錄範圍與合法值集合。</td></tr><tr><td><a href="#src-248">248</a></td><td>出處：TIGPSw2_cb_s.pdf · PDF 第 9 頁（閱讀器頁碼）</td><td>逐字比對DTA標籤通過；補明標籤真正出處及題組共用選項頁。</td></tr><tr><td><a href="#src-249">249</a></td><td>計算：TIGPSw2_s.csv，該欄全列</td><td>逐欄重算合法值、負值與空白筆數均與原表一致；補明欄位、紀錄範圍與合法值集合。</td></tr><tr><td><a href="#src-250">250</a></td><td>出處：TIGPSw2_cb_s.pdf · PDF 第 9 頁（閱讀器頁碼）</td><td>逐字比對DTA標籤通過；補明標籤真正出處及題組共用選項頁。</td></tr><tr><td><a href="#src-251">251</a></td><td>計算：TIGPSw2_s.csv，該欄全列</td><td>逐欄重算合法值、負值與空白筆數均與原表一致；補明欄位、紀錄範圍與合法值集合。</td></tr><tr><td><a href="#src-252">252</a></td><td>出處：TIGPSw2_cb_s.pdf · PDF 第 9 頁（閱讀器頁碼）</td><td>逐字比對DTA標籤通過；補明標籤真正出處及題組共用選項頁。</td></tr><tr><td><a href="#src-253">253</a></td><td>計算：TIGPSw2_s.csv，該欄全列</td><td>逐欄重算合法值、負值與空白筆數均與原表一致；補明欄位、紀錄範圍與合法值集合。</td></tr><tr><td><a href="#src-254">254</a></td><td>出處：TIGPSw2_cb_s.pdf · PDF 第 9 頁（閱讀器頁碼）</td><td>逐字比對DTA標籤通過；補明標籤真正出處及題組共用選項頁。</td></tr><tr><td><a href="#src-255">255</a></td><td>計算：TIGPSw2_s.csv，該欄全列</td><td>逐欄重算合法值、負值與空白筆數均與原表一致；補明欄位、紀錄範圍與合法值集合。</td></tr><tr><td><a href="#src-256">256</a></td><td>出處：TIGPSw2_cb_s.pdf · PDF 第 9 頁（閱讀器頁碼）</td><td>逐字比對DTA標籤通過；補明標籤真正出處及題組共用選項頁。</td></tr><tr><td><a href="#src-257">257</a></td><td>計算：TIGPSw2_s.csv，該欄全列</td><td>逐欄重算合法值、負值與空白筆數均與原表一致；補明欄位、紀錄範圍與合法值集合。</td></tr><tr><td><a href="#src-258">258</a></td><td>出處：TIGPSw2_cb_s.pdf · PDF 第 9 頁（閱讀器頁碼）</td><td>逐字比對DTA標籤通過；補明標籤真正出處及題組共用選項頁。</td></tr><tr><td><a href="#src-259">259</a></td><td>計算：TIGPSw2_s.csv，該欄全列</td><td>逐欄重算合法值、負值與空白筆數均與原表一致；補明欄位、紀錄範圍與合法值集合。</td></tr><tr><td><a href="#src-260">260</a></td><td>出處：TIGPSw2_cb_s.pdf · PDF 第 9 頁（閱讀器頁碼）</td><td>逐字比對DTA標籤通過；補明標籤真正出處及題組共用選項頁。</td></tr><tr><td><a href="#src-261">261</a></td><td>計算：TIGPSw2_s.csv，該欄全列</td><td>逐欄重算合法值、負值與空白筆數均與原表一致；補明欄位、紀錄範圍與合法值集合。</td></tr><tr><td><a href="#src-262">262</a></td><td>出處：TIGPSw1_cb_s.pdf · PDF 第 18、19、45 頁（閱讀器頁碼）</td><td>補入第一波線上因應題選項所在第17頁。</td></tr><tr><td><a href="#src-263">263</a></td><td>出處：TIGPSw2_cb_s.pdf · PDF 第 9、10、11、19、20、21 頁（閱讀器頁碼）</td><td>釐清總說明所引PDF只支持選項範圍。</td></tr><tr><td><a href="#src-264">264</a></td><td>出處：TIGPSw1_cb_s.pdf · PDF 第 1 頁（閱讀器頁碼）</td><td>刪除以編碼簿首頁支持本頁擷取方法及缺少Excel檔的錯置引用。</td></tr><tr><td><a href="#src-265">265</a></td><td>出處：TIGPSw1_cb_s.pdf · PDF 第 1 頁（閱讀器頁碼）</td><td>重新開啟原PDF逐頁擷取並替換內嵌摘錄，頁碼核對通過。</td></tr><tr><td><a href="#src-266">266</a></td><td>出處：TIGPSw1_cb_s.pdf · PDF 第 18 頁（閱讀器頁碼）</td><td>重新開啟原PDF逐頁擷取並替換內嵌摘錄，頁碼核對通過。</td></tr><tr><td><a href="#src-267">267</a></td><td>出處：TIGPSw1_cb_s.pdf · PDF 第 19 頁（閱讀器頁碼）</td><td>重新開啟原PDF逐頁擷取並替換內嵌摘錄，頁碼核對通過。</td></tr><tr><td><a href="#src-268">268</a></td><td>出處：TIGPSw1_cb_s.pdf · PDF 第 45 頁（閱讀器頁碼）</td><td>重新開啟原PDF逐頁擷取並替換內嵌摘錄，頁碼核對通過。</td></tr><tr><td><a href="#src-269">269</a></td><td>出處：TIGPSw2_cb_s.pdf · PDF 第 1 頁（閱讀器頁碼）</td><td>重新開啟原PDF逐頁擷取並替換內嵌摘錄，頁碼核對通過。</td></tr><tr><td><a href="#src-270">270</a></td><td>出處：TIGPSw2_cb_s.pdf · PDF 第 9 頁（閱讀器頁碼）</td><td>重新開啟原PDF逐頁擷取並替換內嵌摘錄，頁碼核對通過。</td></tr><tr><td><a href="#src-271">271</a></td><td>出處：TIGPSw2_cb_s.pdf · PDF 第 10 頁（閱讀器頁碼）</td><td>重新開啟原PDF逐頁擷取並替換內嵌摘錄，頁碼核對通過。</td></tr><tr><td><a href="#src-272">272</a></td><td>出處：TIGPSw2_cb_s.pdf · PDF 第 11 頁（閱讀器頁碼）</td><td>重新開啟原PDF逐頁擷取並替換內嵌摘錄，頁碼核對通過。</td></tr><tr><td><a href="#src-273">273</a></td><td>出處：TIGPSw2_cb_s.pdf · PDF 第 19 頁（閱讀器頁碼）</td><td>重新開啟原PDF逐頁擷取並替換內嵌摘錄，頁碼核對通過。</td></tr><tr><td><a href="#src-274">274</a></td><td>出處：TIGPSw2_cb_s.pdf · PDF 第 20 頁（閱讀器頁碼）</td><td>重新開啟原PDF逐頁擷取並替換內嵌摘錄，頁碼核對通過。</td></tr><tr><td><a href="#src-275">275</a></td><td>出處：TIGPSw2_cb_s.pdf · PDF 第 21 頁（閱讀器頁碼）</td><td>重新開啟原PDF逐頁擷取並替換內嵌摘錄，頁碼核對通過。</td></tr><tr><td><a href="#src-276">276</a></td><td>出處：TIGPSw2_b_s.pdf · PDF 第 52 頁（閱讀器頁碼）</td><td>重新開啟原PDF逐頁擷取並替換內嵌摘錄，頁碼核對通過。</td></tr><tr><td><a href="#src-277">277</a></td><td>出處：TIGPSw2_b_s.pdf · PDF 第 53 頁（閱讀器頁碼）</td><td>重新開啟原PDF逐頁擷取並替換內嵌摘錄，頁碼核對通過。</td></tr><tr><td><a href="#src-278">278</a></td><td>出處：TIGPSw2_b_s.pdf · PDF 第 60 頁（閱讀器頁碼）</td><td>重新開啟原PDF逐頁擷取並替換內嵌摘錄，頁碼核對通過。</td></tr><tr><td><a href="#src-279">279</a></td><td>出處：TIGPSw2_b_s.pdf · PDF 第 101 頁（閱讀器頁碼）</td><td>重新開啟原PDF逐頁擷取並替換內嵌摘錄，頁碼核對通過。</td></tr><tr><td><a href="#src-280">280</a></td><td>出處：TIGPSw1_q_s.pdf · PDF 第 20 頁（閱讀器頁碼）</td><td>重新開啟原PDF逐頁擷取並替換內嵌摘錄，頁碼核對通過。</td></tr><tr><td><a href="#src-281">281</a></td><td>出處：兩個年度資料夾檔案系統，程式遞迴盤點；這是檔名清單，不是 PDF 頁面。</td><td>檔案清單依現存官方副檔名再次盤點一致。</td></tr><tr><td><a href="#src-282">282</a></td><td>出處：本頁計算程序；輸入為上列 CSV。沒有將個人層級紀錄嵌入 HTML。</td><td>程式為本頁撰寫；其中示範bs24a的合法值與實際重算一致。</td></tr></tbody></table></div></details></section><footer>僅依本機官方檔案編寫。版面參考：<a href="https://lecture.ronsui.tw/courses/115-1/urban-education/timss2023-intro-map.html">TIMSS 入門地圖</a>（只參考視覺與導覽結構）。CSS、JavaScript 與查核摘錄均內嵌，閱讀與搜尋不需連線。</footer></main><script>const q=document.querySelector('#query'),w=document.querySelector('#wave'),rows=[...document.querySelectorAll('#search tbody tr')],count=document.querySelector('#count');function filter(){let n=0;for(const r of rows){const ok=r.textContent.toLowerCase().includes(q.value.trim().toLowerCase())&&(!w.value||r.cells[0].textContent===w.value);r.hidden=!ok;if(ok)n++}count.textContent=`顯示 ${n} ／ ${rows.length} 個選讀變項`}q.addEventListener('input',filter);w.addEventListener('change',filter);document.querySelector('#reset').addEventListener('click',()=>{q.value='';w.value='';filter()});filter();</script></body></html>
