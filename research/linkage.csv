@@ -1,0 +1,6 @@
+context,source,variable,key,raw_rows,unique_keys,w1_matched,w2_matched,w2_valid,aggregation,valid_range
+caregiver,TIGPSw1_p,ap38j,nstudent_id,4495,3424,3338,3218,3031,mean,"[0, 4]"
+sibling,TIGPSw1_f,af64j,nstudent_id,786,728,711,688,555,mean,"[0, 4]"
+homeroom,TIGPSw1_t,at49g,school_class,242,242,6383,5972,5853,mean,"[1, 4]"
+subject,TIGPSw1_st,at29ag,school_class,1094,291,7629,7083,6999,mean,"[1, 4]"
+school,TIGPSw1_sc,asc21f,nschool_id,175,175,8764,8150,8014,any,"[1, 7]"
